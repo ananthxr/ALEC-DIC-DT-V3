@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LineShader
+  m_Shader: {fileID: 4800000, guid: 8752d887fabc7074698913d3e32895ec, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _DepthEdgeStrength: 2.46
+    - _DetailDensity: 1
+    - _DetailLineThickness: 2.59
+    - _EdgeIntensity: 3.51
+    - _EdgeThickness: 1.63
+    - _EdgeThreshold: 0.773
+    - _FaceAlpha: 1
+    - _HatchingAngle: 80.3
+    - _HatchingDensity: 0
+    - _HatchingIntensity: 0.43
+    - _LineAlpha: 0
+    - _LineFlickerAmount: 0.349
+    - _LineFlickerSpeed: 5.29
+    - _OcclusionLinesIntensity: 0.396
+    - _SketchNoise: 0
+    m_Colors:
+    - _BackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+    - _LineColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

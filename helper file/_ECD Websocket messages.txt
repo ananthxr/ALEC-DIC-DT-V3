@@ -1,0 +1,665 @@
+{
+  "cmds": [
+    {
+      "type": "ENTITY_DATA",
+      "cmdId": 22,
+      "historyCmd": {
+        "keys": [
+          "_ECD_BuildingWiseHourlyEnergyConsumption",
+          "_ECD_BuildingWiseDailyWaterConsumed"
+        ],
+        "startTs": 1759262400000,
+        "endTs": 1761655662242,
+        "interval": 86400000,
+        "intervalType": "MILLISECONDS",
+        "limit": 28,
+        "timeZoneId": "Asia/Dubai",
+        "agg": "SUM"
+      }
+    }
+  ]
+}
+
+{
+  "cmdId": 22,
+  "data": null,
+  "update": [
+    {
+      "entityId": {
+        "entityType": "ASSET",
+        "id": "b6499190-6798-11f0-a54f-c718692b063f"
+      },
+      "readAttrs": true,
+      "readTs": true,
+      "latest": {
+        "ENTITY_FIELD": {
+          "name": {
+            "ts": 1761655673530,
+            "value": "DIC/Main"
+          },
+          "additionalInfo": {
+            "ts": 1761655673530,
+            "value": "{\"description\":\"\"}"
+          },
+          "label": {
+            "ts": 1761655673530,
+            "value": ""
+          }
+        }
+      },
+      "timeseries": {
+        "_ECD_BuildingWiseDailyWaterConsumed": [],
+        "_ECD_BuildingWiseHourlyEnergyConsumption": [
+          {
+            "ts": 1759305600000,
+            "value": "550.3999999999987"
+          },
+          {
+            "ts": 1759392000000,
+            "value": "536.0000000000073"
+          },
+          {
+            "ts": 1759478400000,
+            "value": "516.7999999999938"
+          },
+          {
+            "ts": 1759564800000,
+            "value": "439.1999999999998"
+          },
+          {
+            "ts": 1759651200000,
+            "value": "221.59999999999945"
+          },
+          {
+            "ts": 1759737600000,
+            "value": "482.80000000000473"
+          },
+          {
+            "ts": 1759824000000,
+            "value": "553.9999999999973"
+          },
+          {
+            "ts": 1759910400000,
+            "value": "541.5999999999976"
+          },
+          {
+            "ts": 1759996800000,
+            "value": "536.7999999999975"
+          },
+          {
+            "ts": 1760083200000,
+            "value": "212.4000000000051"
+          },
+          {
+            "ts": 1760688000000,
+            "value": "273.99999999999454"
+          },
+          {
+            "ts": 1760774400000,
+            "value": "442.40000000000236"
+          },
+          {
+            "ts": 1760860800000,
+            "value": "334.4000000000078"
+          },
+          {
+            "ts": 1760947200000,
+            "value": "476.79999999998654"
+          },
+          {
+            "ts": 1761033600000,
+            "value": "533.5999999999894"
+          },
+          {
+            "ts": 1761120000000,
+            "value": "533.9999999999945"
+          },
+          {
+            "ts": 1761206400000,
+            "value": "556.7999999999975"
+          },
+          {
+            "ts": 1761292800000,
+            "value": "526.4000000000051"
+          },
+          {
+            "ts": 1761379200000,
+            "value": "447.9999999999918"
+          },
+          {
+            "ts": 1761465600000,
+            "value": "296.800000000012"
+          },
+          {
+            "ts": 1761552000000,
+            "value": "527.6000000000022"
+          },
+          {
+            "ts": 1761625431121,
+            "value": "320.4000000000042"
+          }
+        ]
+      },
+      "aggLatest": {}
+    }
+  ],
+  "errorCode": 0,
+  "errorMsg": null,
+  "allowedEntities": 10000,
+  "cmdUpdateType": "ENTITY_DATA"
+}
+
+
+{
+  "cmds": [
+    {
+      "type": "ENTITY_DATA",
+      "cmdId": 23,
+      "historyCmd": {
+        "keys": [
+          "_ECD_BuildingWiseHourlyEnergyConsumption",
+          "_ECD_BuildingWiseDailyWaterConsumed"
+        ],
+        "startTs": 1756670400000,
+        "endTs": 1759063662242,
+        "interval": 86400000,
+        "intervalType": "MILLISECONDS",
+        "limit": 28,
+        "timeZoneId": "Asia/Dubai",
+        "agg": "SUM"
+      }
+    }
+  ]
+}
+
+
+{
+  "cmdId": 23,
+  "data": null,
+  "update": [
+    {
+      "entityId": {
+        "entityType": "ASSET",
+        "id": "b6499190-6798-11f0-a54f-c718692b063f"
+      },
+      "readAttrs": true,
+      "readTs": true,
+      "latest": {
+        "ENTITY_FIELD": {
+          "name": {
+            "ts": 1761655673532,
+            "value": "DIC/Main"
+          },
+          "additionalInfo": {
+            "ts": 1761655673532,
+            "value": "{\"description\":\"\"}"
+          },
+          "label": {
+            "ts": 1761655673532,
+            "value": ""
+          }
+        }
+      },
+      "timeseries": {
+        "_ECD_BuildingWiseDailyWaterConsumed": [],
+        "_ECD_BuildingWiseHourlyEnergyConsumption": [
+          {
+            "ts": 1756713600000,
+            "value": "571.9999999999964"
+          },
+          {
+            "ts": 1756800000000,
+            "value": "569.9999999999905"
+          },
+          {
+            "ts": 1756886400000,
+            "value": "566.8000000000052"
+          },
+          {
+            "ts": 1756972800000,
+            "value": "547.5999999999881"
+          },
+          {
+            "ts": 1757059200000,
+            "value": "351.6000000000031"
+          },
+          {
+            "ts": 1757145600000,
+            "value": "451.60000000001037"
+          },
+          {
+            "ts": 1757232000000,
+            "value": "316.0000000000059"
+          },
+          {
+            "ts": 1757318400000,
+            "value": "563.1999999999921"
+          },
+          {
+            "ts": 1757404800000,
+            "value": "588.8000000000079"
+          },
+          {
+            "ts": 1757491200000,
+            "value": "578.8000000000029"
+          },
+          {
+            "ts": 1757577600000,
+            "value": "583.6000000000063"
+          },
+          {
+            "ts": 1757664000000,
+            "value": "582.3999999999869"
+          },
+          {
+            "ts": 1757750400000,
+            "value": "465.99999999999136"
+          },
+          {
+            "ts": 1757836800000,
+            "value": "313.9999999999991"
+          },
+          {
+            "ts": 1757923200000,
+            "value": "565.9999999999991"
+          },
+          {
+            "ts": 1758009600000,
+            "value": "574.0000000000045"
+          },
+          {
+            "ts": 1758096000000,
+            "value": "587.9999999999982"
+          },
+          {
+            "ts": 1758182400000,
+            "value": "572.800000000002"
+          },
+          {
+            "ts": 1758268800000,
+            "value": "558.8000000000065"
+          },
+          {
+            "ts": 1758355200000,
+            "value": "464.4000000000033"
+          },
+          {
+            "ts": 1758441600000,
+            "value": "238.40000000000146"
+          },
+          {
+            "ts": 1758528000000,
+            "value": "567.2000000000107"
+          },
+          {
+            "ts": 1758614400000,
+            "value": "577.9999999999864"
+          },
+          {
+            "ts": 1758700800000,
+            "value": "568.7999999999929"
+          },
+          {
+            "ts": 1758787200000,
+            "value": "546.0000000000027"
+          },
+          {
+            "ts": 1758873600000,
+            "value": "552.8000000000084"
+          },
+          {
+            "ts": 1758960000000,
+            "value": "435.9999999999982"
+          },
+          {
+            "ts": 1759033431121,
+            "value": "206.80000000000382"
+          }
+        ]
+      },
+      "aggLatest": {}
+    }
+  ],
+  "errorCode": 0,
+  "errorMsg": null,
+  "allowedEntities": 10000,
+  "cmdUpdateType": "ENTITY_DATA"
+}
+
+
+{
+  "cmds": [
+    {
+      "type": "ENTITY_DATA",
+      "cmdId": 24,
+      "historyCmd": {
+        "keys": [
+          "_ECD_BuildingWiseHourlyEnergyConsumption"
+        ],
+        "startTs": 1761595200000,
+        "endTs": 1761681600000,
+        "interval": 3600000,
+        "intervalType": "MILLISECONDS",
+        "limit": 24,
+        "timeZoneId": "Asia/Dubai",
+        "agg": "SUM"
+      }
+    }
+  ]
+}
+
+
+{"cmdId":24,"data":null,"update":[{"entityId":{"entityType":"ASSET","id":"b6499190-6798-11f0-a54f-c718692b063f"},"readAttrs":true,"readTs":true,"latest":{"ENTITY_FIELD":{"name":{"ts":1761655673533,"value":"DIC/Main"},"additionalInfo":{"ts":1761655673533,"value":"{\"description\":\"\"}"},"label":{"ts":1761655673533,"value":""}}},"timeseries":{"_ECD_BuildingWiseHourlyEnergyConsumption":[{"ts":1761597000000,"value":"13.199999999997999"},{"ts":1761600600000,"value":"10.799999999999272"},{"ts":1761604200000,"value":"12.800000000005639"},{"ts":1761607800000,"value":"11.599999999996726"},{"ts":1761611400000,"value":"11.200000000004366"},{"ts":1761615000000,"value":"13.199999999994361"},{"ts":1761618600000,"value":"23.200000000006185"},{"ts":1761622200000,"value":"28.799999999994725"},{"ts":1761625800000,"value":"33.19999999999982"},{"ts":1761629400000,"value":"33.60000000000218"},{"ts":1761633000000,"value":"33.99999999999545"},{"ts":1761636600000,"value":"33.60000000000491"},{"ts":1761640200000,"value":"31.99999999999909"},{"ts":1761643800000,"value":"29.200000000003456"}]},"aggLatest":{}}],"errorCode":0,"errorMsg":null,"allowedEntities":10000,"cmdUpdateType":"ENTITY_DATA"}
+
+
+
+
+{"cmds":[{"type":"ENTITY_DATA","cmdId":25,"historyCmd":{"keys":["_ECD_BuildingWiseHourlyEnergyConsumption"],"startTs":1761508800000,"endTs":1761595200000,"interval":3600000,"intervalType":"MILLISECONDS","limit":24,"timeZoneId":"Asia/Dubai","agg":"SUM"}}]}
+
+
+{
+  "cmdId": 25,
+  "data": null,
+  "update": [
+    {
+      "entityId": {
+        "entityType": "ASSET",
+        "id": "b6499190-6798-11f0-a54f-c718692b063f"
+      },
+      "readAttrs": true,
+      "readTs": true,
+      "latest": {
+        "ENTITY_FIELD": {
+          "name": {
+            "ts": 1761655673535,
+            "value": "DIC/Main"
+          },
+          "additionalInfo": {
+            "ts": 1761655673535,
+            "value": "{\"description\":\"\"}"
+          },
+          "label": {
+            "ts": 1761655673535,
+            "value": ""
+          }
+        }
+      },
+      "timeseries": {
+        "_ECD_BuildingWiseHourlyEnergyConsumption": [
+          {
+            "ts": 1761510600000,
+            "value": "10.39999999999418"
+          },
+          {
+            "ts": 1761514200000,
+            "value": "9.60000000000764"
+          },
+          {
+            "ts": 1761517800000,
+            "value": "10.799999999998363"
+          },
+          {
+            "ts": 1761521400000,
+            "value": "9.200000000001637"
+          },
+          {
+            "ts": 1761525000000,
+            "value": "10.799999999997453"
+          },
+          {
+            "ts": 1761528600000,
+            "value": "11.600000000003092"
+          },
+          {
+            "ts": 1761532200000,
+            "value": "22.799999999997453"
+          },
+          {
+            "ts": 1761535800000,
+            "value": "30.800000000002"
+          },
+          {
+            "ts": 1761539400000,
+            "value": "31.200000000001637"
+          },
+          {
+            "ts": 1761543000000,
+            "value": "34.40000000000691"
+          },
+          {
+            "ts": 1761546600000,
+            "value": "34.39999999999873"
+          },
+          {
+            "ts": 1761550200000,
+            "value": "32.799999999996544"
+          },
+          {
+            "ts": 1761553800000,
+            "value": "33.99999999999909"
+          },
+          {
+            "ts": 1761557400000,
+            "value": "33.99999999999454"
+          },
+          {
+            "ts": 1761561000000,
+            "value": "33.600000000004"
+          },
+          {
+            "ts": 1761564600000,
+            "value": "34.399999999999636"
+          },
+          {
+            "ts": 1761568200000,
+            "value": "33.599999999999454"
+          },
+          {
+            "ts": 1761571800000,
+            "value": "24.400000000001455"
+          },
+          {
+            "ts": 1761575400000,
+            "value": "17.199999999990723"
+          },
+          {
+            "ts": 1761579000000,
+            "value": "16.000000000004547"
+          },
+          {
+            "ts": 1761582600000,
+            "value": "14.400000000003274"
+          },
+          {
+            "ts": 1761586200000,
+            "value": "12.399999999995998"
+          },
+          {
+            "ts": 1761589800000,
+            "value": "12.399999999998727"
+          },
+          {
+            "ts": 1761593400000,
+            "value": "12.400000000005093"
+          }
+        ]
+      },
+      "aggLatest": {}
+    }
+  ],
+  "errorCode": 0,
+  "errorMsg": null,
+  "allowedEntities": 10000,
+  "cmdUpdateType": "ENTITY_DATA"
+}
+
+{
+  "cmds": [
+    {
+      "type": "ENTITY_DATA",
+      "cmdId": 26,
+      "historyCmd": {
+        "keys": [
+          "_ECD_BuildingWiseHourlyEnergyConsumption",
+          "_ECD_BuildingWiseDailyWaterConsumed"
+        ],
+        "startTs": 1761508800000,
+        "endTs": 1762113600000,
+        "interval": 86400000,
+        "intervalType": "MILLISECONDS",
+        "limit": 7,
+        "timeZoneId": "Asia/Dubai",
+        "agg": "SUM"
+      }
+    }
+  ]
+}
+
+{"cmdId":26,"data":null,"update":[{"entityId":{"entityType":"ASSET","id":"b6499190-6798-11f0-a54f-c718692b063f"},"readAttrs":true,"readTs":true,"latest":{"ENTITY_FIELD":{"name":{"ts":1761655673536,"value":"DIC/Main"},"additionalInfo":{"ts":1761655673536,"value":"{\"description\":\"\"}"},"label":{"ts":1761655673536,"value":""}}},"timeseries":{"_ECD_BuildingWiseDailyWaterConsumed":[],"_ECD_BuildingWiseHourlyEnergyConsumption":[{"ts":1761552000000,"value":"527.6000000000022"},{"ts":1761638400000,"value":"320.4000000000042"}]},"aggLatest":{}}],"errorCode":0,"errorMsg":null,"allowedEntities":10000,"cmdUpdateType":"ENTITY_DATA"}
+
+
+{
+  "cmds": [
+    {
+      "type": "ENTITY_DATA",
+      "cmdId": 27,
+      "historyCmd": {
+        "keys": [
+          "_ECD_BuildingWiseHourlyEnergyConsumption",
+          "_ECD_BuildingWiseDailyWaterConsumed"
+        ],
+        "startTs": 1760904000000,
+        "endTs": 1761508800000,
+        "interval": 86400000,
+        "intervalType": "MILLISECONDS",
+        "limit": 7,
+        "timeZoneId": "Asia/Dubai",
+        "agg": "SUM"
+      }
+    }
+  ]
+}
+
+
+{
+  "cmdId": 27,
+  "data": null,
+  "update": [
+    {
+      "entityId": {
+        "entityType": "ASSET",
+        "id": "b6499190-6798-11f0-a54f-c718692b063f"
+      },
+      "readAttrs": true,
+      "readTs": true,
+      "latest": {
+        "ENTITY_FIELD": {
+          "name": {
+            "ts": 1761655673537,
+            "value": "DIC/Main"
+          },
+          "additionalInfo": {
+            "ts": 1761655673537,
+            "value": "{\"description\":\"\"}"
+          },
+          "label": {
+            "ts": 1761655673537,
+            "value": ""
+          }
+        }
+      },
+      "timeseries": {
+        "_ECD_BuildingWiseDailyWaterConsumed": [],
+        "_ECD_BuildingWiseHourlyEnergyConsumption": [
+          {
+            "ts": 1760947200000,
+            "value": "476.79999999998654"
+          },
+          {
+            "ts": 1761033600000,
+            "value": "533.5999999999894"
+          },
+          {
+            "ts": 1761120000000,
+            "value": "533.9999999999945"
+          },
+          {
+            "ts": 1761206400000,
+            "value": "556.7999999999975"
+          },
+          {
+            "ts": 1761292800000,
+            "value": "526.4000000000051"
+          },
+          {
+            "ts": 1761379200000,
+            "value": "447.9999999999918"
+          },
+          {
+            "ts": 1761465600000,
+            "value": "296.800000000012"
+          }
+        ]
+      },
+      "aggLatest": {}
+    }
+  ],
+  "errorCode": 0,
+  "errorMsg": null,
+  "allowedEntities": 10000,
+  "cmdUpdateType": "ENTITY_DATA"
+}
+
+
+{
+  "cmds": [
+    {
+      "type": "ENTITY_DATA",
+      "cmdId": 28,
+      "historyCmd": {
+        "keys": [
+          "_ECD_BuildingWiseHourlyEnergyConsumption",
+          "_ECD_BuildingWiseDailyWaterConsumed"
+        ],
+        "startTs": 1759262400000,
+        "endTs": 1767211200000,
+        "interval": 0,
+        "intervalType": "MONTH",
+        "limit": 3,
+        "timeZoneId": "Asia/Dubai",
+        "agg": "SUM"
+      }
+    }
+  ]
+}
+
+
+{"cmdId":28,"data":null,"update":[{"entityId":{"entityType":"ASSET","id":"b6499190-6798-11f0-a54f-c718692b063f"},"readAttrs":true,"readTs":true,"latest":{"ENTITY_FIELD":{"name":{"ts":1761655673538,"value":"DIC/Main"},"additionalInfo":{"ts":1761655673538,"value":"{\"description\":\"\"}"},"label":{"ts":1761655673538,"value":""}}},"timeseries":{"_ECD_BuildingWiseDailyWaterConsumed":[],"_ECD_BuildingWiseHourlyEnergyConsumption":[{"ts":1760601600000,"value":"9862.79999999999"}]},"aggLatest":{}}],"errorCode":0,"errorMsg":null,"allowedEntities":10000,"cmdUpdateType":"ENTITY_DATA"}
+
+
+{
+  "cmds": [
+    {
+      "type": "ENTITY_DATA",
+      "cmdId": 29,
+      "historyCmd": {
+        "keys": [
+          "_ECD_BuildingWiseHourlyEnergyConsumption",
+          "_ECD_BuildingWiseDailyWaterConsumed"
+        ],
+        "startTs": 1751313600000,
+        "endTs": 1759262400000,
+        "interval": 0,
+        "intervalType": "MONTH",
+        "limit": 3,
+        "timeZoneId": "Asia/Dubai",
+        "agg": "SUM"
+      }
+    }
+  ]
+}
+
+{"cmdId":29,"data":null,"update":[{"entityId":{"entityType":"ASSET","id":"b6499190-6798-11f0-a54f-c718692b063f"},"readAttrs":true,"readTs":true,"latest":{"ENTITY_FIELD":{"name":{"ts":1761655673539,"value":"DIC/Main"},"additionalInfo":{"ts":1761655673539,"value":"{\"description\":\"\"}"},"label":{"ts":1761655673539,"value":""}}},"timeseries":{"_ECD_BuildingWiseDailyWaterConsumed":[],"_ECD_BuildingWiseHourlyEnergyConsumption":[{"ts":1752652800000,"value":"14414.399999999965"},{"ts":1755331200000,"value":"16208.40000000001"},{"ts":1757966400000,"value":"15271.200000000017"}]},"aggLatest":{}}],"errorCode":0,"errorMsg":null,"allowedEntities":10000,"cmdUpdateType":"ENTITY_DATA"}
+
+
+

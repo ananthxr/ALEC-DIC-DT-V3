@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd /c \"dir /b Y:\\XCharts 2>nul || echo Directory not found\")"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "type": "command",
+        "command": "powershell -c (New-Object Media.SoundPlayer 'Y:\\Notification\\mixkit-correct-answer-tone-2870.wav').PlaySync();"
+      }
+    ],
+    "Notification": [
+      {
+        "type": "command",
+        "command": "powershell -c (New-Object Media.SoundPlayer 'Y:\\Notification\\mixkit-correct-answer-tone-2870.wav').PlaySync();"
+      }
+    ],
+    "TaskComplete": [
+      {
+        "type": "command",
+        "command": "powershell -c (New-Object Media.SoundPlayer 'Y:\\Notification\\mixkit-correct-answer-tone-2870.wav').PlaySync();"
+      }
+    ],
+    "PostToolUse": {
+      ".*": [
+        {
+          "type": "command",
+          "command": "powershell -c (New-Object Media.SoundPlayer 'Y:\\Notification\\mixkit-correct-answer-tone-2870.wav').PlaySync();"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_URP_MeteorGlowTrail
+  m_Shader: {fileID: 4800000, guid: aee3f5f8b9e2f544281ad555432a8302, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _BaseTransparency: 0.2
+    - _FlickerIntensity: 0.15
+    - _FlickerSpeed: 8
+    - _FresnelIntensity: 3.95
+    - _FresnelPower: 0.5
+    - _GlowIntensity: 3.01
+    - _NoiseScale: 11.78
+    - _NoiseSpeed: 1.5
+    - _NoiseStrength: 0.25
+    - _PulseIntensity: 0.404
+    - _PulseSpeed: 4.12
+    - _TrailFalloff: 2.37
+    - _TrailIntensity: 3.39
+    - _TrailLength: 3.25
+    - _TrailTransparency: 1
+    m_Colors:
+    - _CoreColor: {r: 0.049999982, g: 0.14999998, b: 0.8, a: 1}
+    - _EmissionColor: {r: 0.5, g: 1.5, b: 3, a: 1}
+    - _GlowColor: {r: 0.19999996, g: 0.5, b: 1, a: 1}
+    - _TrailColor: {r: 0.39999998, g: 0.7, b: 1, a: 1}
+    - _TrailDirection: {r: 0, g: 0, b: -1, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

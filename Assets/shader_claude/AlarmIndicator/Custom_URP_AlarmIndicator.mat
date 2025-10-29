@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_URP_AlarmIndicator
+  m_Shader: {fileID: 4800000, guid: 099e6ca468125ed4caf2a70b3e950b07, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ENABLESTRIPES_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _AlarmAlpha: 0.8
+    - _BaseTransparency: 0.382
+    - _CoreBrightness: 5
+    - _EnableStripes: 1
+    - _FlickerIntensity: 0.407
+    - _FlickerSpeed: 6.07
+    - _FresnelPower: 3.1
+    - _GlowIntensity: 20
+    - _PulseIntensity: 0.791
+    - _PulseSharpness: 3
+    - _PulseSpeed: 120
+    - _ScreenPulseIntensity: 0.306
+    - _StripeAngle: -45
+    - _StripeScale: 10
+    - _StripeSpeed: 1
+    - _UseScreenPulse: 0
+    m_Colors:
+    - _AlarmColor: {r: 1, g: 0.19999996, b: 0.09999997, a: 1}
+    - _EmissionColor: {r: 1, g: 0, b: 0, a: 1}
+    - _HotspotColor: {r: 1, g: 0.5, b: 0.09999997, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

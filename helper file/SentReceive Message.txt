@@ -1,0 +1,735 @@
+This file contains sent/received messages one next to another
+
+{"cmds":[{"type":"ALARM_DATA","query":{"entityFilter":{"type":"assetSearchQuery","resolveMultiple":true,"rootStateEntity":true,"stateEntityParamName":"selectedEntity","defaultStateEntity":{"entityType":"ASSET","id":"0cc4e030-67a1-11f0-a54f-c718692b063f"},"rootEntity":{"entityType":"ASSET","id":"54549790-77e9-11ef-8f9b-033ad0625bc8"},"direction":"FROM","maxLevel":5,"fetchLastLevelOnly":false,"relationType":"has","assetTypes":["Air Quality","Fire","Lights","Presence","HVAC"]},"pageLink":{"page":0,"pageSize":10,"textSearch":null,"typeList":null,"severityList":["CRITICAL","MAJOR","MINOR","WARNING"],"statusList":["ACTIVE"],"searchPropagatedAlarms":true,"assigneeId":null,"sortOrder":{"key":{"key":"createdTime","type":"ALARM_FIELD"},"direction":"DESC"},"timeWindow":2592000000},"alarmFields":[{"type":"ALARM_FIELD","key":"createdTime"},{"type":"ALARM_FIELD","key":"originator"},{"type":"ALARM_FIELD","key":"type"},{"type":"ALARM_FIELD","key":"severity"},{"type":"ALARM_FIELD","key":"status"},{"type":"ALARM_FIELD","key":"assignee"}],"entityFields":[],"latestValues":[]},"cmdId":2}]}
+
+{
+  "cmdId": 2,
+  "data": {
+    "data": [
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "c4f8d301-b9af-49f4-944e-726925499e8b"
+        },
+        "createdTime": 1761107918260,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "16bf7750-c29f-11ef-94c5-01236d0e69c4"
+        },
+        "severity": "WARNING",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761107918052,
+        "endTs": 1761113134889,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "propagate": false,
+        "propagateToOwner": false,
+        "propagateToOwnerHierarchy": true,
+        "propagateToTenant": true,
+        "propagateRelationTypes": [],
+        "originatorName": "DIC Mezzanine Block 4&5_Z5-Younes_HVAC-Z5-Younes",
+        "originatorLabel": "DIC Mezzanine Block 4&5_Z5-Younes_HVAC-Z5-Younes",
+        "assignee": null,
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "16bf7750-c29f-11ef-94c5-01236d0e69c4"
+        },
+        "latest": {},
+        "name": "Temperature Mismatch",
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "WARNING",
+          "startTime": "1761107918052",
+          "Temperature Difference": 2.5,
+          "Ambient Temperature": 23.5,
+          "Target Temperature": 21,
+          "Location": "DIC Mezzanine Block 4&5",
+          "room": "Z5-Younes",
+          "currentTime": "1761113134743"
+        }
+      },
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "0a385610-9044-4be4-b472-f189a37a3a10"
+        },
+        "createdTime": 1761106524718,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "8ef88320-1073-11f0-94c5-01236d0e69c4"
+        },
+        "severity": "WARNING",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761106524606,
+        "endTs": 1761113490341,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "propagate": false,
+        "propagateToOwner": false,
+        "propagateToOwnerHierarchy": true,
+        "propagateToTenant": true,
+        "propagateRelationTypes": [],
+        "originatorName": "Block 3 PMV Block_Corridor_HVAC-Corridor",
+        "originatorLabel": "Block 3 PMV Block_Corridor_HVAC-Corridor",
+        "assignee": null,
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "8ef88320-1073-11f0-94c5-01236d0e69c4"
+        },
+        "latest": {},
+        "name": "Temperature Mismatch",
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "WARNING",
+          "startTime": "1761106524606",
+          "Temperature Difference": 2.6000003814697266,
+          "Ambient Temperature": 22.600000381469727,
+          "Target Temperature": 20,
+          "Location": "Block 3 PMV Block",
+          "room": "Corridor",
+          "currentTime": "1761113490234"
+        }
+      },
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "3713b9c0-087c-4736-827f-4ce324be431f"
+        },
+        "createdTime": 1761104492095,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "e336ea40-c1d0-11ef-94c5-01236d0e69c4"
+        },
+        "severity": "WARNING",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761104491869,
+        "endTs": 1761113211856,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "propagate": false,
+        "propagateToOwner": false,
+        "propagateToOwnerHierarchy": true,
+        "propagateToTenant": true,
+        "propagateRelationTypes": [],
+        "originatorName": "White Space_White Space 01_HVAC-White Space 01",
+        "originatorLabel": "White Space_White Space 01_HVAC-White Space 01",
+        "assignee": null,
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "e336ea40-c1d0-11ef-94c5-01236d0e69c4"
+        },
+        "latest": {},
+        "name": "Temperature Mismatch",
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "WARNING",
+          "startTime": "1761104491869",
+          "Temperature Difference": 3.8999996185302734,
+          "Ambient Temperature": 27.899999618530273,
+          "Target Temperature": 24,
+          "Location": "White Space",
+          "room": "White Space 01",
+          "currentTime": "1761113211741"
+        }
+      },
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "0431052e-52bf-4f6f-a469-f3b6d0f76ed0"
+        },
+        "createdTime": 1761101552498,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "fe5990a0-daf5-11ef-94c5-01236d0e69c4"
+        },
+        "severity": "MAJOR",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761101552275,
+        "endTs": 1761113231433,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "propagate": false,
+        "propagateToOwner": false,
+        "propagateToOwnerHierarchy": true,
+        "propagateToTenant": true,
+        "propagateRelationTypes": [],
+        "originatorName": "DIC Mezzanine Block 2_Z1-Pantry_HVAC-Z1-Pantry",
+        "originatorLabel": "DIC Mezzanine Block 2_Z1-Pantry_HVAC-Z1-Pantry",
+        "assignee": null,
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "fe5990a0-daf5-11ef-94c5-01236d0e69c4"
+        },
+        "latest": {},
+        "name": "Temperature Mismatch",
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "MINOR",
+          "startTime": "1761101552275",
+          "Temperature Difference": 6,
+          "Ambient Temperature": 24,
+          "Target Temperature": 18,
+          "Location": "DIC Mezzanine Block 2",
+          "room": "Z1-Pantry",
+          "currentTime": "1761113231354"
+        }
+      },
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "bb50be5b-a8a1-4306-b189-f4ba92c8acf3"
+        },
+        "createdTime": 1761098406921,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "65ff2ab0-0b86-11f0-94c5-01236d0e69c4"
+        },
+        "severity": "WARNING",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761098406504,
+        "endTs": 1761113432837,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "propagate": false,
+        "propagateToOwner": false,
+        "propagateToOwnerHierarchy": true,
+        "propagateToTenant": true,
+        "propagateRelationTypes": [],
+        "originatorName": "DIC Yard Block 5-GF_Work Shop_HVAC-Work Shop",
+        "originatorLabel": "DIC Yard Block 5-GF_Work Shop_HVAC-Work Shop",
+        "assignee": null,
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "65ff2ab0-0b86-11f0-94c5-01236d0e69c4"
+        },
+        "latest": {},
+        "name": "Temperature Mismatch",
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "WARNING",
+          "startTime": "1761098406504",
+          "Temperature Difference": 3.799999237060547,
+          "Ambient Temperature": 23.799999237060547,
+          "Target Temperature": 20,
+          "Location": "DIC Yard Block 5-GF",
+          "room": "Work Shop",
+          "currentTime": "1761113432496"
+        }
+      },
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "d2990a9a-44ae-4652-93ef-377bf5b2d6c5"
+        },
+        "createdTime": 1761098405663,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "66516960-0b86-11f0-94c5-01236d0e69c4"
+        },
+        "severity": "WARNING",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761098405470,
+        "endTs": 1761113435766,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "propagate": false,
+        "propagateToOwner": false,
+        "propagateToOwnerHierarchy": true,
+        "propagateToTenant": true,
+        "propagateRelationTypes": [],
+        "originatorName": "DIC Yard Block 5-GF_Meeting Room_HVAC-Meeting Room",
+        "originatorLabel": "DIC Yard Block 5-GF_Meeting Room_HVAC-Meeting Room",
+        "assignee": null,
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "66516960-0b86-11f0-94c5-01236d0e69c4"
+        },
+        "latest": {},
+        "name": "Temperature Mismatch",
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "WARNING",
+          "startTime": "1761098405470",
+          "Temperature Difference": 2.6000003814697266,
+          "Ambient Temperature": 21.600000381469727,
+          "Target Temperature": 19,
+          "Location": "DIC Yard Block 5-GF",
+          "room": "Meeting Room",
+          "currentTime": "1761113435526"
+        }
+      },
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "b51ca3dd-a406-4c3d-8f0e-ee888f501297"
+        },
+        "createdTime": 1761098405131,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "e33fc3e0-c1d0-11ef-94c5-01236d0e69c4"
+        },
+        "severity": "MAJOR",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761098404751,
+        "endTs": 1761113497263,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "propagate": false,
+        "propagateToOwner": false,
+        "propagateToOwnerHierarchy": true,
+        "propagateToTenant": true,
+        "propagateRelationTypes": [],
+        "originatorName": "White Space_White Space 03_HVAC-White Space 03",
+        "originatorLabel": "White Space_White Space 03_HVAC-White Space 03",
+        "assignee": null,
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "e33fc3e0-c1d0-11ef-94c5-01236d0e69c4"
+        },
+        "latest": {},
+        "name": "Temperature Mismatch",
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "MAJOR",
+          "startTime": "1761098404751",
+          "Temperature Difference": 8.100000381469727,
+          "Ambient Temperature": 27.100000381469727,
+          "Target Temperature": 19,
+          "Location": "White Space",
+          "room": "White Space 03",
+          "currentTime": "1761113497138"
+        }
+      },
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "587c5dc9-5ee7-40de-8c7b-b087e7db42eb"
+        },
+        "createdTime": 1761098403751,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "e33c6880-c1d0-11ef-94c5-01236d0e69c4"
+        },
+        "severity": "MAJOR",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761098403493,
+        "endTs": 1761113212355,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "propagate": false,
+        "propagateToOwner": false,
+        "propagateToOwnerHierarchy": true,
+        "propagateToTenant": true,
+        "propagateRelationTypes": [],
+        "originatorName": "White Space_White Space 02_HVAC-White Space 02",
+        "originatorLabel": "White Space_White Space 02_HVAC-White Space 02",
+        "assignee": null,
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "e33c6880-c1d0-11ef-94c5-01236d0e69c4"
+        },
+        "latest": {},
+        "name": "Temperature Mismatch",
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "MINOR",
+          "startTime": "1761098403493",
+          "Temperature Difference": 5.700000762939453,
+          "Ambient Temperature": 27.700000762939453,
+          "Target Temperature": 22,
+          "Location": "White Space",
+          "room": "White Space 02",
+          "currentTime": "1761113212078"
+        }
+      },
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "e6562e3e-01f2-4d86-96fd-8b89ab57b52a"
+        },
+        "createdTime": 1761098403595,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "3c4a70f0-c43f-11ef-94c5-01236d0e69c4"
+        },
+        "severity": "WARNING",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761098403397,
+        "endTs": 1761113789058,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "propagate": false,
+        "propagateToOwner": false,
+        "propagateToOwnerHierarchy": true,
+        "propagateToTenant": true,
+        "propagateRelationTypes": [],
+        "originatorName": "White Space_Mezzanine Office Space 3_HVAC-Mezzanine Office Space 3",
+        "originatorLabel": "White Space_Mezzanine Office Space 3_HVAC-Mezzanine Office Space 3",
+        "assignee": null,
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "3c4a70f0-c43f-11ef-94c5-01236d0e69c4"
+        },
+        "latest": {},
+        "name": "Temperature Mismatch",
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "WARNING",
+          "startTime": "1761098403397",
+          "Temperature Difference": 3.5,
+          "Ambient Temperature": 25.5,
+          "Target Temperature": 22,
+          "Location": "White Space",
+          "room": "Mezzanine Office Space 3",
+          "currentTime": "1761113788891"
+        }
+      },
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "cfc9bed0-b519-42a2-bbd0-a7db3c2a6da3"
+        },
+        "createdTime": 1761098402926,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "66f91b10-0b86-11f0-94c5-01236d0e69c4"
+        },
+        "severity": "MINOR",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761098402661,
+        "endTs": 1761113429590,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "propagate": false,
+        "propagateToOwner": false,
+        "propagateToOwnerHierarchy": true,
+        "propagateToTenant": true,
+        "propagateRelationTypes": [],
+        "originatorName": "DIC Yard Block 5-GF_Gym&Gaming Area_HVAC-Gym&Gaming Area",
+        "originatorLabel": "DIC Yard Block 5-GF_Gym&Gaming Area_HVAC-Gym&Gaming Area",
+        "assignee": null,
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "66f91b10-0b86-11f0-94c5-01236d0e69c4"
+        },
+        "latest": {},
+        "name": "Temperature Mismatch",
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "MINOR",
+          "startTime": "1761098402661",
+          "Temperature Difference": 5.899999618530273,
+          "Ambient Temperature": 23.899999618530273,
+          "Target Temperature": 18,
+          "Location": "DIC Yard Block 5-GF",
+          "room": "Gym&Gaming Area",
+          "currentTime": "1761113429449"
+        }
+      }
+    ],
+    "totalPages": 2,
+    "totalElements": 19,
+    "hasNext": true
+  },
+  "update": null,
+  "errorCode": 0,
+  "errorMsg": null,
+  "allowedEntities": 10000,
+  "totalEntities": 511,
+  "cmdUpdateType": "ALARM_DATA"
+}
+
+
+
+{
+  "cmds": [
+    {
+      "type": "ENTITY_DATA",
+      "query": {
+        "entityFilter": {
+          "type": "singleEntity",
+          "singleEntity": {
+            "id": "54549790-77e9-11ef-8f9b-033ad0625bc8",
+            "entityType": "ASSET"
+          }
+        },
+        "pageLink": {
+          "pageSize": 1,
+          "page": 0,
+          "sortOrder": {
+            "key": {
+              "type": "ENTITY_FIELD",
+              "key": "createdTime"
+            },
+            "direction": "DESC"
+          }
+        },
+        "entityFields": [
+          {
+            "type": "ENTITY_FIELD",
+            "key": "name"
+          },
+          {
+            "type": "ENTITY_FIELD",
+            "key": "label"
+          },
+          {
+            "type": "ENTITY_FIELD",
+            "key": "additionalInfo"
+          }
+        ],
+        "latestValues": []
+      },
+      "cmdId": 3
+    }
+  ]
+}
+
+{
+  "cmdId": 3,
+  "data": {
+    "data": [
+      {
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "54549790-77e9-11ef-8f9b-033ad0625bc8"
+        },
+        "readAttrs": true,
+        "readTs": true,
+        "latest": {
+          "ENTITY_FIELD": {
+            "name": {
+              "ts": 1761114095164,
+              "value": "ALEC DIC YARD"
+            },
+            "additionalInfo": {
+              "ts": 1761114095164,
+              "value": "{\"description\":\"\"}"
+            },
+            "label": {
+              "ts": 1761114095164,
+              "value": ""
+            }
+          }
+        },
+        "timeseries": {},
+        "aggLatest": {}
+      }
+    ],
+    "totalPages": 1,
+    "totalElements": 1,
+    "hasNext": false
+  },
+  "update": null,
+  "errorCode": 0,
+  "errorMsg": null,
+  "allowedEntities": 10000,
+  "cmdUpdateType": "ENTITY_DATA"
+}
+
+{
+  "cmds": [
+    {
+      "type": "ENTITY_DATA",
+      "query": {
+        "entityFilter": {
+          "type": "singleEntity",
+          "singleEntity": {
+            "id": "54549790-77e9-11ef-8f9b-033ad0625bc8",
+            "entityType": "ASSET"
+          }
+        },
+        "pageLink": {
+          "pageSize": 1,
+          "page": 0,
+          "sortOrder": {
+            "key": {
+              "type": "ENTITY_FIELD",
+              "key": "createdTime"
+            },
+            "direction": "DESC"
+          }
+        },
+        "entityFields": [
+          {
+            "type": "ENTITY_FIELD",
+            "key": "name"
+          },
+          {
+            "type": "ENTITY_FIELD",
+            "key": "label"
+          },
+          {
+            "type": "ENTITY_FIELD",
+            "key": "additionalInfo"
+          }
+        ],
+        "latestValues": []
+      },
+      "cmdId": 5
+    }
+  ]
+}
+
+{
+  "cmdId": 5,
+  "data": {
+    "data": [
+      {
+        "entityId": {
+          "entityType": "ASSET",
+          "id": "54549790-77e9-11ef-8f9b-033ad0625bc8"
+        },
+        "readAttrs": true,
+        "readTs": true,
+        "latest": {
+          "ENTITY_FIELD": {
+            "name": {
+              "ts": 1761114095166,
+              "value": "ALEC DIC YARD"
+            },
+            "additionalInfo": {
+              "ts": 1761114095166,
+              "value": "{\"description\":\"\"}"
+            },
+            "label": {
+              "ts": 1761114095166,
+              "value": ""
+            }
+          }
+        },
+        "timeseries": {},
+        "aggLatest": {}
+      }
+    ],
+    "totalPages": 1,
+    "totalElements": 1,
+    "hasNext": false
+  },
+  "update": null,
+  "errorCode": 0,
+  "errorMsg": null,
+  "allowedEntities": 10000,
+  "cmdUpdateType": "ENTITY_DATA"
+}
+

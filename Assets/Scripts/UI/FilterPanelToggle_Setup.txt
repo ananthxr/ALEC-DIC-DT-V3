@@ -1,0 +1,127 @@
+FILTER PANEL TOGGLE BUTTON SETUP
+==================================
+
+SCRIPT CREATED: FilterPanelToggle.cs
+
+PURPOSE:
+--------
+Makes the filter button act as a toggle:
+- Click once → Filter panel SHOWS (button becomes active/highlighted)
+- Click again → Filter panel HIDES (button becomes inactive/normal)
+
+UNITY SETUP:
+------------
+
+1. CREATE FILTER BUTTON (if you haven't already):
+   - Create a UI Button in your scene
+   - Add a filter icon image to it
+
+2. ASSIGN THE SCRIPT:
+   - Select any GameObject in your scene (or the button itself)
+   - Add the "FilterPanelToggle.cs" component to it
+
+3. ASSIGN REQUIRED REFERENCES (in Inspector):
+
+   === UI REFERENCES ===
+   - Filter Button → Your filter button UI element
+   - Filter Panel → The GameObject containing your filter toggles (severity/status toggles)
+
+4. OPTIONAL VISUAL FEEDBACK (in Inspector):
+
+   Option A: COLOR CHANGE
+   === BUTTON VISUAL FEEDBACK (OPTIONAL) ===
+   - Button Image → The Image component of your filter button
+   - Active Color → Color when panel is shown (default: green)
+   - Inactive Color → Color when panel is hidden (default: white)
+
+   Option B: ICON SWAP
+   === BUTTON ICON SWAP (OPTIONAL) ===
+   - Button Icon → The Image component showing the filter icon
+   - Filter Active Icon → Icon to show when panel is active
+   - Filter Inactive Icon → Icon to show when panel is inactive
+
+
+HOW IT WORKS:
+-------------
+
+1. INITIAL STATE:
+   - Filter panel is HIDDEN
+   - Button is in INACTIVE state (white/normal)
+
+2. USER CLICKS FILTER BUTTON (1st time):
+   - Panel becomes VISIBLE
+   - Button changes to ACTIVE state (green/highlighted or icon changes)
+
+3. USER CLICKS FILTER BUTTON (2nd time):
+   - Panel becomes HIDDEN
+   - Button changes to INACTIVE state (white/normal or icon changes back)
+
+4. REPEAT:
+   - Each click toggles the panel on/off
+
+
+EXAMPLE VISUAL FEEDBACK OPTIONS:
+---------------------------------
+
+OPTION 1 - Color Change:
+- Assign: Button Image
+- Active Color: Light Green (0.2, 0.8, 0.2, 1.0)
+- Inactive Color: White (1.0, 1.0, 1.0, 1.0)
+Result: Button turns green when filter panel is open
+
+OPTION 2 - Icon Swap:
+- Assign: Button Icon
+- Filter Active Icon: filter_filled.png (solid icon)
+- Filter Inactive Icon: filter_outline.png (outline icon)
+Result: Icon changes between filled/outline
+
+OPTION 3 - Both:
+- Use both color change AND icon swap for maximum clarity
+
+
+PUBLIC METHODS (for scripting):
+--------------------------------
+
+You can control the panel from other scripts:
+
+filterPanelToggle.ShowFilterPanel();      // Force show
+filterPanelToggle.HideFilterPanel();      // Force hide
+filterPanelToggle.SetFilterPanelActive(true/false);  // Set specific state
+bool isActive = filterPanelToggle.IsPanelActive;     // Check current state
+
+
+INTEGRATION WITH EXISTING SYSTEM:
+----------------------------------
+
+This script works ALONGSIDE your existing:
+- AlarmFilterPanel.cs (handles toggle logic and filter building)
+- MasterAlarm.cs (handles WebSocket filtering)
+- SlidingPanelController.cs (displays filtered alarms)
+
+FilterPanelToggle.cs ONLY handles showing/hiding the filter UI panel itself.
+
+
+TESTING:
+--------
+
+1. Assign all required references in Inspector
+2. Enter Play Mode
+3. Click filter button → Panel should appear
+4. Click filter button again → Panel should disappear
+5. Check button color/icon changes (if configured)
+6. Console should show:
+   "[FilterPanelToggle] Filter button clicked - Panel now ACTIVE"
+   "[FilterPanelToggle] Filter button clicked - Panel now INACTIVE"
+
+
+TROUBLESHOOTING:
+----------------
+
+Issue: Button doesn't toggle panel
+Fix: Check that filterButton and filterPanel are assigned in Inspector
+
+Issue: No visual feedback
+Fix: Optional fields! Assign buttonImage or buttonIcon for visual feedback
+
+Issue: Panel starts visible
+Fix: Script sets panel to hidden on Start(). If you want it visible, call ShowFilterPanel() after Start()

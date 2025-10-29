@@ -1,0 +1,135 @@
+SEVERITY FILTER ADDED TO ALARM FILTER PANEL
+============================================
+
+UPDATES MADE:
+-------------
+
+1. AlarmFilterPanel.cs - UPDATED
+   ================================
+
+   ADDED TOGGLES (Inspector Assignment Required):
+   - criticalToggle (Toggle)
+   - majorToggle (Toggle)
+   - minorToggle (Toggle)
+   - warningToggle (Toggle)
+   - indeterminateToggle (Toggle)
+
+   ADDED PRIVATE FIELDS:
+   - isCriticalSelected
+   - isMajorSelected
+   - isMinorSelected
+   - isWarningSelected
+   - isIndeterminateSelected
+
+   ADDED METHODS:
+   - OnCriticalToggleChanged()
+   - OnMajorToggleChanged()
+   - OnMinorToggleChanged()
+   - OnWarningToggleChanged()
+   - OnIndeterminateToggleChanged()
+   - BuildSeverityList() - Returns ["CRITICAL", "MAJOR", etc.]
+
+   UPDATED METHODS:
+   - Start() - Added severity toggle listeners
+   - OnUpdateButtonClicked() - Now calls masterAlarm.UpdateFilters(statusList, severityList)
+   - OnDestroy() - Added cleanup for severity toggle listeners
+
+2. MasterAlarm.cs - UPDATED
+   ===========================
+
+   ADDED FIELDS:
+   - currentSeverityFilter (List<string>)
+
+   UPDATED/RENAMED METHODS:
+   - UpdateStatusFilter() → UpdateFilters(statusList, severityList)
+   - ResubscribeWithNewFilter() → ResubscribeWithNewFilters()
+
+   ADDED METHODS:
+   - BuildSeverityListJson() - Converts severity list to JSON array string
+
+   UPDATED METHODS:
+   - SendAlarmSubscription() - Now includes severityList in WebSocket message
+
+
+HOW TO USE IN UNITY:
+--------------------
+
+1. SELECT AlarmFilterPanel GameObject in scene
+
+2. ASSIGN SEVERITY TOGGLES in Inspector:
+   - Critical Toggle → your Critical UI Toggle
+   - Major Toggle → your Major UI Toggle
+   - Minor Toggle → your Minor UI Toggle
+   - Warning Toggle → your Warning UI Toggle
+   - Indeterminate Toggle → your Indeterminate UI Toggle
+
+3. USER WORKFLOW:
+   - User toggles severity filters (e.g., Critical + Major)
+   - User toggles status filters (e.g., Active + Unack)
+   - User clicks "Update" button
+   - System sends both filters to server
+   - Server returns filtered alarms
+   - UI updates with filtered results
+
+
+EXAMPLE FILTER COMBINATIONS:
+-----------------------------
+
+Status + Severity:
+------------------
+User selects: Active + Critical
+Result: ["ACTIVE"] + ["CRITICAL"]
+Shows: Only active critical alarms
+
+User selects: Cleared + Unack + Major + Warning
+Result: ["CLEARED", "UNACK"] + ["MAJOR", "WARNING"]
+Shows: Cleared/Unack alarms that are Major/Warning severity
+
+User selects: Nothing
+Result: [] + []
+Shows: ALL alarms (no filters)
+
+
+WEBSOCKET MESSAGE FORMAT:
+--------------------------
+{
+  "cmds": [{
+    "type": "ALARM_DATA",
+    "query": {
+      "pageLink": {
+        "severityList": ["CRITICAL", "MAJOR"],  ← SEVERITY FILTER
+        "statusList": ["ACTIVE", "UNACK"]       ← STATUS FILTER
+      }
+    }
+  }]
+}
+
+
+VALID SEVERITY VALUES:
+----------------------
+- "CRITICAL"
+- "MAJOR"
+- "MINOR"
+- "WARNING"
+- "INDETERMINATE"
+
+
+HEADERS USED FOR ORGANIZATION:
+-------------------------------
+In AlarmFilterPanel.cs Inspector:
+=== STATUS FILTER TOGGLES ===
+=== SEVERITY FILTER TOGGLES ===
+=== UPDATE BUTTON ===
+=== REFERENCE ===
+
+These headers make it easy to organize the UI references in Unity Inspector!
+
+
+TESTING:
+--------
+1. Toggle Critical + Major
+2. Click Update
+3. Check Console:
+   "[AlarmFilterPanel] Generated severity filter: [CRITICAL, MAJOR]"
+   "[MasterAlarm] Updating severity filter to: [CRITICAL, MAJOR]"
+4. Verify only Critical/Major alarms are displayed

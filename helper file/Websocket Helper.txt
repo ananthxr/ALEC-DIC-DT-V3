@@ -1,0 +1,670 @@
+Perfect! Here's a comprehensive prompt for your Unity developer:
+
+---
+
+## **Unity WebSocket Integration Prompt for ThingsBoard Alarm System**
+
+### **Objective**
+Implement a WebSocket client in Unity to connect to the ThingsBoard Pulse platform and retrieve real-time alarm data for the ALEC DIC YARD location.
+
+---
+
+### **1. WebSocket Connection Details**
+
+**WebSocket URL:**
+```
+wss://pulse.alec.ae/api/ws/plugins/telemetry?token={JWT_TOKEN}
+```
+
+**Authentication:**
+- You'll need a JWT token for authentication
+- The token should be appended as a query parameter in the WebSocket URL
+- Token format: `?token=eyJhbGciOiJIUzUxMiJ9...` (will be provided separately)
+
+---
+
+### **2. Required Unity WebSocket Library**
+
+**Recommended Library:** 
+- **NativeWebSocket** (Unity Package Manager compatible)
+- GitHub: `https://github.com/endel/NativeWebSocket`
+- Install via Package Manager → Add package from git URL
+
+**Alternative:**
+- **WebSocketSharp** (if building for standalone platforms only)
+
+---
+
+### **3. Message Flow**
+
+#### **Step 1: Connect to WebSocket**
+```csharp
+using NativeWebSocket;
+
+WebSocket websocket = new WebSocket("wss://pulse.alec.ae/api/ws/plugins/telemetry?token=YOUR_JWT_TOKEN");
+
+await websocket.Connect();
+```
+
+#### **Step 2: Send Alarm Subscription Request**
+
+**Message to Send (JSON):**
+```json
+{
+  "cmds": [
+    {
+      "type": "ALARM_DATA",
+      "query": {
+        "entityFilter": {
+          "type": "assetSearchQuery",
+          "resolveMultiple": true,
+          "rootStateEntity": true,
+          "stateEntityParamName": "selectedEntity",
+          "rootEntity": {
+            "entityType": "ASSET",
+            "id": "54549790-77e9-11ef-8f9b-033ad0625bc8"
+          },
+          "direction": "FROM",
+          "maxLevel": 5,
+          "fetchLastLevelOnly": false,
+          "relationType": "has",
+          "assetTypes": [
+            "Air Quality",
+            "Fire",
+            "Lights",
+            "Presence",
+            "HVAC"
+          ]
+        },
+        "pageLink": {
+          "page": 0,
+          "pageSize": 50,
+          "textSearch": null,
+          "typeList": null,
+          "severityList": [
+            "CRITICAL",
+            "MAJOR",
+            "MINOR",
+            "WARNING"
+          ],
+          "statusList": [
+            "ACTIVE"
+          ],
+          "searchPropagatedAlarms": true,
+          "assigneeId": null,
+          "sortOrder": {
+            "key": {
+              "key": "createdTime",
+              "type": "ALARM_FIELD"
+            },
+            "direction": "DESC"
+          },
+          "timeWindow": 2592000000
+        },
+        "alarmFields": [
+          {
+            "type": "ALARM_FIELD",
+            "key": "createdTime"
+          },
+          {
+            "type": "ALARM_FIELD",
+            "key": "originator"
+          },
+          {
+            "type": "ALARM_FIELD",
+            "key": "type"
+          },
+          {
+            "type": "ALARM_FIELD",
+            "key": "severity"
+          },
+          {
+            "type": "ALARM_FIELD",
+            "key": "status"
+          },
+          {
+            "type": "ALARM_FIELD",
+            "key": "assignee"
+          }
+        ],
+        "entityFields": [],
+        "latestValues": []
+      },
+      "cmdId": 1
+    }
+  ]
+}
+```
+
+**Key Parameters to Adjust:**
+- `page`: Page number (0-indexed) for pagination
+- `pageSize`: Number of alarms per page (max recommended: 50)
+- `severityList`: Filter by severity - ["CRITICAL", "MAJOR", "MINOR", "WARNING", "INDETERMINATE"]
+- `statusList`: Filter by status - ["ACTIVE", "CLEARED_UNACK", "CLEARED_ACK", "ACTIVE_ACK"]
+- `timeWindow`: Time range in milliseconds (2592000000 = 30 days)
+- `cmdId`: Unique command ID (increment for each new request)
+
+---
+
+### **4. Expected Response Structure**
+
+**Response JSON Format:**
+```json
+{
+  "cmdId": 1,
+  "data": {
+    "data": [
+      {
+        "id": {
+          "entityType": "ALARM",
+          "id": "bfe2deed-3269-4799-897c-4ba81f6cb340"
+        },
+        "createdTime": 1761045400537,
+        "tenantId": {
+          "entityType": "TENANT",
+          "id": "26aaf070-23be-11ef-93ad-f74d18bbf4d7"
+        },
+        "customerId": {
+          "entityType": "CUSTOMER",
+          "id": "cdc050a0-9752-11ef-b3dd-63d74b5efe4e"
+        },
+        "type": "Temperature Mismatch",
+        "originator": {
+          "entityType": "ASSET",
+          "id": "04f638f2-daf6-11ef-94c5-01236d0e69c4"
+        },
+        "severity": "WARNING",
+        "acknowledged": false,
+        "cleared": false,
+        "assigneeId": null,
+        "startTs": 1761045400419,
+        "endTs": 1761048892535,
+        "ackTs": 0,
+        "clearTs": 0,
+        "assignTs": 0,
+        "originatorName": "DIC Mezzanine Block 2_Z3-Kirubakaran_HVAC-Z3-Kirubakaran",
+        "originatorLabel": "DIC Mezzanine Block 2_Z3-Kirubakaran_HVAC-Z3-Kirubakaran",
+        "assignee": null,
+        "status": "ACTIVE_UNACK",
+        "details": {
+          "temperatureDifferenceSeverity": "WARNING",
+          "startTime": "1761045400419",
+          "Temperature Difference": 2.200000762939453,
+          "Ambient Temperature": 21.200000762939453,
+          "Target Temperature": 19,
+          "Location": "DIC Mezzanine Block 2",
+          "room": "Z3-Kirubakaran",
+          "currentTime": "1761048892288"
+        }
+      }
+    ],
+    "totalPages": 3,
+    "totalElements": 27,
+    "hasNext": true
+  },
+  "errorCode": 0,
+  "errorMsg": null,
+  "allowedEntities": 10000,
+  "totalEntities": 511,
+  "cmdUpdateType": "ALARM_DATA"
+}
+```
+
+---
+
+### **5. C# Data Models**
+
+Create these classes to deserialize the JSON response:
+
+```csharp
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+
+[Serializable]
+public class WebSocketCommand
+{
+    public List<AlarmCommand> cmds;
+}
+
+[Serializable]
+public class AlarmCommand
+{
+    public string type = "ALARM_DATA";
+    public AlarmQuery query;
+    public int cmdId;
+}
+
+[Serializable]
+public class AlarmQuery
+{
+    public EntityFilter entityFilter;
+    public PageLink pageLink;
+    public List<AlarmField> alarmFields;
+    public List<object> entityFields = new List<object>();
+    public List<object> latestValues = new List<object>();
+}
+
+[Serializable]
+public class EntityFilter
+{
+    public string type = "assetSearchQuery";
+    public bool resolveMultiple = true;
+    public bool rootStateEntity = true;
+    public string stateEntityParamName = "selectedEntity";
+    public EntityReference rootEntity;
+    public string direction = "FROM";
+    public int maxLevel = 5;
+    public bool fetchLastLevelOnly = false;
+    public string relationType = "has";
+    public List<string> assetTypes;
+}
+
+[Serializable]
+public class EntityReference
+{
+    public string entityType;
+    public string id;
+}
+
+[Serializable]
+public class PageLink
+{
+    public int page = 0;
+    public int pageSize = 50;
+    public object textSearch = null;
+    public object typeList = null;
+    public List<string> severityList;
+    public List<string> statusList;
+    public bool searchPropagatedAlarms = true;
+    public object assigneeId = null;
+    public SortOrder sortOrder;
+    public long timeWindow = 2592000000;
+}
+
+[Serializable]
+public class SortOrder
+{
+    public SortKey key;
+    public string direction = "DESC";
+}
+
+[Serializable]
+public class SortKey
+{
+    public string key = "createdTime";
+    public string type = "ALARM_FIELD";
+}
+
+[Serializable]
+public class AlarmField
+{
+    public string type = "ALARM_FIELD";
+    public string key;
+}
+
+// Response Models
+[Serializable]
+public class AlarmResponse
+{
+    public int cmdId;
+    public AlarmData data;
+    public int errorCode;
+    public string errorMsg;
+    public int allowedEntities;
+    public int totalEntities;
+    public string cmdUpdateType;
+}
+
+[Serializable]
+public class AlarmData
+{
+    public List<Alarm> data;
+    public int totalPages;
+    public int totalElements;
+    public bool hasNext;
+}
+
+[Serializable]
+public class Alarm
+{
+    public AlarmId id;
+    public long createdTime;
+    public string type;
+    public EntityReference originator;
+    public string severity;
+    public bool acknowledged;
+    public bool cleared;
+    public long startTs;
+    public long endTs;
+    public string originatorName;
+    public string originatorLabel;
+    public string status;
+    public AlarmDetails details;
+}
+
+[Serializable]
+public class AlarmId
+{
+    public string entityType;
+    public string id;
+}
+
+[Serializable]
+public class AlarmDetails
+{
+    public string temperatureDifferenceSeverity;
+    public string startTime;
+    [SerializeField] private float temperatureDifference;
+    [SerializeField] private float ambientTemperature;
+    [SerializeField] private float targetTemperature;
+    public string Location;
+    public string room;
+    public string currentTime;
+    
+    // Property accessors with naming that matches JSON
+    public float TemperatureDifference 
+    { 
+        get => temperatureDifference; 
+        set => temperatureDifference = value; 
+    }
+    
+    public float AmbientTemperature 
+    { 
+        get => ambientTemperature; 
+        set => ambientTemperature = value; 
+    }
+    
+    public float TargetTemperature 
+    { 
+        get => targetTemperature; 
+        set => targetTemperature = value; 
+    }
+}
+```
+
+---
+
+### **6. Unity Implementation Example**
+
+```csharp
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using NativeWebSocket;
+using Newtonsoft.Json; // Or Unity's JsonUtility
+
+public class ThingsBoardAlarmManager : MonoBehaviour
+{
+    private WebSocket websocket;
+    private string jwtToken = "YOUR_JWT_TOKEN_HERE";
+    private string entityId = "54549790-77e9-11ef-8f9b-033ad0625bc8";
+    
+    public List<Alarm> currentAlarms = new List<Alarm>();
+    
+    async void Start()
+    {
+        // Connect to WebSocket
+        websocket = new WebSocket($"wss://pulse.alec.ae/api/ws/plugins/telemetry?token={jwtToken}");
+        
+        websocket.OnOpen += OnWebSocketOpen;
+        websocket.OnMessage += OnWebSocketMessage;
+        websocket.OnError += OnWebSocketError;
+        websocket.OnClose += OnWebSocketClose;
+        
+        await websocket.Connect();
+    }
+    
+    void Update()
+    {
+        #if !UNITY_WEBGL || UNITY_EDITOR
+        if (websocket != null)
+        {
+            websocket.DispatchMessageQueue();
+        }
+        #endif
+    }
+    
+    void OnWebSocketOpen()
+    {
+        Debug.Log("WebSocket Connected!");
+        RequestAlarms();
+    }
+    
+    void RequestAlarms(int page = 0, int pageSize = 50)
+    {
+        var command = new WebSocketCommand
+        {
+            cmds = new List<AlarmCommand>
+            {
+                new AlarmCommand
+                {
+                    type = "ALARM_DATA",
+                    cmdId = 1,
+                    query = new AlarmQuery
+                    {
+                        entityFilter = new EntityFilter
+                        {
+                            rootEntity = new EntityReference
+                            {
+                                entityType = "ASSET",
+                                id = entityId
+                            },
+                            assetTypes = new List<string> 
+                            { 
+                                "Air Quality", "Fire", "Lights", "Presence", "HVAC" 
+                            }
+                        },
+                        pageLink = new PageLink
+                        {
+                            page = page,
+                            pageSize = pageSize,
+                            severityList = new List<string> 
+                            { 
+                                "CRITICAL", "MAJOR", "MINOR", "WARNING" 
+                            },
+                            statusList = new List<string> { "ACTIVE" },
+                            sortOrder = new SortOrder
+                            {
+                                key = new SortKey(),
+                                direction = "DESC"
+                            }
+                        },
+                        alarmFields = new List<AlarmField>
+                        {
+                            new AlarmField { key = "createdTime" },
+                            new AlarmField { key = "originator" },
+                            new AlarmField { key = "type" },
+                            new AlarmField { key = "severity" },
+                            new AlarmField { key = "status" },
+                            new AlarmField { key = "assignee" }
+                        }
+                    }
+                }
+            }
+        };
+        
+        string json = JsonConvert.SerializeObject(command);
+        Debug.Log($"Sending: {json}");
+        websocket.SendText(json);
+    }
+    
+    void OnWebSocketMessage(byte[] data)
+    {
+        string message = System.Text.Encoding.UTF8.GetString(data);
+        Debug.Log($"Received: {message}");
+        
+        try
+        {
+            AlarmResponse response = JsonConvert.DeserializeObject<AlarmResponse>(message);
+            
+            if (response.cmdUpdateType == "ALARM_DATA")
+            {
+                currentAlarms = response.data.data;
+                
+                Debug.Log($"Received {currentAlarms.Count} alarms");
+                Debug.Log($"Total Elements: {response.data.totalElements}");
+                Debug.Log($"Has Next Page: {response.data.hasNext}");
+                
+                // Process alarms
+                ProcessAlarms(currentAlarms);
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"Error parsing message: {ex.Message}");
+        }
+    }
+    
+    void ProcessAlarms(List<Alarm> alarms)
+    {
+        foreach (var alarm in alarms)
+        {
+            Debug.Log($"[{alarm.severity}] {alarm.type}");
+            Debug.Log($"  Location: {alarm.details.Location}");
+            Debug.Log($"  Room: {alarm.details.room}");
+            Debug.Log($"  Originator: {alarm.originatorName}");
+            Debug.Log($"  Temp Diff: {alarm.details.TemperatureDifference}°C");
+            Debug.Log($"  Status: {alarm.status}");
+            Debug.Log($"  Created: {DateTimeOffset.FromUnixTimeMilliseconds(alarm.createdTime).DateTime}");
+            
+            // TODO: Create UI elements, 3D markers, notifications, etc.
+        }
+    }
+    
+    void OnWebSocketError(string error)
+    {
+        Debug.LogError($"WebSocket Error: {error}");
+    }
+    
+    void OnWebSocketClose(WebSocketCloseCode code)
+    {
+        Debug.Log($"WebSocket Closed: {code}");
+    }
+    
+    async void OnApplicationQuit()
+    {
+        if (websocket != null)
+        {
+            await websocket.Close();
+        }
+    }
+}
+```
+
+---
+
+### **7. Important Implementation Notes**
+
+#### **JSON Serialization:**
+- Use **Newtonsoft.Json** (Json.NET) for better compatibility
+- Install via: UPM → Add package from git URL: `https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm`
+- Unity's `JsonUtility` doesn't handle complex nested objects well
+
+#### **WebGL Build Considerations:**
+- NativeWebSocket works on WebGL
+- No need for `DispatchMessageQueue()` in WebGL builds
+- Use preprocessor directives as shown in the example
+
+#### **Timestamp Conversion:**
+All timestamps are Unix timestamps in milliseconds:
+```csharp
+DateTime ConvertTimestamp(long unixTimeMilliseconds)
+{
+    return DateTimeOffset.FromUnixTimeMilliseconds(unixTimeMilliseconds).DateTime;
+}
+```
+
+#### **Pagination:**
+- Check `response.data.hasNext` to see if more pages exist
+- Increment `page` parameter and send new request for next page
+- Total alarms available: `response.data.totalElements`
+
+#### **Real-time Updates:**
+- The WebSocket will send update messages when alarms change
+- Listen for `cmdUpdateType` to identify update types
+- Keep WebSocket connection alive for real-time notifications
+
+---
+
+### **8. Severity Level Colors (Recommended)**
+
+```csharp
+public Color GetSeverityColor(string severity)
+{
+    switch (severity)
+    {
+        case "CRITICAL":
+            return new Color(0.8f, 0f, 0f); // Dark Red
+        case "MAJOR":
+            return new Color(1f, 0.5f, 0f); // Orange
+        case "MINOR":
+            return new Color(1f, 1f, 0f); // Yellow
+        case "WARNING":
+            return new Color(1f, 0.8f, 0f); // Light Orange
+        case "INDETERMINATE":
+            return new Color(0.5f, 0.5f, 0.5f); // Gray
+        default:
+            return Color.white;
+    }
+}
+```
+
+---
+
+### **9. Testing Checklist**
+
+- [ ] WebSocket connection established successfully
+- [ ] JWT token is valid and properly formatted
+- [ ] Alarm subscription message sent correctly
+- [ ] Response received and parsed without errors
+- [ ] Alarm data populated in Unity inspector
+- [ ] Timestamps converted to readable DateTime
+- [ ] Pagination works (if totalElements > pageSize)
+- [ ] Error handling for connection failures
+- [ ] WebSocket closes properly on application quit
+
+---
+
+### **10. Additional Features to Consider**
+
+1. **Alarm Filtering UI:** Allow users to filter by severity, location, room
+2. **3D Visualization:** Show alarm markers at device locations in 3D space
+3. **Audio Alerts:** Play sounds for critical/major alarms
+4. **Alarm History:** Store and display alarm trends over time
+5. **Acknowledgement:** Implement alarm acknowledgement functionality
+6. **Auto-Reconnect:** Handle WebSocket disconnections gracefully
+
+---
+
+### **11. Troubleshooting**
+
+**Connection Issues:**
+- Verify JWT token is not expired
+- Check firewall/proxy settings for WebSocket connections
+- Ensure URL is exactly: `wss://pulse.alec.ae/api/ws/plugins/telemetry`
+
+**Parsing Issues:**
+- Enable detailed logging to see raw JSON
+- Check for null values in response
+- Verify JSON property names match exactly (case-sensitive)
+
+**No Alarms Returned:**
+- Check `statusList` filter (try ["ACTIVE", "CLEARED_UNACK", "CLEARED_ACK"])
+- Increase `timeWindow` value
+- Verify entity ID is correct
+
+---
+
+### **12. Contact for Support**
+
+If you encounter issues:
+1. Provide WebSocket connection logs
+2. Share sample response JSON
+3. Include Unity console error messages
+4. Mention Unity version and target platform
+
+---
+
+**Good luck with the implementation! The system should provide real-time alarm monitoring for the ALEC DIC YARD facility with all HVAC, Fire, Lights, Air Quality, and Presence sensor alarms.**

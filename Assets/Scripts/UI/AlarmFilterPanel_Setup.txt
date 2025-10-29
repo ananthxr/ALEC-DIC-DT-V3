@@ -1,0 +1,88 @@
+ALARM FILTER PANEL SETUP GUIDE
+================================
+
+SCRIPT CREATED: AlarmFilterPanel.cs
+
+HOW TO SET UP IN UNITY:
+-----------------------
+
+1. CREATE UI PANEL:
+   - Create a UI Panel GameObject in your scene (or use existing filter panel)
+   - Add the "AlarmFilterPanel.cs" script to this GameObject
+
+2. CREATE TOGGLE BUTTONS:
+   - Create 4 Toggle UI elements as children of the panel:
+     * Active Toggle (for filtering ACTIVE alarms)
+     * Unack Toggle (for filtering UNACKNOWLEDGED alarms)
+     * Cleared Toggle (for filtering CLEARED alarms)
+     * Ack Toggle (for filtering ACKNOWLEDGED alarms)
+
+3. CREATE UPDATE BUTTON:
+   - Create a Button UI element as child of the panel
+   - Label it "Update" or "Apply Filters"
+
+4. ASSIGN REFERENCES IN INSPECTOR:
+   - Select the GameObject with AlarmFilterPanel script
+   - In the Inspector, assign:
+     * Active Toggle -> the Active toggle UI element
+     * Unack Toggle -> the Unack toggle UI element
+     * Cleared Toggle -> the Cleared toggle UI element
+     * Ack Toggle -> the Ack toggle UI element
+     * Update Button -> the Update button UI element
+     * Master Alarm -> the MasterAlarm GameObject in your scene
+
+HOW IT WORKS:
+-------------
+
+1. User toggles on/off the filters they want:
+   - Active: Shows only active alarms
+   - Cleared: Shows only cleared alarms
+   - Ack: Shows only acknowledged alarms
+   - Unack: Shows only unacknowledged alarms
+
+2. User clicks "Update" button
+
+3. The script builds the correct status filter combinations:
+   - Active + Ack = "ACTIVE_ACK"
+   - Active + Unack = "ACTIVE_UNACK"
+   - Cleared + Ack = "CLEARED_ACK"
+   - Cleared + Unack = "CLEARED_UNACK"
+   - Just Active = "ACTIVE"
+   - Just Cleared = "CLEARED"
+   - Just Ack = "ACK"
+   - Just Unack = "UNACK"
+   - Multiple combinations are supported
+
+4. MasterAlarm:
+   - Unsubscribes from current WebSocket alarm feed
+   - Resubscribes with new status filter
+   - Server sends only alarms matching the filter
+
+EXAMPLE FILTER COMBINATIONS:
+----------------------------
+- Active + Unack toggled = Shows only "ACTIVE_UNACK" alarms
+- Active + Ack + Unack toggled = Shows both "ACTIVE_ACK" and "ACTIVE_UNACK" alarms
+- Cleared + Ack toggled = Shows only "CLEARED_ACK" alarms
+- Nothing toggled = Shows ALL alarms (no filter)
+
+MODIFICATIONS MADE TO EXISTING FILES:
+-------------------------------------
+
+MasterAlarm.cs:
+- Added: currentStatusFilter (List<string>) - Stores current filter
+- Added: UpdateStatusFilter(List<string> statusList) - Public method called by AlarmFilterPanel
+- Added: ResubscribeWithNewFilter() - Handles unsubscribe/resubscribe logic
+- Added: BuildStatusListJson() - Converts filter list to JSON array string
+- Modified: SendAlarmSubscription() - Now uses dynamic status filter instead of hardcoded
+
+TESTING:
+--------
+1. Start the application
+2. Toggle different combinations of filters
+3. Click "Update"
+4. Check Unity console for logs:
+   - "[AlarmFilterPanel] Generated status filter: [...]"
+   - "[MasterAlarm] Updating status filter to: [...]"
+   - "[MasterAlarm] Step 1: Unsubscribing..."
+   - "[MasterAlarm] Step 2: Resubscribing..."
+5. Verify that only alarms matching the filter appear in the UI

@@ -1,0 +1,163 @@
+FLOOR TRANSITION MANAGER - INTEGRATION GUIDE
+=============================================
+
+FILE LOCATION: Y:\ALEC DIC DT V2\Assets\Scripts\UX\FloorTransitionManager.cs
+
+PURPOSE:
+--------
+Creates awesome animated transitions when user clicks floor buttons:
+1. Exterior buildings slide away smoothly
+2. Camera moves to top-view position
+3. Other floors lift up/down and slide out (burger-style animation)
+4. Selected floor stays in place
+
+INTEGRATION WITH FLOORBUTTONSTACKING:
+-------------------------------------
+
+STEP 1: Add FloorTransitionManager to Scene
+--------------------------------------------
+1. Create empty GameObject: "FloorTransitionManager"
+2. Add FloorTransitionManager.cs component
+3. Assign in Inspector:
+   - Main Camera
+   - Default Camera Position (transform for default view)
+   - Camera Controller (your existing camera controller script)
+
+STEP 2: Setup Floor Data (in Inspector)
+----------------------------------------
+For each floor (Ground, Mezzanine, First, Roof, etc.):
+
+Add to "Floors" list:
+- Floor Name: "Ground Floor", "Mezzanine", etc.
+- Floor Object: The 3D model GameObject for that floor
+- Origin Position: Empty transform at floor's normal position
+- Out Position: Empty transform far away (where floor goes when hidden)
+- Camera Position: Transform for side view of floor
+- Top View Position: Transform for top-down view of floor
+
+STEP 3: Setup NPC Buildings (Exterior Objects)
+-----------------------------------------------
+For each exterior building to hide:
+
+Add to "NPC Buildings" list:
+- Building Name: "Building A", "Tree 1", etc.
+- Building Object: The 3D model GameObject
+- Target Hide Position: Vector3 coordinates (e.g., x=1000, y=0, z=0)
+
+STEP 4: Connect to FloorButtonStacking
+---------------------------------------
+Modify FloorButtonStacking.cs OnFloorButtonClicked() method:
+
+BEFORE (current code):
+```csharp
+private void OnFloorButtonClicked(int floorIndex)
+{
+    Debug.Log($"[FloorButtonStacking] Floor button {floorIndex} clicked!");
+    // ... existing code ...
+}
+```
+
+AFTER (add FloorTransitionManager call):
+```csharp
+[Header("Floor Transition")]
+[SerializeField] private FloorTransitionManager floorTransitionManager;
+
+private void OnFloorButtonClicked(int floorIndex)
+{
+    Debug.Log($"[FloorButtonStacking] Floor button {floorIndex} clicked!");
+
+    // Trigger awesome floor transition animation!
+    if (floorTransitionManager != null)
+    {
+        floorTransitionManager.SelectFloor(floorIndex);
+    }
+
+    // ... rest of existing code ...
+}
+```
+
+Then assign FloorTransitionManager reference in Inspector.
+
+HOW IT WORKS:
+-------------
+
+When user clicks a floor button:
+
+1. FloorButtonStacking receives click
+2. Calls floorTransitionManager.SelectFloor(index)
+3. FloorTransitionManager does the magic:
+
+   STEP 1: Hide NPC Buildings
+   - All exterior buildings smoothly slide to hide positions
+
+   STEP 2: Animate Floors (Burger Style)
+   - Floor ABOVE selected: Lifts UP, moves forward, exits
+   - Floor BELOW selected: Lifts DOWN, moves forward, exits
+   - Selected floor: Stays in place (bottom bun!)
+
+   STEP 3: Move Camera
+   - Waits for animation to settle (cameraWaitTime)
+   - Smoothly moves to top-view position
+
+CLICKING SAME FLOOR AGAIN:
+- Resets to "None" state
+- All floors return to origin
+- Buildings come back
+- Camera returns to default position
+
+ANIMATION SETTINGS (Customize in Inspector):
+---------------------------------------------
+
+Animation Speed Multiplier: 1.0 (increase for faster, decrease for slower)
+
+Floor Move Duration: 0.75s (how long floors take to move)
+Camera Duration: 1.5s (how long camera takes to move)
+Camera Wait Time: 0.8s (delay before camera starts moving)
+
+3-Step Animation Settings:
+- Lift Duration: 0.4s (lift up/down phase)
+- Forward Duration: 0.3s (move forward phase)
+- Exit Duration: 0.5s (exit far away phase)
+
+Burger-Style Lift Heights:
+- Base Lift Height: 4 units (floor directly above/below)
+- Additional Lift Per Floor: 1.5 units (extra for each floor further)
+- Forward Offset: 50 units (how far forward on X-axis)
+- Exit Distance: 500 units (how far to exit)
+
+Easing:
+- Floor Ease: InOutQuart (smooth acceleration/deceleration)
+- Camera Ease: InOutCubic (smooth camera movement)
+
+EXAMPLE SETUP:
+--------------
+
+3 Floors: Ground (0), First (1), Roof (2)
+User clicks "First Floor" button (index 1)
+
+What happens:
+1. Ground Floor (below): Lifts DOWN by -4, moves forward +50, exits to +500
+2. First Floor (selected): Stays at origin
+3. Roof (above): Lifts UP by +4, moves forward +50, exits to +500
+4. Camera waits 0.8s, then moves to First Floor top-view
+
+TESTING:
+--------
+1. Assign all references in Inspector
+2. Click floor button in UI
+3. Watch the magic happen!
+4. Console logs show detailed progress
+
+TROUBLESHOOTING:
+----------------
+Issue: Floors don't move
+Fix: Ensure Floor Objects are assigned
+
+Issue: Camera doesn't move
+Fix: Assign Camera Controller and camera positions
+
+Issue: Buildings don't hide
+Fix: Add buildings to NPC Buildings list with target positions
+
+Issue: Animation too fast/slow
+Fix: Adjust Animation Speed Multiplier

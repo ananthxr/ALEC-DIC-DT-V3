@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NeonWireFrame
+  m_Shader: {fileID: 4800000, guid: e7e0339c1075b694fa2f941d995aef17, type: 3}
+  m_Parent: {fileID: 2100000, guid: 1b7737e2993dda74fad30752424a1730, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _DotFrequency: 5
+    - _DotSize: 0.05
+    - _DotSpeed: 2.97
+    - _FresnelIntensity: 1.09
+    - _FresnelPower: 6.54
+    - _GlowIntensity: 1.5
+    - _ScanlineIntensity: 3.19
+    - _ScanlineSpeed: 2.08
+    - _ScanlineWidth: 0.171
+    - _TrailLength: 0.143
+    - _Transparency: 0.588
+    - _WireframeIntensity: 1
+    - _WireframeWidth: 0.0921
+    m_Colors:
+    - _BaseColor: {r: 0, g: 1, b: 1, a: 0.3}
+    - _FresnelColor: {r: 0, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,138 @@
+FLOOR TRANSITION MANAGER - CLEANED VERSION
+===========================================
+
+FILE: Y:\ALEC DIC DT V2\Assets\Scripts\UX\FloorTransitionManager.cs
+
+REMOVED DEPENDENCIES:
+---------------------
+✅ SNSRDropdownAnimator (not in V2 project)
+✅ CameraController (using direct DOTween camera control instead)
+✅ LightingController (not needed for core functionality)
+✅ RoomTransitionManager (not needed for core functionality)
+
+WHAT REMAINS (CORE FUNCTIONALITY):
+-----------------------------------
+✅ Floor animation system (burger-style lift)
+✅ NPC building hide/show animations
+✅ Camera movement using DOTween
+✅ Floor state management (None, Ground, First, Roof)
+✅ Camera view states (Default, FloorNormal, FloorTopView)
+
+HOW TO USE:
+-----------
+
+1. ADD TO SCENE:
+   - Create empty GameObject: "FloorTransitionManager"
+   - Add FloorTransitionManager.cs component
+
+2. ASSIGN IN INSPECTOR:
+
+   [Floor Configuration]
+   - Add floor entries (Ground, Mezzanine, First, Roof)
+     * Floor Name: "Ground Floor"
+     * Floor Object: The 3D model GameObject
+     * Origin Position: Empty transform at normal position
+     * Out Position: Empty transform far away
+     * Camera Position: Side view camera transform
+     * Top View Position: Top-down camera transform
+
+   [NPC Buildings]
+   - Add exterior objects to hide
+     * Building Name: "Building A"
+     * Building Object: The 3D model
+     * Target Hide Position: Vector3 (e.g., x=1000, y=0, z=0)
+
+   [Camera Configuration]
+   - Main Camera: Your scene's main camera
+   - Default Camera Position: Default view transform
+
+3. INTEGRATE WITH FLOORBUTTONSTACKING:
+
+Add to FloorButtonStacking.cs:
+
+```csharp
+[Header("Floor Transition")]
+[SerializeField] private FloorTransitionManager floorTransitionManager;
+
+private void OnFloorButtonClicked(int floorIndex)
+{
+    // Existing code...
+
+    // Trigger floor transition
+    if (floorTransitionManager != null)
+    {
+        floorTransitionManager.SelectFloor(floorIndex);
+    }
+}
+```
+
+ANIMATION FLOW:
+---------------
+
+When SelectFloor(index) is called:
+
+STEP 1: Hide NPC Buildings
+→ All exterior buildings slide to hide positions
+
+STEP 2: Animate Floors (Burger Style)
+→ Floors ABOVE selected: Lift UP → Forward → Exit
+→ Floors BELOW selected: Lift DOWN → Forward → Exit
+→ Selected floor: Stays at origin
+
+STEP 3: Move Camera
+→ Waits cameraWaitTime (0.8s)
+→ Smoothly moves to top-view position
+
+CUSTOMIZABLE SETTINGS:
+----------------------
+
+Animation Speed Multiplier: 1.0x (faster = higher, slower = lower)
+
+Durations:
+- Floor Move Duration: 0.75s
+- Camera Duration: 1.5s
+- Camera Wait Time: 0.8s
+
+3-Step Animation:
+- Lift Duration: 0.4s
+- Forward Duration: 0.3s
+- Exit Duration: 0.5s
+
+Burger Lift:
+- Base Lift Height: 4 units
+- Additional Lift Per Floor: 1.5 units
+- Forward Offset: 50 units
+- Exit Distance: 500 units
+
+Easing:
+- Floor Ease: InOutQuart
+- Camera Ease: InOutCubic
+
+PUBLIC METHODS:
+---------------
+
+SelectFloor(int floorIndex, bool skipCameraMovement = false)
+→ Transition to specific floor
+
+ResetToNoneState()
+→ Return all floors to origin
+
+ToggleTopView()
+→ Switch between top-view and normal view
+
+PUBLIC PROPERTIES:
+------------------
+
+IsTransitioning (bool)
+CurrentState (FloorState)
+CurrentCameraView (CameraViewState)
+CurrentFloorIndex (int)
+CanUseTopView (bool)
+
+COMPILE STATUS:
+---------------
+✅ No missing dependencies
+✅ All CameraController references removed
+✅ All SNSR references removed
+✅ Camera movement uses DOTween directly
+✅ Ready to use in V2 project

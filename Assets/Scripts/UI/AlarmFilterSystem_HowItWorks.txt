@@ -1,0 +1,172 @@
+ALARM FILTER SYSTEM - COMPLETE WORKFLOW
+========================================
+
+OVERVIEW:
+---------
+The alarm filtering system allows users to filter alarms by status using toggle buttons.
+When the user clicks "Update", the system:
+1. Unsubscribes from current WebSocket alarm feed
+2. Resubscribes with new status filter
+3. Receives filtered alarms from server
+4. DELETES all existing alarm prefabs
+5. SPAWNS new alarm prefabs with filtered data
+
+COMPONENT FLOW:
+---------------
+
+┌─────────────────────┐
+│ AlarmFilterPanel.cs │  (User clicks toggles + Update button)
+└──────────┬──────────┘
+           │
+           │ Calls UpdateStatusFilter(statusList)
+           ▼
+┌─────────────────────┐
+│   MasterAlarm.cs    │  (Handles WebSocket communication)
+└──────────┬──────────┘
+           │
+           │ 1. SendAlarmUnsubscribe() - Unsubscribe from current feed
+           │ 2. Wait 0.2 seconds
+           │ 3. SendAlarmSubscription() - Resubscribe with new filter
+           │
+           │ Server sends filtered alarms via WebSocket
+           │
+           │ 4. OnWebSocketMessage() - Receives filtered data
+           │ 5. Invokes OnAlarmsReceived event
+           ▼
+┌──────────────────────────┐
+│ SlidingPanelController.cs│  (Updates UI with filtered alarms)
+└──────────┬───────────────┘
+           │
+           │ 1. OnAlarmsReceived() - Receives filtered alarm list
+           │ 2. currentAlarmData = new filtered list
+           │ 3. UpdateAlarmDisplay()
+           │    ├─ ClearAlarmItems() - DESTROY all old prefabs
+           │    └─ Spawn new prefabs for each filtered alarm
+           │       └─ AlarmItemUI.SetAlarmData() - Update each prefab
+           ▼
+┌─────────────────────┐
+│  AlarmItemUI.cs     │  (Individual alarm prefab display)
+└─────────────────────┘
+
+DETAILED WORKFLOW:
+------------------
+
+STEP 1: User Interaction (AlarmFilterPanel.cs)
+-----------------------------------------------
+- User toggles filters (Active, Cleared, Ack, Unack)
+- User clicks "Update" button
+- AlarmFilterPanel builds status list:
+  * Active + Ack → ["ACTIVE_ACK"]
+  * Active + Unack → ["ACTIVE_UNACK"]
+  * Active + Cleared + Ack → ["ACTIVE_ACK", "CLEARED_ACK"]
+  * etc.
+- Calls: masterAlarm.UpdateStatusFilter(statusList)
+
+STEP 2: WebSocket Resubscription (MasterAlarm.cs)
+--------------------------------------------------
+Method: UpdateStatusFilter(List<string> statusList)
+- Stores: currentStatusFilter = statusList
+- Starts coroutine: ResubscribeWithNewFilter()
+
+Method: ResubscribeWithNewFilter()
+- Sends unsubscribe message:
+  {
+    "cmds": [{
+      "type": "ALARM_DATA_UNSUBSCRIBE",
+      "cmdId": 2
+    }]
+  }
+- Waits 0.2 seconds for server to process
+- Calls SendAlarmSubscription()
+
+Method: SendAlarmSubscription()
+- Builds status filter JSON using BuildStatusListJson()
+  Example: ["ACTIVE_ACK", "ACTIVE_UNACK"] → '["ACTIVE_ACK", "ACTIVE_UNACK"]'
+- Sends subscription message with filter:
+  {
+    "cmds": [{
+      "type": "ALARM_DATA",
+      "query": {
+        ...
+        "pageLink": {
+          ...
+          "statusList": ["ACTIVE_ACK", "ACTIVE_UNACK"],  // ← FILTERED!
+          ...
+        }
+      }
+    }]
+  }
+
+STEP 3: Receive Filtered Data (MasterAlarm.cs)
+-----------------------------------------------
+Method: OnWebSocketMessage(byte[] data)
+- Server sends ONLY alarms matching the filter
+- Parses JSON response
+- Converts to List<AlarmData>
+- Invokes: OnAlarmsReceived?.Invoke(alarmDataList)
+
+STEP 4: Update UI (SlidingPanelController.cs)
+----------------------------------------------
+Method: OnAlarmsReceived(List<AlarmData> alarms)
+- Receives filtered alarm list
+- Updates: currentAlarmData = alarms
+- Calls: UpdateAlarmDisplay()
+
+Method: UpdateAlarmDisplay()
+- Calls ClearAlarmItems() → DESTROYS all existing alarm prefabs
+- Creates NEW prefab for each alarm in filtered list:
+  for (int i = 0; i < currentAlarmData.Count; i++)
+  {
+    GameObject item = Instantiate(alarmItemPrefab, scrollViewContent, false);
+    AlarmItemUI alarmUI = item.GetComponent<AlarmItemUI>();
+    alarmUI.SetAlarmData(currentAlarmData[i]);
+  }
+- Rebuilds layout
+- Resets scroll to top
+
+Method: ClearAlarmItems()
+- Loops through all spawned items
+- Calls Destroy(item) on each
+- Clears spawnedItems list
+
+STEP 5: Display Alarm Data (AlarmItemUI.cs)
+--------------------------------------------
+Method: SetAlarmData(AlarmData alarmData)
+- Updates UI text fields:
+  * Type (alarm.description)
+  * Originator (alarm.location)
+  * Status (alarm.isActive)
+  * Severity (alarm.severity) with color coding
+  * Timestamp (alarm.timestamp)
+
+KEY POINTS:
+-----------
+✓ Prefabs are ALWAYS destroyed and recreated when filter changes
+✓ No manual refresh needed - automatic via event subscription
+✓ Server-side filtering (not client-side) - more efficient
+✓ Works with WebSocket real-time updates
+✓ Scroll view automatically adjusts to filtered data count
+
+TESTING:
+--------
+1. Toggle "Active" + "Unack" → Click Update
+   Expected: Only ACTIVE_UNACK alarms displayed
+   Console: "Generated status filter: [ACTIVE_UNACK]"
+           "Updating status filter to: [ACTIVE_UNACK]"
+           "Displayed X alarm items (filtered data spawned)"
+
+2. Toggle "Active" + "Cleared" + "Ack" → Click Update
+   Expected: Only ACTIVE_ACK and CLEARED_ACK alarms displayed
+   Console: "Generated status filter: [ACTIVE_ACK, CLEARED_ACK]"
+
+3. Untoggle all → Click Update
+   Expected: ALL alarms displayed
+   Console: "No filters selected - will show all alarms"
+           "Generated status filter: []"
+
+MODIFICATIONS MADE:
+-------------------
+✓ AlarmFilterPanel.cs - Created (filter UI logic)
+✓ MasterAlarm.cs - Added dynamic filtering methods
+✓ SlidingPanelController.cs - Modified UpdateAlarmDisplay() to show ALL filtered alarms
+  (Removed numberOfItemsToSpawn limit so all filtered results are shown)
