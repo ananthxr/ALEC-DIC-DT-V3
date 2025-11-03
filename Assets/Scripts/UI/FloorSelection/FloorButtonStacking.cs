@@ -3,6 +3,28 @@ using UnityEngine.UI;
 using DG.Tweening;
 using System.Collections.Generic;
 
+/// <summary>
+/// Enhanced Floor Button Stacking System with Rooms Support
+///
+/// FEATURES:
+/// 1. Main Floor Button - Primary button that expands to show floor selection
+/// 2. Floor Buttons - Stack vertically below main button for floor selection
+/// 3. Horizontal Action Buttons - Slide horizontally from selected floor button
+/// 4. NEW: Rooms Button - Appears to the LEFT of main button when expanded
+/// 5. NEW: Rooms Scroll View - Scrollable list of room buttons for room selection
+///
+/// WORKFLOW:
+/// - Click Main Floor Button → Floor buttons stack down + Rooms button slides left
+/// - Click Floor Button → Horizontal action buttons slide right from that floor
+/// - Click Rooms Button → Transition to scrollable room selection view
+/// - In Rooms View → User can scroll through and select rooms
+///
+/// ANIMATION SYSTEM:
+/// - Uses DOTween for smooth animations
+/// - Staggered timing for cascade effects
+/// - Configurable easing curves for each element type
+/// </summary>
+
 [System.Serializable]
 public class FloorButtonData
 {
@@ -38,11 +60,28 @@ public class FloorButtonStacking : MonoBehaviour
     [SerializeField] private float horizontalButtonAnimationDuration = 0.5f;
     [SerializeField] private Ease horizontalAnimationEase = Ease.OutCubic;
 
+    [Header("Rooms Button Configuration")]
+    [SerializeField] private GameObject roomsButton; // The button that appears to the left
+    [SerializeField] private float roomsButtonLeftDistance = 200f; // Distance to the left of main button
+    [SerializeField] private float roomsButtonAnimationDuration = 0.5f;
+    [SerializeField] private Ease roomsButtonAnimationEase = Ease.OutCubic;
+
+    [Header("Rooms Scroll View Configuration")]
+    [SerializeField] private GameObject roomsScrollView; // The scrollable panel containing room buttons
+    [SerializeField] private GameObject roomsContentPanel; // The content panel inside scroll view that holds the buttons
+    [SerializeField] private RoomScrollViewController roomScrollViewController; // Controller that manages room data
+    [SerializeField] private float scrollViewAnimationDuration = 0.5f;
+    [SerializeField] private Ease scrollViewAnimationEase = Ease.OutCubic;
+
     // State management
     private bool isExpanded = false;
     private bool horizontalButtonsExpanded = false;
+    private bool roomsButtonExpanded = false; // Track if rooms button is visible
+    private bool roomsScrollViewExpanded = false; // Track if scroll view is shown
     private int currentExpandedFloorIndex = -1; // Which floor button has expanded horizontal buttons
     private Vector2 mainButtonPosition;
+    private Vector2 roomsButtonOriginalPosition;
+    private Button roomsButtonComponent;
 
     // Floor button caching
     private List<GameObject> floorButtons = new List<GameObject>(); // Extracted from floorButtonsData
@@ -69,6 +108,27 @@ public class FloorButtonStacking : MonoBehaviour
             mainFloorButton = GetComponent<Button>();
 
         mainButtonPosition = ((RectTransform)mainFloorButton.transform).anchoredPosition;
+
+        // Initialize rooms button
+        if (roomsButton != null)
+        {
+            roomsButtonOriginalPosition = ((RectTransform)roomsButton.transform).anchoredPosition;
+            roomsButtonComponent = roomsButton.GetComponent<Button>();
+            if (roomsButtonComponent == null)
+                roomsButtonComponent = roomsButton.GetComponentInChildren<Button>();
+
+            if (roomsButtonComponent != null)
+            {
+                roomsButtonComponent.onClick.AddListener(OnRoomsButtonClicked);
+                Debug.Log("[FloorButtonStacking] Rooms button listener added");
+            }
+        }
+
+        // Initialize rooms scroll view
+        if (roomsScrollView != null)
+        {
+            roomsScrollView.SetActive(false);
+        }
 
         // Extract floor buttons and setup caching from floorButtonsData
         foreach (FloorButtonData floorData in floorButtonsData)
@@ -106,6 +166,15 @@ public class FloorButtonStacking : MonoBehaviour
 
     private void SetupInitialState()
     {
+        // Hide rooms button initially
+        if (roomsButton != null)
+        {
+            RectTransform roomsRect = (RectTransform)roomsButton.transform;
+            roomsRect.DOKill();
+            roomsButton.SetActive(false);
+            roomsRect.anchoredPosition = mainButtonPosition; // Start at main button position
+        }
+
         // Hide all floor buttons initially
         foreach (GameObject floorButton in floorButtons)
         {
@@ -214,6 +283,14 @@ public class FloorButtonStacking : MonoBehaviour
     {
         Debug.Log($"[FloorButtonStacking] Main floor button clicked - isExpanded: {isExpanded}");
 
+        // CLOSED-LOOP: If rooms scroll view is open, close it first
+        if (roomsScrollViewExpanded)
+        {
+            Debug.Log("[FloorButtonStacking] Rooms scroll view is open - closing it before toggling floor buttons");
+            HideRoomsScrollView();
+            return; // Exit - don't toggle floor buttons this time, just close the scroll view
+        }
+
         if (isExpanded)
         {
             Debug.Log("[FloorButtonStacking] Collapsing floor buttons");
@@ -232,6 +309,88 @@ public class FloorButtonStacking : MonoBehaviour
         {
             masterUI.UpdateUIElementState("FloorButtonStack", isExpanded);
         }
+    }
+
+    private void OnRoomsButtonClicked()
+    {
+        Debug.Log("[FloorButtonStacking] Rooms button clicked!");
+
+        // Transition from floor buttons view to rooms scroll view
+        ShowRoomsScrollView();
+    }
+
+    private void ShowRoomsScrollView()
+    {
+        if (roomsScrollView == null)
+        {
+            Debug.LogWarning("[FloorButtonStacking] Rooms scroll view is not assigned!");
+            return;
+        }
+
+        Debug.Log("[FloorButtonStacking] Showing rooms scroll view");
+
+        roomsScrollViewExpanded = true;
+
+        // Hide floor buttons and rooms button
+        CollapseFloorButtons();
+        CollapseRoomsButton();
+
+        // Show the scroll view with animation
+        roomsScrollView.SetActive(true);
+
+        // Populate the scroll view with room data
+        if (roomScrollViewController != null)
+        {
+            Debug.Log("[FloorButtonStacking] Populating room list from JSON");
+            roomScrollViewController.PopulateRoomList();
+        }
+        else
+        {
+            Debug.LogWarning("[FloorButtonStacking] RoomScrollViewController is not assigned - cannot populate rooms");
+        }
+
+        // Add fade-in animation for scroll view
+        CanvasGroup scrollViewCanvasGroup = roomsScrollView.GetComponent<CanvasGroup>();
+        if (scrollViewCanvasGroup == null)
+        {
+            scrollViewCanvasGroup = roomsScrollView.AddComponent<CanvasGroup>();
+        }
+
+        scrollViewCanvasGroup.alpha = 0f;
+        scrollViewCanvasGroup.DOFade(1f, scrollViewAnimationDuration)
+            .SetEase(scrollViewAnimationEase)
+            .SetUpdate(true);
+    }
+
+    public void HideRoomsScrollView()
+    {
+        if (roomsScrollView == null || !roomsScrollViewExpanded)
+        {
+            Debug.Log("[FloorButtonStacking] Rooms scroll view already hidden or not assigned");
+            return;
+        }
+
+        Debug.Log("[FloorButtonStacking] Hiding rooms scroll view and returning to floor buttons view");
+
+        roomsScrollViewExpanded = false;
+
+        CanvasGroup scrollViewCanvasGroup = roomsScrollView.GetComponent<CanvasGroup>();
+        if (scrollViewCanvasGroup != null)
+        {
+            scrollViewCanvasGroup.DOFade(0f, scrollViewAnimationDuration)
+                .SetEase(scrollViewAnimationEase)
+                .SetUpdate(true)
+                .OnComplete(() => roomsScrollView.SetActive(false));
+        }
+        else
+        {
+            roomsScrollView.SetActive(false);
+        }
+
+        // CLOSED-LOOP: Don't automatically expand floor buttons
+        // User can click main button again to expand if needed
+        // This prevents unwanted state conflicts
+        Debug.Log("[FloorButtonStacking] Scroll view closed. Click main button to expand floor buttons again.");
     }
 
     private void ExpandFloorButtons()
@@ -258,6 +417,54 @@ public class FloorButtonStacking : MonoBehaviour
                 .SetDelay(buttonDelay)
                 .SetUpdate(true);
         }
+
+        // Also expand the rooms button to the left
+        ExpandRoomsButton();
+    }
+
+    private void ExpandRoomsButton()
+    {
+        if (roomsButton == null)
+        {
+            return;
+        }
+
+        Debug.Log("[FloorButtonStacking] Expanding rooms button to the left");
+
+        roomsButtonExpanded = true;
+
+        RectTransform roomsRect = (RectTransform)roomsButton.transform;
+        roomsRect.DOKill();
+        roomsButton.SetActive(true);
+
+        // Calculate target position (to the left of main button)
+        Vector2 targetPosition = mainButtonPosition + Vector2.left * roomsButtonLeftDistance;
+
+        roomsRect.DOAnchorPos(targetPosition, roomsButtonAnimationDuration)
+            .SetEase(roomsButtonAnimationEase)
+            .SetUpdate(true);
+    }
+
+    private void CollapseRoomsButton()
+    {
+        if (roomsButton == null || !roomsButtonExpanded)
+        {
+            return;
+        }
+
+        Debug.Log("[FloorButtonStacking] Collapsing rooms button");
+
+        roomsButtonExpanded = false;
+
+        RectTransform roomsRect = (RectTransform)roomsButton.transform;
+        roomsRect.DOKill();
+
+        GameObject buttonToHide = roomsButton;
+
+        roomsRect.DOAnchorPos(mainButtonPosition, roomsButtonAnimationDuration)
+            .SetEase(roomsButtonAnimationEase)
+            .SetUpdate(true)
+            .OnComplete(() => buttonToHide.SetActive(false));
     }
 
     private void CollapseFloorButtons()
@@ -269,6 +476,9 @@ public class FloorButtonStacking : MonoBehaviour
         {
             CollapseHorizontalButtons();
         }
+
+        // Also collapse the rooms button
+        CollapseRoomsButton();
 
         // Animate floor buttons back in reverse order
         for (int i = 0; i < floorButtons.Count; i++)
@@ -519,6 +729,12 @@ public class FloorButtonStacking : MonoBehaviour
 
     private void OnDestroy()
     {
+        // Kill all DOTween animations on rooms button
+        if (roomsButton != null)
+        {
+            ((RectTransform)roomsButton.transform).DOKill();
+        }
+
         // Kill all DOTween animations on floor buttons
         foreach (GameObject floorButton in floorButtons)
         {
@@ -542,6 +758,9 @@ public class FloorButtonStacking : MonoBehaviour
 
         if (mainFloorButton != null)
             mainFloorButton.onClick.RemoveListener(ToggleFloorButtons);
+
+        if (roomsButtonComponent != null)
+            roomsButtonComponent.onClick.RemoveListener(OnRoomsButtonClicked);
 
         // Remove floor button listeners
         for (int i = 0; i < floorButtonComponents.Count; i++)

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "chrome-devtools-mcp@latest",
+        "--wsEndpoint=ws://127.0.0.1:9222/devtools/browser/<id>",
+        "--wsHeaders={\"Authorization\":\"Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJBbmFudGhAY3VyaW9zcGFyay5jbyIsInVzZXJJZCI6IjViODE1NzUwLThmYWUtMTFmMC04YmNkLWJiZjQ5OThkM2QwZCIsInNjb3BlcyI6WyJURU5BTlRfQURNSU4iXSwic2Vzc2lvbklkIjoiY2NhNWI1ZDktZjlmZi00ZjVkLTllNWYtZjUzOTZjYTAyZWI5IiwiZXhwIjoxNzYxNzQxNDU4LCJpc3MiOiJ0aGluZ3Nib2FyZC5pbyIsImlhdCI6MTc2MTczMjQ1OCwiZmlyc3ROYW1lIjoiQW5hbnRoIiwiZW5hYmxlZCI6dHJ1ZSwiaXNQdWJsaWMiOmZhbHNlLCJ0ZW5hbnRJZCI6IjI2YWFmMDcwLTIzYmUtMTFlZi05M2FkLWY3NGQxOGJiZjRkNyIsImN1c3RvbWVySWQiOiIxMzgxNDAwMC0xZGQyLTExYjItODA4MC04MDgwODA4MDgwODAifQ.Uj636CWVLHcLjPdZDcnG4SoZ08dO69tlCmjsrkQscrn4X4hRZn9DRL1tAFYcCB64ISH4lVx4SwMkYeEv1A0-uQ\"}"
+      ]
+    }
+  }
+}

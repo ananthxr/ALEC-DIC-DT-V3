@@ -1,7 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cmd /c \"dir /b Y:\\XCharts 2>nul || echo Directory not found\")"
+      "mcp__chrome-devtools__list_console_messages"
     ],
     "deny": [],
     "ask": []

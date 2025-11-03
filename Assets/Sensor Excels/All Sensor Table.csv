@@ -1,0 +1,673 @@
+Entity ID,Name,Type,Building,Floor,Room
+fff89aa0-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Corridor,room,,,Zone 1
+ffdf1f30-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Seating Area,room,,,Zone 1
+fe34a380-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 2,room,,,Zone 1
+fe27d240-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 3,room,,,Zone 1
+fc05c760-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Male Washroom,room,,,
+e7c680f0-dece-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Melvin Office,room,,,Zone 1
+dd3682c0-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 6,room,,,
+d55859c0-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 5,room,,,
+d121b090-dece-11ef-94c5-01236d0e69c4,White Space_White_Space-Corridor,room,,,White Space
+cbe8d500-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-IDF Room,room,,,Not Assigned
+cbe15af0-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Store Room,room,,,Zone 6
+ca080470-c732-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Male Toilet,room,,,Zone 7
+c18bd6b0-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 4,room,,,
+c0f57cc0-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Meeting Room,room,,,Zone 7
+c04e4040-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Reception,room,,,Zone 6
+c0342890-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Male Toilet,room,,,Zone 6
+c027cc80-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Female Toilet,room,,,Zone 6
+c0096f10-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Work Shop,room,,,Not Assigned
+bfb4e670-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Younes,room,,,Zone 5
+bf8e99c0-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Muayyad,room,,,Not Assigned
+bf6d5620-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Greg,room,,,Not Assigned
+b8545f40-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 3,room,,,
+b739dff0-ac96-11ef-b3dd-63d74b5efe4e,White Space_Electrical Room,room,,,White Space
+b7368490-ac96-11ef-b3dd-63d74b5efe4e,White Space_Office 02,room,,,White Space
+b7323ed0-ac96-11ef-b3dd-63d74b5efe4e,White Space_White Space 03,room,,,White Space
+b731f0b0-ac96-11ef-b3dd-63d74b5efe4e,White Space_Office 01,room,,,White Space
+b7234ab0-ac96-11ef-b3dd-63d74b5efe4e,White Space_White Space 02,room,,,White Space
+b7201660-ac96-11ef-b3dd-63d74b5efe4e,White Space_White Space 01,room,,,White Space
+b59749a0-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 6,room,,,Not Assigned
+b514a400-7f52-11f0-8bcd-bbf4998d3d0d,Block1 GF-DIC Server Room,room,,,
+b51129b0-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 1,room,,,Zone 1
+b3909390-0bb8-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Office-2,room,,,Not Assigned
+ae4f94a0-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Niall Clark,room,,,Zone 5
+a54f8840-df08-11ef-94c5-01236d0e69c4,White Space_Mezzanine Pantry,room,,,White Space
+9d4d4630-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 2,room,,,
+987f2c00-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Pantry Area,room,,,Zone-1
+960aa990-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Men's Toilet,room,,,Zone-1
+95e06540-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Women's Toilet,room,,,Zone-1
+8f3712c0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Reception,room,,,Zone-1
+8f188e40-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Work Station,room,,,Zone-1
+8efa57e0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Corridor,room,,,Zone-1
+8ee1c6d0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Design & Control room,room,,,Zone-1
+8eba1a90-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 6,room,,,Zone-1
+8e9e2e20-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 5,room,,,Zone-1
+8e8a2140-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 1,room,,,
+8e7fa9a0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 4,room,,,Zone-1
+8e614c30-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 3,room,,,Zone-1
+8e42a0a0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 2,room,,,Zone-1
+8e28fe20-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 1,room,,,Zone-1
+8e0808a0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Conference Room,room,,,Zone-1
+85bc4350-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Male Toilet,room,,,West wing
+85adeb70-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Female Toilet,room,,,West wing
+859b9bf0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Store-1,room,,,Exec.Wing
+8598b5c0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Executive Toilet,room,,,Exec.Wing
+859692e0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Store-2,room,,,West wing
+85902a40-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Coffee Point,room,,,West wing
+8430e860-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Corridor,room,,,West wing
+84304c20-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Muthu Kumar,room,,,West wing
+842db410-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Neil,room,,,West wing
+842a0a90-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception,room,,,West wing
+84134e40-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Breakout Area,room,,,Exec.Wing
+8410dd40-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Gerrie,room,,,West wing
+840fa4c0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Rejil Kumar,room,,,West wing
+83f9abc0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Nathan Hanns,room,,,Exec.Wing
+83f7d700-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Steve Mckenzie,room,,,Exec.Wing
+83f517e0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Ian Mcleod,room,,,Exec.Wing
+83ddbf50-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Board Room,room,,,Exec.Wing
+83dd7130-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Robert Mcdonnell,room,,,Exec.Wing
+83d533d0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Paul Yates,room,,,Exec.Wing
+74f4fd40-77ea-11ef-8f9b-033ad0625bc8,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD),room,,,First Floor
+6e746390-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Printer and Pantry Area,room,,,Not Assigned
+680274c0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Male Toilet,room,,,Block5-GF
+67e21b80-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Dressing Area,room,,,Block5-GF
+66531710-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Meeting Room,room,,,Block5-GF
+6637edf0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_ABS Office,room,,,Block5-GF
+66012680-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Work Shop,room,,,Block5-GF
+658566d0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Gym&Gaming Area,room,,,Block5-GF
+656534a0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Clinic,room,,,Block5-GF
+64897f80-77ea-11ef-8f9b-033ad0625bc8,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD),room,,,Ground Floor
+63460600-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Bjorn Viedge,room,,,Exec.Wing
+467c3a30-5e4b-11f0-a54f-c718692b063f,Block 3 PMV Block_Pantry,room,,,Zone-1
+3f893fa0-0bb9-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Female Toilet,room,,,Block5-GF
+3c67e400-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 2,room,,,Mezzanine
+3c51eb00-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 3,room,,,White Space
+3c3932e0-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 1,room,,,White Space
+3a689750-cbef-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Pantry,room,,,Not Assigned
+38f10040-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 5,room,,,Not Assigned
+37323940-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Mothers Room,room,,,Zone 2
+370bec90-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Female Toilet,room,,,Zone 2
+329e5940-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Printer Area,room,,,Zone 1
+3281f7a0-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Pantry,room,,,Zone 1
+3268f160-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 4,room,,,Zone 1
+32520e00-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Commercial ALT,room,,,Not Assigned
+303f7ba0-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 2,room,,,Zone 5
+3036f020-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 1,room,,,Not Assigned
+2e68c5e0-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-John Clark,room,,,Not Assigned
+2de69d90-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-FMD ALEC Lite,room,,,Not Assigned
+2dd27950-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 7,room,,,Not Assigned
+2db9c130-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Corridor,room,,,Not Assigned
+2a61d080-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Conference Room,room,,,West wing
+265af820-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Meeting Room 2,room,,,Not Assigned
+2658d540-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Meeting Room 1,room,,,Zone 6
+1e8de8b0-0bb8-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Corridor,room,,,Block5-GF
+18efe820-cbf0-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Corridor,room,,,Zone 5
+142f4b70-cbf3-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Printing Station,room,,,Zone 5
+1035bbf0-acc0-11ef-b3dd-63d74b5efe4e,White Space_Melvin's Office,room,,,White Space
+0ab29360-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Female Prayer Room,room,,,Zone 4
+0a9dabd0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Female Toilet,room,,,Zone 4
+0a86c870-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Male Toilet,room,,,Zone 4
+0a027d40-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Corridor,room,,,Zone 4
+09278690-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Corridor,room,,,Zone 3
+0904e360-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Open Work Station,room,,,Zone 3
+0662e850-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 01,room,,,Zone 4
+06404520-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 02,room,,,Zone 4
+06173950-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 01,room,,,Zone 4
+06129030-ae19-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Female Washroom,room,,,
+05c5e500-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 02,room,,,Zone 4
+0597f730-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Breakout Space,room,,,Not Assigned
+0549fe40-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Work Station 03,room,,,Not Assigned
+0525ad60-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Office 8,room,,,Not Assigned
+04f882e0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Kirubakaran,room,,,Not Assigned
+04d28450-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Desks,room,,,Zone 3
+04a5a7f0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Govind,room,,,Zone 3
+01f0c120-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Male Toilet,room,,,Zone 2
+018afa70-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Eng.Work Station,room,,,Not Assigned
+00bf4600-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-ALEC Lite Commercial,room,,,Not Assigned
+00abe510-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Sivaramakrishnan,room,,,Not Assigned
+ed71c460-dece-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Melvin Office_Presence-Z1-Melvin Office,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Melvin Office
+e51b88c0-c1d0-11ef-94c5-01236d0e69c4,White Space_Melvin's Office_Presence-Melvin's Office,Presence,DIC/Whitespace,DIC/Whitespace/First Floor,Melvin's Office
+e4e7a780-c1d0-11ef-94c5-01236d0e69c4,White Space_Electrical Room_Presence-Electrical Room,Presence,DIC/Whitespace,DIC/Whitespace/GroundFloor,Electrical Room
+e4dc83f0-c1d0-11ef-94c5-01236d0e69c4,White Space_Office 01_Presence-Office 01,Presence,DIC/Whitespace,DIC/Whitespace/GroundFloor,Office 01
+e4dad640-c1d0-11ef-94c5-01236d0e69c4,White Space_Office 02_Presence-Office 02,Presence,DIC/Whitespace,DIC/Whitespace/GroundFloor,Office 02
+e4d4e2d0-c1d0-11ef-94c5-01236d0e69c4,White Space_White Space 03_Presence-White Space 03,Presence,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space 03
+e4ce7a30-c1d0-11ef-94c5-01236d0e69c4,White Space_White Space 02_Presence-White Space 02,Presence,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space 02
+e4cb45e0-c1d0-11ef-94c5-01236d0e69c4,White Space_White Space 01_Presence-White Space 01,Presence,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space 01
+d4e80e00-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Corridor_Presence-Z2-Corridor,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+d2a76630-dece-11ef-94c5-01236d0e69c4,White Space_White_Space-Corridor_Presence-White_Space-Corridor,Presence,DIC/Whitespace,DIC/Whitespace/GroundFloor,White_Space-Corridor
+cd291a90-c732-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Male Toilet_Presence-Z7-Male Toilet,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z7-Male Toilet
+cbe308a0-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-IDF Room_Presence-Z6-IDF Room,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z6-IDF Room
+cbdf5f20-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Store Room_Presence-Z6-Store Room,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Store Room
+c0f359e0-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Meeting Room_Presence-Z7-Meeting Room,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z7-Meeting Room
+c047d7a0-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Reception_Presence-Z6-Reception,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Reception
+c031b790-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Male Toilet_Presence-Z6-Male Toilet,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Male Toilet
+c01b4960-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Female Toilet_Presence-Z6-Female Toilet,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Female Toilet
+c0057770-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Work Shop_Presence-Z5-Work Shop,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Work Shop
+bfb2c390-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Younes_Presence-Z5-Younes,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Younes
+bf8bdaa0-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Muayyad_Presence-Z5-Muayyad,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Muayyad
+bf6b0c30-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Greg_Presence-Z5-Greg,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Greg
+bc51b320-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 6_Presence-Z2-Office 6,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 6
+bacee3b0-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 1_Presence-Z1-Office 1,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 1
+b674c7c0-0bb8-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Office-2_Presence-Office-2,Presence,DIC/Main,DIC/Main/Ground Floor,Office-2
+b58e2240-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Niall Clark_Presence-Z5-Niall Clark,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Niall Clark
+a7050070-df08-11ef-94c5-01236d0e69c4,White Space_Mezzanine Pantry_Presence-Mezzanine Pantry,Presence,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Pantry
+8b76a1f0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Coffee Point_Presence-Z2-Coffee Point,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Coffee Point
+8b58b9b0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Female Toilet_Presence-Z2-Female Toilet,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Female Toilet
+8b3971e0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Male Toilet_Presence-Z2-Male Toilet,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Male Toilet
+8b1bb0b0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Store-2_Presence-Z2-Store-2,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Store-2
+8afc41d0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Executive Toilet_Presence-Z1-Executive Toilet,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Executive Toilet
+8adf43f0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Store-1_Presence-Z1-Store-1,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Store-1
+8aa8f1b0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Muthu Kumar_Presence-Z2-Muthu Kumar,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Muthu Kumar
+8a901280-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Neil_Presence-Z2-Neil,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Neil
+8a733bb0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Gerrie_Presence-Z2-Gerrie,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Gerrie
+8a54b730-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Rejil Kumar_Presence-Z2-Rejil Kumar,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Rejil Kumar
+8a095650-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception_Presence-Z2-Reception,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Reception
+89e99950-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception_Presence-Z2-Reception Entrance,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Reception
+89db8f90-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Breakout Area_Presence-Z1-Breakout Area,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Breakout Area
+89872e00-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Steve Mckenzie_Presence-Z1-Steve Mckenzie,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Steve Mckenzie
+896f3930-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Nathan Hanns_Presence-Z1-Nathan Hanns,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Nathan Hanns
+89487750-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Board Room_Presence-Z1-Board Room,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Board Room
+892ab620-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Robert Mcdonnell_Presence-Z1-Robert Mcdonnell,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Robert Mcdonnell
+890b9560-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Ian Mcleod_Presence-Z1-Ian Mcleod,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Ian Mcleod
+88e6f660-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Paul Yates_Presence-Z1-Paul Yates,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Paul Yates
+81dd4c90-c279-11ef-94c5-01236d0e69c4,PIR128,Presence,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Female Washroom
+81898740-c279-11ef-94c5-01236d0e69c4,PIR127,Presence,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Male Washroom
+812ebd10-c279-11ef-94c5-01236d0e69c4,PIR126,Presence,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 6
+80c3ed50-c279-11ef-94c5-01236d0e69c4,PIR125,Presence,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 5
+80729900-c279-11ef-94c5-01236d0e69c4,PIR124,Presence,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 4
+806838c0-c279-11ef-94c5-01236d0e69c4,FF-01-PIR,Presence,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+80211da0-c279-11ef-94c5-01236d0e69c4,PIR123,Presence,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 3
+800187b0-c279-11ef-94c5-01236d0e69c4,FF-02-PIR,Presence,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+7fc282e0-c279-11ef-94c5-01236d0e69c4,PIR122,Presence,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 2
+7f687c00-c279-11ef-94c5-01236d0e69c4,PIR121,Presence,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 1
+7f403380-c279-11ef-94c5-01236d0e69c4,FF-03-PIR,Presence,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+7ee5de80-c279-11ef-94c5-01236d0e69c4,FF-WASH-PIR,Presence,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+7e887c40-c279-11ef-94c5-01236d0e69c4,GF-01-PIR,Presence,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+7e355330-c279-11ef-94c5-01236d0e69c4,GF-02-PIR,Presence,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+7ddafe30-c279-11ef-94c5-01236d0e69c4,GF-03-PIR,Presence,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+7d864e80-c279-11ef-94c5-01236d0e69c4,GF-WASH-PIR,Presence,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+7949dcf0-cbf3-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Pantry_Presence-Pantry,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Pantry
+74d64110-cbf1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Corridor_Presence-Corridor,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Corridor
+6f095090-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Male Toilet_Presence-Male Toilet,Presence,DIC/Main,DIC/Main/Ground Floor,Male Toilet
+6ef10da0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Dressing Area_Presence-Dressing Area,Presence,DIC/Main,DIC/Main/Ground Floor,Dressing Area
+6eb404a0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Meeting Room_Presence-Meeting Room,Presence,DIC/Main,DIC/Main/Ground Floor,Meeting Room
+6e72b5e0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Printer and Pantry Area_Presence-Printer and Pantry Area,Presence,DIC/Main,DIC/Main/Ground Floor,Printer and Pantry Area
+6e587720-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_ABS Office_Presence-ABS Office,Presence,DIC/Main,DIC/Main/Ground Floor,ABS Office
+6de59110-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Work Shop_Presence-Work Shop,Presence,DIC/Main,DIC/Main/Ground Floor,Work Shop
+6d823b60-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Clinic_Presence-Clinic,Presence,DIC/Main,DIC/Main/Ground Floor,Clinic
+6d6d2cc0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Gym&Gaming Area_Presence-Gym&Gaming Area,Presence,DIC/Main,DIC/Main/Ground Floor,Gym&Gaming Area
+6942ebe0-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Bjorn Viedge_Presence-Z1-Bjorn Viedge,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Bjorn Viedge
+54bfb2f0-0bb9-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Female Toilet_Presence-Female Toilet,Presence,DIC/Main,DIC/Main/Ground Floor,Female Toilet
+3fa66d30-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 3_Presence-Mezzanine Office Space 3,Presence,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Office Space 3
+3f9248f0-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 1_Presence-Mezzanine Office Space 1,Presence,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Office Space 1
+3f5bcfa0-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 2_Presence-Mezzanine Office Space 2,Presence,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Office Space 2
+38eedd60-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 5_Presence-Z2-Office 5,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 5
+38bd6d20-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 7_Presence-Z2-Office 7,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 7
+38a7e950-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-FMD ALEC Lite_Presence-Z2-FMD ALEC Lite,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-FMD ALEC Lite
+378c6730-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-John Clark_Presence-Z2-John Clark,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-John Clark
+374af160-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Corridor_Presence-Z2-Corridor,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+37306480-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Mothers Room_Presence-Z2-Mothers Room,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Mothers Room
+370a17d0-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Female Toilet_Presence-Z2-Female Toilet,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Female Toilet
+35d18bf0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Office 8_Presence-Z3-Office 8,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Office 8
+354eee70-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Corridor_Presence-Z1-Corridor,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Corridor
+32970640-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Printer Area_Presence-Z1-Printer Area,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Printer Area
+3286d390-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 2_Presence-Z5-Procurement Office 2,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Procurement Office 2
+328022e0-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Pantry_Presence-Z1-Pantry,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Pantry
+326bf890-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 1_Presence-Z5-Procurement Office 1,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Procurement Office 1
+3266f590-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 4_Presence-Z1-Office 4,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 4
+32503940-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Commercial ALT_Presence-Z1-Commercial ALT,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Commercial ALT
+304cb500-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Conference Room_Presence-Z2-Conference Room,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Conference Room
+297382c0-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Meeting Room 2_Presence-Z6-Meeting Room 2,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Meeting Room 2
+295af1b0-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Meeting Room 1_Presence-Z6-Meeting Room 1,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Meeting Room 1
+227ab340-0bb8-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Corridor_Presence-Corridor,Presence,DIC/Main,DIC/Main/Ground Floor,Corridor
+1c5ef590-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Eng.Work Station_Presence-Z2-Eng.Work Station,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Eng.Work Station
+1b3bd250-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Sivaramakrishnan_Presence-Z2-Sivaramakrishnan,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Sivaramakrishnan
+1b2d7a70-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-ALEC Lite Commercial_Presence-Z2-ALEC Lite Commercial,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-ALEC Lite Commercial
+1b0ea7d0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Male Toilet_Presence-Z2-Male Toilet,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Male Toilet
+1aed8b40-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Female Prayer Room_Presence-Z4-Female Prayer Room,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Female Prayer Room
+1ad680d0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Female Toilet_Presence-Z4-Female Toilet,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Female Toilet
+1ac3e330-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Male Toilet_Presence-Z4-Male Toilet,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Male Toilet
+1aa90830-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 02_Presence-Z4-BIM Manager 02,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z4-BIM Manager 02
+1a93d280-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Corridor_Presence-Z4-Corridor,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Corridor
+1a933640-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 01_Presence-Z4-BIM Manager 01,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z4-BIM Manager 01
+1a606670-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 02_Presence-Z4-Eng Work Station 02,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 02
+1a44c820-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 01_Presence-Z4-Eng Work Station 01,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 01
+1a2ea810-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Breakout Space_Presence-Z4-Breakout Space,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Breakout Space
+1a194b50-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Desks_Presence-Z3-Eng Desks,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Desks
+1a07bf20-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Corridor_Presence-Z3-Corridor,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Corridor
+19f34cc0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Open Work Station_Presence-Z3-Open Work Station,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Open Work Station
+19e25cd0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Govind_Presence-Z3-Govind,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Govind
+19bc8550-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Work Station 03_Presence-Z3-Eng Work Station 03,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Work Station 03
+19961190-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Kirubakaran_Presence-Z3-Kirubakaran,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Kirubakaran
+17255fb0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 3_Presence-Z1-Office 3,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 3
+16f798f0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 2_Presence-Z1-Office 2,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 2
+16befcc0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Seating Area_Presence-Z1-Seating Area,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Seating Area
+165845f0-cbf3-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Printing Station_Presence-Z6-Printing Station,Presence,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Printing Station
+1114af50-088b-11f0-94c5-01236d0e69c4,DIC Server Room_Vestibule_Presence-Vestibule,Presence,DIC/Main,DIC/Main/Ground Floor,Vestibule
+10f8c2e0-088b-11f0-94c5-01236d0e69c4,DIC Server Room_Server Room_Presence-Server Room,Presence,DIC/Main,DIC/Main/Ground Floor,Server Room
+e6d3ca00-8305-11f0-8bcd-bbf4998d3d0d,Block1 GF-DIC Server Room_Damper,Other,,,
+dee24010-8305-11f0-8bcd-bbf4998d3d0d,Block1 GF-DIC Server Room_Water Leak Sensor,Other,,,
+41c74150-0a0f-11f0-94c5-01236d0e69c4,DIC Server Room_None_Other-Water Leak Sensor 3,Other,DIC/Main,DIC/Main/Ground Floor,None
+40d60380-0a0f-11f0-94c5-01236d0e69c4,DIC Server Room_None_Other-Water Leak Sensor 4,Other,DIC/Main,DIC/Main/Ground Floor,None
+40a5a4b0-0a0f-11f0-94c5-01236d0e69c4,DIC Server Room_None_Other-Water Leak Sensor 2,Other,DIC/Main,DIC/Main/Ground Floor,None
+407fcd30-0a0f-11f0-94c5-01236d0e69c4,DIC Server Room_None_Other-Water Leak Sensor 1,Other,DIC/Main,DIC/Main/Ground Floor,None
+11519140-088b-11f0-94c5-01236d0e69c4,DIC Server Room_None_Other-Flood Alarm,Other,DIC/Main,DIC/Main/Ground Floor,None
+10c8d940-088b-11f0-94c5-01236d0e69c4,DIC Server Room_None_Other-Damper 4 Status,Other,DIC/Main,DIC/Main/Ground Floor,None
+10a23e70-088b-11f0-94c5-01236d0e69c4,DIC Server Room_None_Other-Damper 3 Status,Other,DIC/Main,DIC/Main/Ground Floor,None
+1083b9f0-088b-11f0-94c5-01236d0e69c4,DIC Server Room_None_Other-Damper 2 Status,Other,DIC/Main,DIC/Main/Ground Floor,None
+106c1340-088b-11f0-94c5-01236d0e69c4,DIC Server Room_None_Other-Damper 1 Status,Other,DIC/Main,DIC/Main/Ground Floor,None
+ed477270-0933-11f0-94c5-01236d0e69c4,DIC_Server_Room-Access_Control,Loxone ACS,,,
+c6758710-d3e4-11ef-94c5-01236d0e69c4,504F94FFFEC0B2D0,Loxone ACS,,,White Space
+ae864ee0-2642-11f0-94c5-01236d0e69c4,B04DF3BA,Loxone ACS,,,
+73ebf2d0-5e46-11f0-a54f-c718692b063f,B04DF3BB,Loxone ACS,,,
+533e9430-dd35-11ef-94c5-01236d0e69c4,504F94FFFEC0B33B,Loxone ACS,,,White Space
+38841480-dd35-11ef-94c5-01236d0e69c4,504F94FFFEC0B346,Loxone ACS,,,White Space
+fff6c5e0-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Corridor_Lights-Z1-Corridor,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Corridor
+ffdd4a70-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Seating Area_Lights-Z1-Seating Area,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Seating Area
+ffcc0c60-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Printer Area_Lights-Z1-Printer Area,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Printer Area
+ffb83640-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Pantry_Lights-Z1-Pantry L3,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Pantry
+ffa12bd0-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Pantry_Lights-Z1-Pantry L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Pantry
+ff8a2160-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Pantry_Lights-Z1-Pantry L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Pantry
+ff790a60-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 4_Lights-Z1-Office 4 L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 4
+ff65d080-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 4_Lights-Z1-Office 4 L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 4
+fd1adb10-5e47-11f0-a54f-c718692b063f,Block 3 PMV Block_Work Station_Lights-Work Station CL-2,Lights,DIC/Main,DIC/Main/Ground Floor,Work Station
+f1243210-cc17-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Meeting Room_Lights-Z7-Meeting Room SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z7-Meeting Room
+eee25860-cc17-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Meeting Room_Lights-Z7-Meeting Room CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z7-Meeting Room
+eed75be0-cc17-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Reception_Lights-Z6-Reception DL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Reception
+e85be320-dece-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Melvin Office_Lights-Z1-Melvin Office L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Melvin Office
+e8494580-dece-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Melvin Office_Lights-Z1-Melvin Office L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Melvin Office
+e38c3630-c1d0-11ef-94c5-01236d0e69c4,White Space_Electrical Room_Lights-Electrical Room,Lights,DIC/Whitespace,DIC/Whitespace/GroundFloor,Electrical Room
+e38be810-c1d0-11ef-94c5-01236d0e69c4,White Space_Office 01_Lights-Office 01,Lights,DIC/Whitespace,DIC/Whitespace/GroundFloor,Office 01
+e37e0560-c1d0-11ef-94c5-01236d0e69c4,White Space_White Space 03_Lights-White Space 03,Lights,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space 03
+e37d9030-c1d0-11ef-94c5-01236d0e69c4,White Space_White Space 02_Lights-White Space 02,Lights,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space 02
+e372e1d0-c1d0-11ef-94c5-01236d0e69c4,White Space_White Space 01_Lights-White Space 01,Lights,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space 01
+dc60ed10-1b62-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Conference Room_Lights-Z2-Conference Room Wall LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Conference Room
+d5a71840-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception_Lights-Z2-Reception-LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Reception
+d247c6d0-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 5_Lights-Office 5 TL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 5
+d11f3f90-dece-11ef-94c5-01236d0e69c4,White Space_White_Space-Corridor_Lights-White_Space-Corridor,Lights,DIC/Whitespace,DIC/Whitespace/GroundFloor,White_Space-Corridor
+d0de24b0-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 5_Lights-Office 5 CL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 5
+ca05e190-c732-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Male Toilet_Lights-Z7-Male Toilet,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z7-Male Toilet
+c51c5f60-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Female Toilet_Lights-Z6-Female Toilet,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Female Toilet
+bc982030-092d-11f0-94c5-01236d0e69c4,DIC Server Room_Vestibule_Lights-Vestibule,Lights,DIC/Main,DIC/Main/Ground Floor,Vestibule
+bc657770-092d-11f0-94c5-01236d0e69c4,DIC Server Room_Server Room_Lights-Server Room,Lights,DIC/Main,DIC/Main/Ground Floor,Server Room
+b7dcd150-0bba-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Work Shop_Lights-Work Shop CL 2,Lights,DIC/Main,DIC/Main/Ground Floor,Work Shop
+b78143d0-0bba-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Work Shop_Lights-Work Shop CL 1,Lights,DIC/Main,DIC/Main/Ground Floor,Work Shop
+b6ce6a70-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Muayyad_Lights-Z5-Muayyad CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Muayyad
+b673c6f0-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 6_Lights-Z2-Office 6 L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 6
+b67092a0-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 6_Lights-Z2-Office 6 L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 6
+b5a2d1c0-0bb8-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Office-2_Lights-Office-2 TL,Lights,DIC/Main,DIC/Main/Ground Floor,Office-2
+b5875a80-0bb8-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Office-2_Lights-Office-2 CL,Lights,DIC/Main,DIC/Main/Ground Floor,Office-2
+b57e1c50-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 1_Lights-Z1-Office 1 L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 1
+b578c520-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 1_Lights-Z1-Office 1 L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 1
+b1505180-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Younes_Lights-Z5-Younes TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Younes
+b1399530-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Younes_Lights-Z5-Younes CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Younes
+b0edbf20-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Store Room_Lights-Z6-Store Room,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Store Room
+b0d6b4b0-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-IDF Room_Lights-Z6-IDF Room,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-IDF Room
+b0c9e370-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Reception_Lights-Z6-Reception,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Reception
+b093b840-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Male Toilet_Lights-Z6-Male Toilet,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Male Toilet
+af7046e0-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Niall Clark_Lights-Z5-Niall Clark TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Niall Clark
+af59b1a0-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Niall Clark_Lights-Z5-Niall Clark CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Niall Clark
+af41e3e0-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Muayyad_Lights-Z5-Muayyad TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Muayyad
+af11d330-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Greg_Lights-Z5-Greg TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Greg
+aefc9d80-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Greg_Lights-Z5-Greg CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Greg
+a9d36460-139a-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Conference Room_Lights-Z2-Conference Room-CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Conference Room
+a5a103a0-df08-11ef-94c5-01236d0e69c4,White Space_Mezzanine Pantry_Lights-Mezzanine Pantry,Lights,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Pantry
+982c22c0-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Corridor_Lights-Corridor CL,Lights,DIC/Main,DIC/Main/Ground Floor,Corridor
+97f163b0-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 6_Lights-Office 6 TL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 6
+97ed4500-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 3_Lights-Office 3 TL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 3
+97d77310-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 3_Lights-Office 3 CL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 3
+97b93cb0-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 4_Lights-Office 4 TL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 4
+97a873d0-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 1_Lights-Office 1 TL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 1
+97576da0-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 2_Lights-Office 2 TL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 2
+9660dfe0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Conference Room_Lights-Conference Room TL,Lights,DIC/Main,DIC/Main/Ground Floor,Conference Room
+965c7310-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Conference Room_Lights-Conference Room CL,Lights,DIC/Main,DIC/Main/Ground Floor,Conference Room
+94dc3470-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 6_Lights-Office 6 CL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 6
+8c82e1d0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception_Lights-Z2-Reception Entrance,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Reception
+8c01a3e0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Coffee Point_Lights-Z2-Coffee Point-HL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Coffee Point
+8c012eb0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Coffee Point_Lights-Z2-Coffee Point-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Coffee Point
+8bef0640-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception_Lights-Z2-Reception-HL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Reception
+8bea7260-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception_Lights-Z2-Reception-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Reception
+8be2f850-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Corridor_Lights-Z2-Corridor LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+8bb4e370-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Corridor_Lights-Z2-Corridor-HL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+881eeb70-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Paul Yates_Lights-Z1-Paul Yates-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Paul Yates
+87d8bab0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Male Toilet_Lights-Z2-Male Toilet,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Male Toilet
+87d1dce0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Female Toilet_Lights-Z2-Female Toilet,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Female Toilet
+87c49671-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Store-2_Lights-Z2-Store-2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Store-2
+87bad270-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Executive Toilet_Lights-Z1-Executive Toilet,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Executive Toilet
+87b50610-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Store-1_Lights-Z1-Store-1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Store-1
+87ab6920-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Muthu Kumar_Lights-Z2-Muthu Kumar-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Muthu Kumar
+87aa57b0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Neil_Lights-Z2-Neil-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Neil
+8796cfb0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Gerrie_Lights-Z2-Gerrie-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Gerrie
+878da7f0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Rejil Kumar_Lights-Z2-Rejil Kumar-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Rejil Kumar
+878d0bb0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Neil_Lights-Z2-Neil-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Neil
+87856a90-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Corridor_Lights-Z2-Corridor-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+877e1790-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Muthu Kumar_Lights-Z2-Muthu Kumar-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Muthu Kumar
+876ed550-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Gerrie_Lights-Z2-Gerrie-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Gerrie
+876167d0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Rejil Kumar_Lights-Z2-Rejil Kumar-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Rejil Kumar
+874ef140-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Breakout Area_Lights-Z1-Breakout Area-LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Breakout Area
+87404b40-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Nathan Hanns_Lights-Z1-Nathan Hanns-LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Nathan Hanns
+873f87f0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Steve Mckenzie_Lights-Z1-Steve Mckenzie-LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Steve Mckenzie
+8737e6d0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Robert Mcdonnell_Lights-Z1-Robert Mcdonnell-LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Robert Mcdonnell
+87332be0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Board Room_Lights-Z1-Board Room-LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Board Room
+87212a80-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Ian Mcleod_Lights-Z1-Ian Mcleod-LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Ian Mcleod
+871ae8f0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Paul Yates_Lights-Z1-Paul Yates-LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Paul Yates
+8705b340-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Breakout Area_Lights-Z1-Breakout Area-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Breakout Area
+86f6bf20-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Steve Mckenzie_Lights-Z1-Steve Mckenzie-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Steve Mckenzie
+857d8ca0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Nathan Hanns_Lights-Z1-Nathan Hanns-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Nathan Hanns
+8566a941-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Robert Mcdonnell_Lights-Z1-Robert Mcdonnell-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Robert Mcdonnell
+8566a940-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Ian Mcleod_Lights-Z1-Ian Mcleod-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Ian Mcleod
+854f9ed0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Breakout Area_Lights-Z1-Breakout Area-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Breakout Area
+85403580-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Steve Mckenzie_Lights-Z1-Steve Mckenzie-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Steve Mckenzie
+85389460-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Nathan Hanns_Lights-Z1-Nathan Hanns-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Nathan Hanns
+8532a0f0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Board Room_Lights-Z1-Board Room-CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Board Room
+852a8aa0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Robert Mcdonnell_Lights-Z1-Robert Mcdonnell-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Robert Mcdonnell
+851b4860-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Ian Mcleod_Lights-Z1-Ian Mcleod-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Ian Mcleod
+8513a740-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Paul Yates_Lights-Z1-Paul Yates-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Paul Yates
+76d658c0-fd73-11ef-94c5-01236d0e69c4,White Space_Melvin's Office_Lights-Melvin's Office,Lights,DIC/Whitespace,DIC/Whitespace/First Floor,Melvin's Office
+75c16650-fd73-11ef-94c5-01236d0e69c4,White Space_Office 02_Lights-Office 02,Lights,DIC/Whitespace,DIC/Whitespace/GroundFloor,Office 02
+748a7200-6091-11f0-a54f-c718692b063f,Block 3 PMV Block_Pantry_Lights-Pantry,Lights,DIC/Main,DIC/Main/Ground Floor,Pantry
+73bf45b0-25ec-11f0-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks TL-4,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Desks
+73828ad0-25ec-11f0-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks TL-2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Desks
+70910200-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Printer and Pantry Area_Lights-Printer and Pantry Area CL,Lights,DIC/Main,DIC/Main/Ground Floor,Printer and Pantry Area
+6da0e6f0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Gym&Gaming Area_Lights-Gym&Gaming Area,Lights,DIC/Main,DIC/Main/Ground Floor,Gym&Gaming Area
+6d137400-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Gym&Gaming Area_Lights-Gym&Gaming Area LED,Lights,DIC/Main,DIC/Main/Ground Floor,Gym&Gaming Area
+6c588870-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Dressing Area_Lights-Dressing Area CL,Lights,DIC/Main,DIC/Main/Ground Floor,Dressing Area
+6bed4380-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Meeting Room_Lights-Meeting Room TL,Lights,DIC/Main,DIC/Main/Ground Floor,Meeting Room
+6bd0bad0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Meeting Room_Lights-Meeting Room CL,Lights,DIC/Main,DIC/Main/Ground Floor,Meeting Room
+6bb088a0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_ABS Office_Lights-ABS Office TL,Lights,DIC/Main,DIC/Main/Ground Floor,ABS Office
+6b93b1d0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_ABS Office_Lights-ABS Office CL,Lights,DIC/Main,DIC/Main/Ground Floor,ABS Office
+6afaa620-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Clinic_Lights-Clinic CL,Lights,DIC/Main,DIC/Main/Ground Floor,Clinic
+6adc21a0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Gym&Gaming Area_Lights-Gym&Gaming Area CL-2,Lights,DIC/Main,DIC/Main/Ground Floor,Gym&Gaming Area
+67216b70-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Bjorn Viedge_Lights-Z1-Bjorn Viedge-LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Bjorn Viedge
+66d435d0-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Bjorn Viedge_Lights-Z1-Bjorn Viedge-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Bjorn Viedge
+658343f0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Gym&Gaming Area_Lights-Gym&Gaming Area CL-1,Lights,DIC/Main,DIC/Main/Ground Floor,Gym&Gaming Area
+64c998c0-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Bjorn Viedge_Lights-Z1-Bjorn Viedge-SL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Bjorn Viedge
+5cb3e350-cbef-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Pantry_Lights-Z5-Pantry LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Pantry
+5cad53a0-cbef-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Pantry_Lights-Z5-Pantry CL2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Pantry
+5ca9f840-cbef-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Pantry_Lights-Z5-Pantry CL1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Pantry
+57261ad0-66ee-11f0-a54f-c718692b063f,Block 3 PMV Block_Design & Control room_Lights-Design & Control room CL,Lights,DIC/Main,DIC/Main/Ground Floor,Design & Control room
+45dd3580-25ec-11f0-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks TL-1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Desks
+42c57ee0-0bb9-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Female Toilet_Lights-Female Toilet CL,Lights,DIC/Main,DIC/Main/Ground Floor,Female Toilet
+3f65d910-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 4_Lights-Office 4 CL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 4
+3f4de440-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 2_Lights-Office 2 CL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 2
+3efb5770-66d2-11f0-a54f-c718692b063f,Block 3 PMV Block_Office 1_Lights-Office 1 CL,Lights,DIC/Main,DIC/Main/Ground Floor,Office 1
+3d8b2e50-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 2_Lights-Mezzanine Office Space 2,Lights,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Office Space 2
+3d2874e0-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 1_Lights-Mezzanine Office Space 1,Lights,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Office Space 1
+3ce56920-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Corridor_Lights-Z2-Corridor-1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+3cc229b0-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Coffee Point_Lights-Z2-Coffee Point,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Coffee Point
+3b7ed440-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Corridor_Lights-Z2-Corridor,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+3b7b06a0-5e48-11f0-a54f-c718692b063f,Block 3 PMV Block_Work Station_Lights-Work Station CL-1,Lights,DIC/Main,DIC/Main/Ground Floor,Work Station
+3b6299b0-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Muthu Kumar_Lights-Z2-Muthu Kumar,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Muthu Kumar
+3aa3dd90-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Neil_Lights-Z2-Neil,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Neil
+3a8a8930-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Gerrie_Lights-Z2-Gerrie,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Gerrie
+3a6e2790-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Rejil Kumar_Lights-Z2-Rejil Kumar,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Rejil Kumar
+3a3eda30-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception_Lights-Z2-Reception,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Reception
+3a0309b0-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Breakout Area_Lights-Z1-Breakout Area,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Breakout Area
+39cb7880-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Male Toilet_Lights-Z6-Male Toilet CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Male Toilet
+39c45300-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Steve Mckenzie_Lights-Z1-Steve Mckenzie,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Steve Mckenzie
+39a7ca50-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Nathan Hanns_Lights-Z1-Nathan Hanns,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Nathan Hanns
+39687760-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Board Room_Lights-Z1-Board Room,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Board Room
+3950f7c0-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Robert Mcdonnell_Lights-Z1-Robert Mcdonnell,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Robert Mcdonnell
+39324c30-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Ian Mcleod_Lights-Z1-Ian Mcleod,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Ian Mcleod
+390548c0-1467-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Paul Yates_Lights-Z1-Paul Yates,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Paul Yates
+309c41a0-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 2_Lights-Z5-Procurement Office 2 TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Procurement Office 2
+30990d50-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 2_Lights-Z5-Procurement Office 2 CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Procurement Office 2
+3082ed40-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 1_Lights-Z5-Procurement Office 1 TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Procurement Office 1
+3079c580-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 1_Lights-Z5-Procurement Office 1 CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Procurement Office 1
+2f4caa20-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Conference Room_Lights-Z2-Conference Room-TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Conference Room
+2e476f20-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Conference Room_Lights-Z2-Conference Room-LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Conference Room
+2be03320-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Conference Room_Lights-Z2-Conference Room,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Conference Room
+2a0366b0-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Female Toilet_Lights-Z6-Female Toilet CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Female Toilet
+2648a8a0-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Meeting Room 2_Lights-Z6-Meeting Room 2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Meeting Room 2
+2641f1e0-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Meeting Room 1_Lights-Z6-Meeting Room 1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Meeting Room 1
+25a48d80-cbf2-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Work Shop_Lights-Z5-Work Shop CL2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Work Shop
+25934f70-cbf2-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Work Shop_Lights-Z5-Work Shop CL1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Work Shop
+22c96820-c27d-11ef-94c5-01236d0e69c4,GF-A1,Lights,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+22ae6610-c27d-11ef-94c5-01236d0e69c4,GF-A2,Lights,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+22a199c0-139b-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Board Room_Lights-Z1-Board Room Wall LED,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Board Room
+22777790-c27d-11ef-94c5-01236d0e69c4,GF-A4,Lights,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+221c3830-c27d-11ef-94c5-01236d0e69c4,GF-WASH,Lights,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+21c565a0-c27d-11ef-94c5-01236d0e69c4,GF-OUTDOOR,Lights,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+2171ee70-c27d-11ef-94c5-01236d0e69c4,FF-A1,Lights,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+214734f0-c27d-11ef-94c5-01236d0e69c4,FF-A2,Lights,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+21210f50-c27d-11ef-94c5-01236d0e69c4,FF-A4,Lights,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+20f4cf30-c27d-11ef-94c5-01236d0e69c4,FF-WASH,Lights,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+20cfbb00-c27d-11ef-94c5-01236d0e69c4,FF-OUTDOOR,Lights,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+1fcb9170-c27d-11ef-94c5-01236d0e69c4,SW116,Lights,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Female Washroom
+1f7c6000-c27d-11ef-94c5-01236d0e69c4,SW115,Lights,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Male Washroom
+1e5963d0-c27d-11ef-94c5-01236d0e69c4,SW112 2,Lights,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 6
+1da33430-c9c5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Corridor_Lights-Z6-Corridor CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Corridor
+1d999640-c27d-11ef-94c5-01236d0e69c4,SW112 1,Lights,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 6
+1bba27e0-c27d-11ef-94c5-01236d0e69c4,SW111 2,Lights,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 5
+1b5b3f00-c27d-11ef-94c5-01236d0e69c4,SW111 1,Lights,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 5
+1b01ad50-c27d-11ef-94c5-01236d0e69c4,SW114 2,Lights,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 3
+1a547d60-c27d-11ef-94c5-01236d0e69c4,SW114 1,Lights,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 2
+199cc621-c27d-11ef-94c5-01236d0e69c4,SW113 2,Lights,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 1
+19392250-c27d-11ef-94c5-01236d0e69c4,SW113 1,Lights,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 1
+14463490-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Breakout Space_Lights-Z4-Breakout Space CL1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Breakout Space
+142a1b50-cbf3-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Printing Station_Lights-Z6-Printing Station,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Printing Station
+137f3b10-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Office 8_Lights-Z3-Office 8 CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Office 8
+12112c20-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-John Clark_Lights-Z2-John Clark L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-John Clark
+0ab0bea0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Female Prayer Room_Lights-Z4-Female Prayer Room,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Female Prayer Room
+0a9b3ad0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Female Toilet_Lights-Z4-Female Toilet,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Female Toilet
+0a84cca0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Male Toilet_Lights-Z4-Male Toilet,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Male Toilet
+0a716bb0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 02_Lights-Z4-BIM Manager 02 TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-BIM Manager 02
+0a5de3b0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 02_Lights-Z4-BIM Manager 02 CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-BIM Manager 02
+0a4ad0e0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 01_Lights-Z4-BIM Manager 01 TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-BIM Manager 01
+0a379700-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 01_Lights-Z4-BIM Manager 01 CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-BIM Manager 01
+0a22fd90-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Corridor_Lights-Z4-Corridor CL3,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Corridor
+0a11bf80-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Corridor_Lights-Z4-Corridor CL2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Corridor
+0a00a880-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Corridor_Lights-Z4-Corridor CL1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Corridor
+09ede3d0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 02_Lights-Z4-Eng Work Station 02 CL2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 02
+09db6d40-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 02_Lights-Z4-Eng Work Station 02 CL1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 02
+09c489e0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 01_Lights-Z4-Eng Work Station 01 CL3,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 01
+09ae90e0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 01_Lights-Z4-Eng Work Station 01 CL2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 01
+099def10-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 01_Lights-Z4-Eng Work Station 01 CL1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 01
+098ab530-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Breakout Space_Lights-Z4-Breakout Space CL3,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Breakout Space
+09792900-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Breakout Space_Lights-Z4-Breakout Space CL2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Breakout Space
+0965a2a0-cbf0-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Corridor_Lights-Z6-Corridor L,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Corridor
+0952b540-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Desks
+093a7250-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Corridor_Lights-Z3-Corridor CL2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Corridor
+092563b0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Corridor_Lights-Z3-Corridor CL1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Corridor
+0913fe90-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Open Work Station_Lights-Z3-Open Work Station TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Open Work Station
+09007690-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Open Work Station_Lights-Z3-Open Work Station CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Open Work Station
+08ed3cb0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Govind_Lights-Z3-Govind TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Govind
+08dac620-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Govind_Lights-Z3-Govind CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Govind
+08c47f00-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Work Station 03_Lights-Z3-Eng Work Station 03 TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Work Station 03
+08b1e160-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Work Station 03_Lights-Z3-Eng Work Station 03 CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Work Station 03
+089e5960-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Office 8_Lights-Z3-Office 8 TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Office 8
+08754d90-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Kirubakaran_Lights-Z3-Kirubakaran TL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Kirubakaran
+086261d0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Kirubakaran_Lights-Z3-Kirubakaran CL,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Kirubakaran
+07db5690-25ec-11f0-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks TL-5,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Desks
+07466990-25ec-11f0-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks TL-3,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Desks
+035225e0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Eng.Work Station_Lights-Z2-Eng.Work Station L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Eng.Work Station
+033dda90-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Eng.Work Station_Lights-Z2-Eng.Work Station L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Eng.Work Station
+032bb220-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 5_Lights-Z2-Office 5 L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 5
+0319d7d0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 5_Lights-Z2-Office 5 L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 5
+02e58160-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 7_Lights-Z2-Office 7 L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 7
+02d49170-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 7_Lights-Z2-Office 7 L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 7
+02c30540-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-FMD ALEC Lite_Lights-Z2-FMD ALEC Lite L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-FMD ALEC Lite
+02adf6a0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-FMD ALEC Lite_Lights-Z2-FMD ALEC Lite L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-FMD ALEC Lite
+029abcc0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-John Clark_Lights-Z2-John Clark L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-John Clark
+02884630-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Sivaramakrishnan_Lights-Z2-Sivaramakrishnan L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Sivaramakrishnan
+02644370-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Sivaramakrishnan_Lights-Z2-Sivaramakrishnan L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Sivaramakrishnan
+02501f30-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-ALEC Lite Commercial_Lights-Z2-ALEC Lite Commercial L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-ALEC Lite Commercial
+023ce550-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-ALEC Lite Commercial_Lights-Z2-ALEC Lite Commercial L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-ALEC Lite Commercial
+0227fdc0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Corridor_Lights-Z2-Corridor L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+021475c0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Corridor_Lights-Z2-Corridor L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+0201b110-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Mothers Room_Lights-Z2-Mothers Room,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Mothers Room
+01eeec60-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Male Toilet_Lights-Z2-Male Toilet,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Male Toilet
+01e9c840-5e48-11f0-a54f-c718692b063f,Block 3 PMV Block_Reception_Lights-Reception TL,Lights,DIC/Main,DIC/Main/Ground Floor,Reception
+01ddae50-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Female Toilet_Lights-Z2-Female Toilet,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Female Toilet
+005bf050-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Commercial ALT_Lights-Z1-Commercial ALT,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Commercial ALT
+00488f60-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 2_Lights-Z1-Office 2 L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 2
+003184f0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 2_Lights-Z1-Office 2 L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 2
+001d60b0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 3_Lights-Z1-Office 3 L2,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 3
+000803f0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 3_Lights-Z1-Office 3 L1,Lights,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 3
+ff2861e0-0b93-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Printer and Pantry Area_HVAC-Printer and Pantry Area,HVAC,DIC/Main,DIC/Main/Ground Floor,Printer and Pantry Area
+fe5990a0-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Pantry_HVAC-Z1-Pantry,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Pantry
+fe32a7b0-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 2_HVAC-Z1-Office 2,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 2
+fe214290-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 3_HVAC-Z1-Office 3,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 3
+fe0e08b0-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 4_HVAC-Z1-Office 4,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 4
+fd9a8660-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Commercial ALT_HVAC-Z1-Commercial ALT,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Commercial ALT
+e7c48520-dece-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Melvin Office_HVAC-Z1-Melvin Office,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Melvin Office
+e3c21340-c1d0-11ef-94c5-01236d0e69c4,White Space_Melvin's Office_HVAC-Melvin's Office,HVAC,DIC/Whitespace,DIC/Whitespace/First Floor,Melvin's Office
+e365c270-c1d0-11ef-94c5-01236d0e69c4,White Space_Office 01_HVAC-Office 01,HVAC,DIC/Whitespace,DIC/Whitespace/GroundFloor,Office 01
+e34a9950-c1d0-11ef-94c5-01236d0e69c4,White Space_Electrical Room_HVAC-Electrical Room,HVAC,DIC/Whitespace,DIC/Whitespace/GroundFloor,Electrical Room
+e3454220-c1d0-11ef-94c5-01236d0e69c4,White Space_Office 02_HVAC-Office 02,HVAC,DIC/Whitespace,DIC/Whitespace/GroundFloor,Office 02
+e33fc3e0-c1d0-11ef-94c5-01236d0e69c4,White Space_White Space 03_HVAC-White Space 03,HVAC,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space 03
+e33c6880-c1d0-11ef-94c5-01236d0e69c4,White Space_White Space 02_HVAC-White Space 02,HVAC,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space 02
+e336ea40-c1d0-11ef-94c5-01236d0e69c4,White Space_White Space 01_HVAC-White Space 01,HVAC,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space 01
+cec9b3d0-62c5-11f0-a54f-c718692b063f,Block 3 PMV Block_Men's Toilet_HVAC-Men's Toilet,HVAC,DIC/Main,DIC/Main/Ground Floor,Men's Toilet
+ca6a6fc0-c732-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Male Toilet_HVAC-Z7-Male Toilet,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z7-Male Toilet
+c58f1e60-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Meeting Room_HVAC-Z7-Meeting Room,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z7-Meeting Room
+b590b9f0-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 6_HVAC-Z2-Office 6,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 6
+b50e4380-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 1_HVAC-Z1-Office 1,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Office 1
+b3c410a0-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Work Shop_HVAC-Z5-Work Shop 3,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Work Shop
+b38e70b0-0bb8-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Office-2_HVAC-Office-2,HVAC,DIC/Main,DIC/Main/Ground Floor,Office-2
+b28af460-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Reception_HVAC-Z6-Reception,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Reception
+b207e1b0-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Work Shop_HVAC-Z5-Work Shop 2,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Work Shop
+b1dd0120-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Work Shop_HVAC-Z5-Work Shop 1,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Work Shop
+ae4d4ab0-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Niall Clark_HVAC-Z5-Niall Clark,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Niall Clark
+ae45a990-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Muayyad_HVAC-Z5-Muayyad,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Muayyad
+a54d6560-df08-11ef-94c5-01236d0e69c4,White Space_Mezzanine Pantry_HVAC-Mezzanine Pantry,HVAC,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Pantry
+8f358c20-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Reception_HVAC-Reception,HVAC,DIC/Main,DIC/Main/Ground Floor,Reception
+8f1707a0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Work Station_HVAC-Work Station,HVAC,DIC/Main,DIC/Main/Ground Floor,Work Station
+8ef88320-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Corridor_HVAC-Corridor,HVAC,DIC/Main,DIC/Main/Ground Floor,Corridor
+8ee01920-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Design & Control room_HVAC-Design & Control room,HVAC,DIC/Main,DIC/Main/Ground Floor,Design & Control room
+8eb845d0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 6_HVAC-Office 6,HVAC,DIC/Main,DIC/Main/Ground Floor,Office 6
+8e9c5960-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 5_HVAC-Office 5,HVAC,DIC/Main,DIC/Main/Ground Floor,Office 5
+8e7dfbf0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 4_HVAC-Office 4,HVAC,DIC/Main,DIC/Main/Ground Floor,Office 4
+8e5f5060-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 3_HVAC-Office 3,HVAC,DIC/Main,DIC/Main/Ground Floor,Office 3
+8e40f2f0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 2_HVAC-Office 2,HVAC,DIC/Main,DIC/Main/Ground Floor,Office 2
+8e272960-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 1_HVAC-Office 1,HVAC,DIC/Main,DIC/Main/Ground Floor,Office 1
+8e048630-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Conference Room_HVAC-Conference Room,HVAC,DIC/Main,DIC/Main/Ground Floor,Conference Room
+8669c250-62c6-11f0-a54f-c718692b063f,Block 3 PMV Block_Women's Toilet_HVAC-Women's Toilet,HVAC,DIC/Main,DIC/Main/Ground Floor,Women's Toilet
+85aba180-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Female Toilet_HVAC-Z2-Female Toilet,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Female Toilet
+85aade30-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Male Toilet_HVAC-Z2-Male Toilet,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Male Toilet
+8595f6a0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Store-1_HVAC-Z1-Store-1,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Store-1
+8594be20-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Executive Toilet_HVAC-Z1-Executive Toilet,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Executive Toilet
+85947000-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Store-2_HVAC-Z2-Store-2,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Store-2
+858e2e70-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Coffee Point_HVAC-Z2-Coffee Point,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Coffee Point
+842cc9b1-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Muthu Kumar_HVAC-Z2-Muthu Kumar,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Muthu Kumar
+842cc9b0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Corridor_HVAC-Z2-Corridor,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+84259dc0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Neil_HVAC-Z2-Neil,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Neil
+841438a0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception_HVAC-Z2-Reception,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Reception
+840eba60-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Gerrie_HVAC-Z2-Gerrie,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Gerrie
+840851c0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Rejil Kumar_HVAC-Z2-Rejil Kumar,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Rejil Kumar
+8400d7b0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Breakout Area_HVAC-Z1-Breakout Area,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Breakout Area
+83f0d220-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Steve Mckenzie_HVAC-Z1-Steve Mckenzie,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Steve Mckenzie
+83f08400-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Nathan Hanns_HVAC-Z1-Nathan Hanns,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Nathan Hanns
+83f05cf0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Ian Mcleod_HVAC-Z1-Ian Mcleod,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Ian Mcleod
+83d13c30-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Board Room_HVAC-Z1-Board Room,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Board Room
+83c9c220-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Robert Mcdonnell_HVAC-Z1-Robert Mcdonnell,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Robert Mcdonnell
+83bace00-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Paul Yates_HVAC-Z1-Paul Yates,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Paul Yates
+6800c710-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Male Toilet_HVAC-Male Toilet,HVAC,DIC/Main,DIC/Main/Ground Floor,Male Toilet
+67e06dd0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Dressing Area_HVAC-Dressing Area,HVAC,DIC/Main,DIC/Main/Ground Floor,Dressing Area
+66f91b10-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Gym&Gaming Area_HVAC-Gym&Gaming Area,HVAC,DIC/Main,DIC/Main/Ground Floor,Gym&Gaming Area
+66516960-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Meeting Room_HVAC-Meeting Room,HVAC,DIC/Main,DIC/Main/Ground Floor,Meeting Room
+66364040-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_ABS Office_HVAC-ABS Office,HVAC,DIC/Main,DIC/Main/Ground Floor,ABS Office
+65ff2ab0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Work Shop_HVAC-Work Shop,HVAC,DIC/Main,DIC/Main/Ground Floor,Work Shop
+65618b20-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Clinic_HVAC-Clinic,HVAC,DIC/Main,DIC/Main/Ground Floor,Clinic
+63443140-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Bjorn Viedge_HVAC-Z1-Bjorn Viedge,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Bjorn Viedge
+5c4988c0-cbef-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Pantry_HVAC-Z5-Pantry,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Pantry
+5024c9b0-65f0-11f0-a54f-c718692b063f,Block 3 PMV Block_Pantry_HVAC-Pantry,HVAC,DIC/Main,DIC/Main/Ground Floor,Pantry
+4849bce0-c27c-11ef-94c5-01236d0e69c4,FF-IDU-09,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+47fde6d0-c27c-11ef-94c5-01236d0e69c4,FF-IDU-08,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+47a3b8e0-c27c-11ef-94c5-01236d0e69c4,FF-IDU-02,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+478cfc90-c27c-11ef-94c5-01236d0e69c4,AC2,HVAC,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 6
+4742fb40-c27c-11ef-94c5-01236d0e69c4,FF-IDU-06,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+472fe870-c27c-11ef-94c5-01236d0e69c4,AC1,HVAC,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 6
+46f131c0-c27c-11ef-94c5-01236d0e69c4,FF-IDU-05,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+469b4990-c27c-11ef-94c5-01236d0e69c4,FF-IDU-07,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+46395370-c27c-11ef-94c5-01236d0e69c4,FF-IDU-01,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+46246be0-c27c-11ef-94c5-01236d0e69c4,AC3,HVAC,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 5
+45df73a0-c27c-11ef-94c5-01236d0e69c4,FF-IDU-03,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+45a577e0-c27c-11ef-94c5-01236d0e69c4,AC4,HVAC,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 3
+454afbd0-c27c-11ef-94c5-01236d0e69c4,FF-IDU-04,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)
+44cfd860-c27c-11ef-94c5-01236d0e69c4,GF-IDU-03,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+4496c700-c27c-11ef-94c5-01236d0e69c4,GF-IDU-06,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+446508a0-c27c-11ef-94c5-01236d0e69c4,GF-IDU-09,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+444c9ea0-c27c-11ef-94c5-01236d0e69c4,AC6,HVAC,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 2
+4427d890-c27c-11ef-94c5-01236d0e69c4,GF-IDU-08,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+43fc82d0-c27c-11ef-94c5-01236d0e69c4,GF-IDU-05,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+43cff490-c27c-11ef-94c5-01236d0e69c4,GF-IDU-01,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+43904690-cc0b-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-IDF Room_HVAC-Z6-IDF Room,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z6-IDF Room
+438ef3f0-c27c-11ef-94c5-01236d0e69c4,AC5,HVAC,DIC/Main,DIC/Main/Ground Floor,GROUND FLOOR (ALEC DIC YARD) - Area 1
+43777450-c27c-11ef-94c5-01236d0e69c4,GF-IDU-04,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+4356e710-cc0b-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Store Room_HVAC-Z6-Store Room,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Store Room
+4323af00-c27c-11ef-94c5-01236d0e69c4,GF-IDU-02,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+42c429e0-c27c-11ef-94c5-01236d0e69c4,GF-IDU-07,HVAC,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)
+3f871cc0-0bb9-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Female Toilet_HVAC-Female Toilet,HVAC,DIC/Main,DIC/Main/Ground Floor,Female Toilet
+3c5fa6a0-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 2_HVAC-Mezzanine Office Space 2,HVAC,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Office Space 2
+3c4a70f0-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 3_HVAC-Mezzanine Office Space 3,HVAC,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Office Space 3
+3c32a330-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 1_HVAC-Mezzanine Office Space 1,HVAC,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Office Space 1
+303d31b0-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 2_HVAC-Z5-Procurement Office 2,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Procurement Office 2
+3034cd40-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 1_HVAC-Z5-Procurement Office 1,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Procurement Office 1
+2e66ca10-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-John Clark_HVAC-Z2-John Clark,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-John Clark
+2de4c8d0-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-FMD ALEC Lite_HVAC-Z2-FMD ALEC Lite,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-FMD ALEC Lite
+2dd05670-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 7_HVAC-Z2-Office 7,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 7
+2db7c560-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Corridor_HVAC-Z2-Corridor,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+2a57be60-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Conference Room_HVAC-Z2-Conference Room,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Conference Room
+2731a910-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Female Toilet_HVAC-Z6-Female Toilet,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Female Toilet
+272748d0-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Meeting Room 2_HVAC-Z6-Meeting Room 2,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Meeting Room 2
+2722b4f0-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Meeting Room 1_HVAC-Z6-Meeting Room 1,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z6-Meeting Room 1
+16bf7750-c29f-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Younes_HVAC-Z5-Younes,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Younes
+16743d80-c29f-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Greg_HVAC-Z5-Greg,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Greg
+0eb11130-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Female Toilet_HVAC-Z2-Female Toilet,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Female Toilet
+0ead2530-088b-11f0-94c5-01236d0e69c4,DIC Server Room_Server Room_HVAC-Server Room,HVAC,DIC/Main,DIC/Main/Ground Floor,Server Room
+0dea17b0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Female Prayer Room_HVAC-Z4-Female Prayer Room,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Female Prayer Room
+0ddbbfd0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Female Toilet_HVAC-Z4-Female Toilet,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Female Toilet
+0dbced30-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Male Toilet_HVAC-Z4-Male Toilet,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Male Toilet
+0daa76a0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Open Work Station_HVAC-Z3-Open Work Station,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Open Work Station
+0d87ac60-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Male Toilet_HVAC-Z2-Male Toilet,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Male Toilet
+09a28490-cbf0-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Corridor_HVAC-Z6-Corridor,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Corridor
+0660ec80-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 01_HVAC-Z4-BIM Manager 01,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z4-BIM Manager 01
+063e7060-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 02_HVAC-Z4-BIM Manager 02,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z4-BIM Manager 02
+06153d80-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 01_HVAC-Z4-Eng Work Station 01,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 01
+05efb420-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 02_HVAC-Z4-Eng Work Station 02 2,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 02
+05c41040-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 02_HVAC-Z4-Eng Work Station 02 1,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 02
+0595fb60-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Breakout Space_HVAC-Z4-Breakout Space,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Breakout Space
+0571aa80-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Work Station 03_HVAC-Z3-Eng Work Station 03 2,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Work Station 03
+05482980-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Work Station 03_HVAC-Z3-Eng Work Station 03 1,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Work Station 03
+0523b190-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Office 8_HVAC-Z3-Office 8,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Office 8
+04f638f2-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Kirubakaran_HVAC-Z3-Kirubakaran,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Kirubakaran
+04d08880-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Desks_HVAC-Z3-Eng Desks,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Desks
+04a3d330-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Govind_HVAC-Z3-Govind,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Govind
+0188fea0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Eng.Work Station_HVAC-Z2-Eng.Work Station,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Eng.Work Station
+00bd7140-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-ALEC Lite Commercial_HVAC-Z2-ALEC Lite Commercial,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-ALEC Lite Commercial
+00aa1050-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Sivaramakrishnan_HVAC-Z2-Sivaramakrishnan,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Sivaramakrishnan
+0096af60-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 5_HVAC-Z2-Office 5,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Office 5
+00764ca0-df08-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Mothers Room_HVAC-Z2-Mothers Room,HVAC,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Mothers Room
+83e5fb70-6799-11f0-a54f-c718692b063f,DIC/Labour Welfare Area/GroundFloor,Floor,,,
+7d4b9d10-6799-11f0-a54f-c718692b063f,DIC/Labour Welfare Area/First Floor,Floor,,,
+22e75ad0-6799-11f0-a54f-c718692b063f,DIC/Main/Ground Floor,Floor,,,
+1c7b8680-6799-11f0-a54f-c718692b063f,DIC/Main/Mezzanine Floor,Floor,,,
+12f070d0-6799-11f0-a54f-c718692b063f,DIC/Whitespace/GroundFloor,Floor,,,
+0d8d32e0-6799-11f0-a54f-c718692b063f,DIC/Whitespace/First Floor,Floor,,,
+c59d84d0-6798-11f0-a54f-c718692b063f,DIC/Labour Welfare Area,Building,,,
+bd42d8d0-6798-11f0-a54f-c718692b063f,DIC/Whitespace,Building,,,
+b6499190-6798-11f0-a54f-c718692b063f,DIC/Main,Building,,,
+ef35e620-c1d0-11ef-94c5-01236d0e69c4,White Space_White Space 03_Air Quality-White Space 03,Air Quality,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space 03
+cd0078d0-6091-11f0-a54f-c718692b063f,DIC Mezzanine Block1_Z2-Coffee Point_Air Quality-Z2-Coffee Point Sensor,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Coffee Point
+9e917de0-18f3-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Board Room_Air Quality-Z1-Board Room Sensor,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z1-Board Room
+3edf8180-18f3-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Conference Room_Air Quality-Z2-Conference Room Sensor,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Conference Room
+3e9a8940-18f3-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception_Air Quality-Z2-Reception Sensor,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Reception
+3d4c77a0-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 1_Air Quality-Mezzanine Office Space 1,Air Quality,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine Office Space 1
+0debd340-d491-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Corridor_Air Quality-Z6-Corridor,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Corridor
+0d860c90-d491-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Work Shop_Air Quality-Z5-Work Shop 1,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Work Shop
+0d712500-d491-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Work Shop_Air Quality-Z5-Work Shop 2,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z5-Work Shop
+0d5bba60-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 02_Air Quality-Z4-Eng Work Station 02,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 02
+0d44d700-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 01_Air Quality-Z4-Eng Work Station 01,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z4-Eng Work Station 01
+0d2b0d70-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Corridor_Air Quality-Z2-Corridor,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Corridor
+0d2abf50-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Work Station 03_Air Quality-Z3-Eng Work Station 03,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z3-Eng Work Station 03
+0d042480-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Eng.Work Station_Air Quality-Z2-Eng.Work Station,Air Quality,DIC/Main,DIC/Main/Mezzanine Floor,Z2-Eng.Work Station
+e52df2b0-4fea-11ef-93ad-f74d18bbf4d7,Whitespace,ACREL AC METERS,,,
+d827cc40-86ee-11ef-b2cf-bbac95068e34,Block 5,ACREL AC METERS,,,
+7aa58300-5574-11f0-a54f-c718692b063f,Block 3 PMV,ACREL AC METERS,,,
+396d4760-ff34-11ef-94c5-01236d0e69c4,Block 1,ACREL AC METERS,,,
+28138b90-86ef-11ef-b2cf-bbac95068e34,Block 2,ACREL AC METERS,,,
+165d0bb0-c402-11ef-94c5-01236d0e69c4,Block 4,ACREL AC METERS,,,
+1122be10-86ef-11ef-b2cf-bbac95068e34,Block 3,ACREL AC METERS,,,
+01750ca0-412c-11f0-94c5-01236d0e69c4,Block 5 - GF,ACREL AC METERS,,,
