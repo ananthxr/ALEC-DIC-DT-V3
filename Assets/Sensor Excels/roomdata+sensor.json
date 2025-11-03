@@ -1,0 +1,3109 @@
+[
+  {
+    "Entity ID": "fff89aa0-daf5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "354eee70-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Corridor_Presence-Z1-Corridor",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "fff6c5e0-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Corridor_Lights-Z1-Corridor",
+        "Sensor Type": "Lights"
+      }
+    ]
+  },
+  {
+    "Entity ID": "ffdf1f30-daf5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Seating Area",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "16befcc0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Seating Area_Presence-Z1-Seating Area",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "ffdd4a70-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Seating Area_Lights-Z1-Seating Area",
+        "Sensor Type": "Lights"
+      }
+    ]
+  },
+  {
+    "Entity ID": "fe34a380-daf5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Office 2",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "16f798f0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 2_Presence-Z1-Office 2",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "00488f60-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 2_Lights-Z1-Office 2 L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "003184f0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 2_Lights-Z1-Office 2 L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "fe32a7b0-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 2_HVAC-Z1-Office 2",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "fe27d240-daf5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Office 3",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "17255fb0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 3_Presence-Z1-Office 3",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "001d60b0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 3_Lights-Z1-Office 3 L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "000803f0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 3_Lights-Z1-Office 3 L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "fe214290-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 3_HVAC-Z1-Office 3",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "fc05c760-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Male Washroom",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "e7c680f0-dece-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Melvin Office",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "ed71c460-dece-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Melvin Office_Presence-Z1-Melvin Office",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "e85be320-dece-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Melvin Office_Lights-Z1-Melvin Office L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "e8494580-dece-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Melvin Office_Lights-Z1-Melvin Office L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "e7c48520-dece-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Melvin Office_HVAC-Z1-Melvin Office",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "dd3682c0-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 6",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "d55859c0-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 5",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "d121b090-dece-11ef-94c5-01236d0e69c4",
+    "Name": "White Space_White_Space-Corridor",
+    "Floor": "DIC/Whitespace/GroundFloor",
+    "Sensors": [
+      {
+        "Sensor ID": "d2a76630-dece-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White_Space-Corridor_Presence-White_Space-Corridor",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "d11f3f90-dece-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White_Space-Corridor_Lights-White_Space-Corridor",
+        "Sensor Type": "Lights"
+      }
+    ]
+  },
+  {
+    "Entity ID": "cbe8d500-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-IDF Room",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "cbe308a0-c1e5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-IDF Room_Presence-Z6-IDF Room",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "b0d6b4b0-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-IDF Room_Lights-Z6-IDF Room",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "43904690-cc0b-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-IDF Room_HVAC-Z6-IDF Room",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "cbe15af0-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Store Room",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "cbdf5f20-c1e5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Store Room_Presence-Z6-Store Room",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "b0edbf20-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Store Room_Lights-Z6-Store Room",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "4356e710-cc0b-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Store Room_HVAC-Z6-Store Room",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "ca080470-c732-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z7-Male Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "cd291a90-c732-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z7-Male Toilet_Presence-Z7-Male Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "ca05e190-c732-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z7-Male Toilet_Lights-Z7-Male Toilet",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "ca6a6fc0-c732-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z7-Male Toilet_HVAC-Z7-Male Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "c18bd6b0-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 4",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "c0f57cc0-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z7-Meeting Room",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "c0f359e0-c1e5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z7-Meeting Room_Presence-Z7-Meeting Room",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "f1243210-cc17-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z7-Meeting Room_Lights-Z7-Meeting Room SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "eee25860-cc17-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z7-Meeting Room_Lights-Z7-Meeting Room CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "c58f1e60-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z7-Meeting Room_HVAC-Z7-Meeting Room",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "c04e4040-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Reception",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "c047d7a0-c1e5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Reception_Presence-Z6-Reception",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "eed75be0-cc17-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Reception_Lights-Z6-Reception DL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b0c9e370-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Reception_Lights-Z6-Reception",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b28af460-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Reception_HVAC-Z6-Reception",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "c0342890-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Male Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "c031b790-c1e5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Male Toilet_Presence-Z6-Male Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "b093b840-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Male Toilet_Lights-Z6-Male Toilet",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "39cb7880-cbe5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Male Toilet_Lights-Z6-Male Toilet CL",
+        "Sensor Type": "Lights"
+      }
+    ]
+  },
+  {
+    "Entity ID": "c027cc80-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Female Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "c01b4960-c1e5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Female Toilet_Presence-Z6-Female Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "c51c5f60-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Female Toilet_Lights-Z6-Female Toilet",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2a0366b0-cbe5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Female Toilet_Lights-Z6-Female Toilet CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2731a910-cbe5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Female Toilet_HVAC-Z6-Female Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "c0096f10-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Work Shop",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "c0057770-c1e5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Work Shop_Presence-Z5-Work Shop",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "25a48d80-cbf2-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Work Shop_Lights-Z5-Work Shop CL2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "25934f70-cbf2-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Work Shop_Lights-Z5-Work Shop CL1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b3c410a0-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Work Shop_HVAC-Z5-Work Shop 3",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "b207e1b0-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Work Shop_HVAC-Z5-Work Shop 2",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "b1dd0120-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Work Shop_HVAC-Z5-Work Shop 1",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "0d860c90-d491-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Work Shop_Air Quality-Z5-Work Shop 1",
+        "Sensor Type": "Air Quality"
+      },
+      {
+        "Sensor ID": "0d712500-d491-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Work Shop_Air Quality-Z5-Work Shop 2",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "bfb4e670-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Younes",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "bfb2c390-c1e5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Younes_Presence-Z5-Younes",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "b1505180-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Younes_Lights-Z5-Younes TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b1399530-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Younes_Lights-Z5-Younes CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "16bf7750-c29f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Younes_HVAC-Z5-Younes",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "bf8e99c0-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Muayyad",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "bf8bdaa0-c1e5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Muayyad_Presence-Z5-Muayyad",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "b6ce6a70-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Muayyad_Lights-Z5-Muayyad CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "af41e3e0-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Muayyad_Lights-Z5-Muayyad TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "ae45a990-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Muayyad_HVAC-Z5-Muayyad",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "bf6d5620-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Greg",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "bf6b0c30-c1e5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Greg_Presence-Z5-Greg",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "af11d330-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Greg_Lights-Z5-Greg TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "aefc9d80-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Greg_Lights-Z5-Greg CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "16743d80-c29f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Greg_HVAC-Z5-Greg",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "b8545f40-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 3",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "b739dff0-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_Electrical Room",
+    "Floor": "DIC/Whitespace/GroundFloor",
+    "Sensors": [
+      {
+        "Sensor ID": "e4e7a780-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Electrical Room_Presence-Electrical Room",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "e38c3630-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Electrical Room_Lights-Electrical Room",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "e34a9950-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Electrical Room_HVAC-Electrical Room",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "b7368490-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_Office 02",
+    "Floor": "DIC/Whitespace/GroundFloor",
+    "Sensors": [
+      {
+        "Sensor ID": "e4dad640-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Office 02_Presence-Office 02",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "75c16650-fd73-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Office 02_Lights-Office 02",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "e3454220-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Office 02_HVAC-Office 02",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "b7323ed0-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_White Space 03",
+    "Floor": "DIC/Whitespace/GroundFloor",
+    "Sensors": [
+      {
+        "Sensor ID": "e4d4e2d0-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White Space 03_Presence-White Space 03",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "e37e0560-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White Space 03_Lights-White Space 03",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "e33fc3e0-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White Space 03_HVAC-White Space 03",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "ef35e620-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White Space 03_Air Quality-White Space 03",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "b731f0b0-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_Office 01",
+    "Floor": "DIC/Whitespace/GroundFloor",
+    "Sensors": [
+      {
+        "Sensor ID": "e4dc83f0-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Office 01_Presence-Office 01",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "e38be810-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Office 01_Lights-Office 01",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "e365c270-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Office 01_HVAC-Office 01",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "b7234ab0-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_White Space 02",
+    "Floor": "DIC/Whitespace/GroundFloor",
+    "Sensors": [
+      {
+        "Sensor ID": "e4ce7a30-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White Space 02_Presence-White Space 02",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "e37d9030-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White Space 02_Lights-White Space 02",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "e33c6880-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White Space 02_HVAC-White Space 02",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "b7201660-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_White Space 01",
+    "Floor": "DIC/Whitespace/GroundFloor",
+    "Sensors": [
+      {
+        "Sensor ID": "e4cb45e0-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White Space 01_Presence-White Space 01",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "e372e1d0-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White Space 01_Lights-White Space 01",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "e336ea40-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_White Space 01_HVAC-White Space 01",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "b59749a0-dec1-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Office 6",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "bc51b320-dec1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 6_Presence-Z2-Office 6",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "b673c6f0-dec1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 6_Lights-Z2-Office 6 L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b67092a0-dec1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 6_Lights-Z2-Office 6 L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b590b9f0-dec1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 6_HVAC-Z2-Office 6",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "b514a400-7f52-11f0-8bcd-bbf4998d3d0d",
+    "Name": "Block1 GF-DIC Server Room",
+    "Floor": "",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "b51129b0-dec1-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Office 1",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "bacee3b0-dec1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 1_Presence-Z1-Office 1",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "b57e1c50-dec1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 1_Lights-Z1-Office 1 L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b578c520-dec1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 1_Lights-Z1-Office 1 L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b50e4380-dec1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 1_HVAC-Z1-Office 1",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "b3909390-0bb8-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Office-2",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "b674c7c0-0bb8-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Office-2_Presence-Office-2",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "b5a2d1c0-0bb8-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Office-2_Lights-Office-2 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b5875a80-0bb8-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Office-2_Lights-Office-2 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b38e70b0-0bb8-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Office-2_HVAC-Office-2",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "ae4f94a0-c6a1-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Niall Clark",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "b58e2240-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Niall Clark_Presence-Z5-Niall Clark",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "af7046e0-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Niall Clark_Lights-Z5-Niall Clark TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "af59b1a0-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Niall Clark_Lights-Z5-Niall Clark CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "ae4d4ab0-c6a1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Niall Clark_HVAC-Z5-Niall Clark",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "a54f8840-df08-11ef-94c5-01236d0e69c4",
+    "Name": "White Space_Mezzanine Pantry",
+    "Floor": "DIC/Whitespace/First Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "a7050070-df08-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Pantry_Presence-Mezzanine Pantry",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "a5a103a0-df08-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Pantry_Lights-Mezzanine Pantry",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "a54d6560-df08-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Pantry_HVAC-Mezzanine Pantry",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "9d4d4630-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 2",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "987f2c00-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Pantry Area",
+    "Floor": "",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "960aa990-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Men's Toilet",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "cec9b3d0-62c5-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Men's Toilet_HVAC-Men's Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "95e06540-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Women's Toilet",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8669c250-62c6-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Women's Toilet_HVAC-Women's Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8f3712c0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Reception",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "01e9c840-5e48-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Reception_Lights-Reception TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8f358c20-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Reception_HVAC-Reception",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8f188e40-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Work Station",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "fd1adb10-5e47-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Work Station_Lights-Work Station CL-2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3b7b06a0-5e48-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Work Station_Lights-Work Station CL-1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8f1707a0-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Work Station_HVAC-Work Station",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8efa57e0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Corridor",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "982c22c0-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Corridor_Lights-Corridor CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8ef88320-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Corridor_HVAC-Corridor",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8ee1c6d0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Design & Control room",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "57261ad0-66ee-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Design & Control room_Lights-Design & Control room CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8ee01920-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Design & Control room_HVAC-Design & Control room",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8eba1a90-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 6",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "97f163b0-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 6_Lights-Office 6 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "94dc3470-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 6_Lights-Office 6 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8eb845d0-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Office 6_HVAC-Office 6",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8e9e2e20-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 5",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "d247c6d0-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 5_Lights-Office 5 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "d0de24b0-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 5_Lights-Office 5 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8e9c5960-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Office 5_HVAC-Office 5",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8e8a2140-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 1",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "8e7fa9a0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 4",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "97b93cb0-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 4_Lights-Office 4 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3f65d910-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 4_Lights-Office 4 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8e7dfbf0-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Office 4_HVAC-Office 4",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8e614c30-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 3",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "97ed4500-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 3_Lights-Office 3 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "97d77310-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 3_Lights-Office 3 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8e5f5060-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Office 3_HVAC-Office 3",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8e42a0a0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 2",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "97576da0-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 2_Lights-Office 2 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3f4de440-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 2_Lights-Office 2 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8e40f2f0-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Office 2_HVAC-Office 2",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8e28fe20-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 1",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "97a873d0-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 1_Lights-Office 1 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3efb5770-66d2-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Office 1_Lights-Office 1 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8e272960-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Office 1_HVAC-Office 1",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8e0808a0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Conference Room",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "9660dfe0-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Conference Room_Lights-Conference Room TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "965c7310-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Conference Room_Lights-Conference Room CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8e048630-1073-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "Block 3 PMV Block_Conference Room_HVAC-Conference Room",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "85bc4350-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Male Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8b3971e0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Male Toilet_Presence-Z2-Male Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "87d8bab0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Male Toilet_Lights-Z2-Male Toilet",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "85aade30-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Male Toilet_HVAC-Z2-Male Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "85adeb70-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Female Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8b58b9b0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Female Toilet_Presence-Z2-Female Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "87d1dce0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Female Toilet_Lights-Z2-Female Toilet",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "85aba180-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Female Toilet_HVAC-Z2-Female Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "859b9bf0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Store-1",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8adf43f0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Store-1_Presence-Z1-Store-1",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "87b50610-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Store-1_Lights-Z1-Store-1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8595f6a0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Store-1_HVAC-Z1-Store-1",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8598b5c0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Executive Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8afc41d0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Executive Toilet_Presence-Z1-Executive Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "87bad270-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Executive Toilet_Lights-Z1-Executive Toilet",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8594be20-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Executive Toilet_HVAC-Z1-Executive Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "859692e0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Store-2",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8b1bb0b0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Store-2_Presence-Z2-Store-2",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "87c49671-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Store-2_Lights-Z2-Store-2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "85947000-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Store-2_HVAC-Z2-Store-2",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "85902a40-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Coffee Point",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8b76a1f0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Coffee Point_Presence-Z2-Coffee Point",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "8c01a3e0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Coffee Point_Lights-Z2-Coffee Point-HL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8c012eb0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Coffee Point_Lights-Z2-Coffee Point-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3cc229b0-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Coffee Point_Lights-Z2-Coffee Point",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "858e2e70-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Coffee Point_HVAC-Z2-Coffee Point",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "cd0078d0-6091-11f0-a54f-c718692b063f",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Coffee Point_Air Quality-Z2-Coffee Point Sensor",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8430e860-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "d4e80e00-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Corridor_Presence-Z2-Corridor",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "8be2f850-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Corridor_Lights-Z2-Corridor LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8bb4e370-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Corridor_Lights-Z2-Corridor-HL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "87856a90-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Corridor_Lights-Z2-Corridor-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3ce56920-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Corridor_Lights-Z2-Corridor-1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3b7ed440-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Corridor_Lights-Z2-Corridor",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "842cc9b0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Corridor_HVAC-Z2-Corridor",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "84304c20-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Muthu Kumar",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8aa8f1b0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Muthu Kumar_Presence-Z2-Muthu Kumar",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "87ab6920-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Muthu Kumar_Lights-Z2-Muthu Kumar-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "877e1790-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Muthu Kumar_Lights-Z2-Muthu Kumar-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3b6299b0-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Muthu Kumar_Lights-Z2-Muthu Kumar",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "842cc9b1-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Muthu Kumar_HVAC-Z2-Muthu Kumar",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "842db410-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Neil",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8a901280-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Neil_Presence-Z2-Neil",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "87aa57b0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Neil_Lights-Z2-Neil-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "878d0bb0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Neil_Lights-Z2-Neil-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3aa3dd90-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Neil_Lights-Z2-Neil",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "84259dc0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Neil_HVAC-Z2-Neil",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "842a0a90-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Reception",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8a095650-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Reception_Presence-Z2-Reception",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "89e99950-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Reception_Presence-Z2-Reception Entrance",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "d5a71840-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Reception_Lights-Z2-Reception-LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8c82e1d0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Reception_Lights-Z2-Reception Entrance",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8bef0640-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Reception_Lights-Z2-Reception-HL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8bea7260-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Reception_Lights-Z2-Reception-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3a3eda30-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Reception_Lights-Z2-Reception",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "841438a0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Reception_HVAC-Z2-Reception",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "3e9a8940-18f3-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Reception_Air Quality-Z2-Reception Sensor",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "84134e40-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Breakout Area",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "89db8f90-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Breakout Area_Presence-Z1-Breakout Area",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "874ef140-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Breakout Area_Lights-Z1-Breakout Area-LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8705b340-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Breakout Area_Lights-Z1-Breakout Area-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "854f9ed0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Breakout Area_Lights-Z1-Breakout Area-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3a0309b0-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Breakout Area_Lights-Z1-Breakout Area",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8400d7b0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Breakout Area_HVAC-Z1-Breakout Area",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "8410dd40-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Gerrie",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8a733bb0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Gerrie_Presence-Z2-Gerrie",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "8796cfb0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Gerrie_Lights-Z2-Gerrie-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "876ed550-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Gerrie_Lights-Z2-Gerrie-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3a8a8930-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Gerrie_Lights-Z2-Gerrie",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "840eba60-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Gerrie_HVAC-Z2-Gerrie",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "840fa4c0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Rejil Kumar",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "8a54b730-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Rejil Kumar_Presence-Z2-Rejil Kumar",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "878da7f0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Rejil Kumar_Lights-Z2-Rejil Kumar-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "876167d0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Rejil Kumar_Lights-Z2-Rejil Kumar-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3a6e2790-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Rejil Kumar_Lights-Z2-Rejil Kumar",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "840851c0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Rejil Kumar_HVAC-Z2-Rejil Kumar",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "83f9abc0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Nathan Hanns",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "896f3930-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Nathan Hanns_Presence-Z1-Nathan Hanns",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "87404b40-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Nathan Hanns_Lights-Z1-Nathan Hanns-LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "857d8ca0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Nathan Hanns_Lights-Z1-Nathan Hanns-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "85389460-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Nathan Hanns_Lights-Z1-Nathan Hanns-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "39a7ca50-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Nathan Hanns_Lights-Z1-Nathan Hanns",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "83f08400-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Nathan Hanns_HVAC-Z1-Nathan Hanns",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "83f7d700-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Steve Mckenzie",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "89872e00-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Steve Mckenzie_Presence-Z1-Steve Mckenzie",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "873f87f0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Steve Mckenzie_Lights-Z1-Steve Mckenzie-LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "86f6bf20-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Steve Mckenzie_Lights-Z1-Steve Mckenzie-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "85403580-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Steve Mckenzie_Lights-Z1-Steve Mckenzie-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "39c45300-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Steve Mckenzie_Lights-Z1-Steve Mckenzie",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "83f0d220-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Steve Mckenzie_HVAC-Z1-Steve Mckenzie",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "83f517e0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Ian Mcleod",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "890b9560-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Ian Mcleod_Presence-Z1-Ian Mcleod",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "87212a80-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Ian Mcleod_Lights-Z1-Ian Mcleod-LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8566a940-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Ian Mcleod_Lights-Z1-Ian Mcleod-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "851b4860-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Ian Mcleod_Lights-Z1-Ian Mcleod-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "39324c30-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Ian Mcleod_Lights-Z1-Ian Mcleod",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "83f05cf0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Ian Mcleod_HVAC-Z1-Ian Mcleod",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "83ddbf50-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Board Room",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "89487750-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Board Room_Presence-Z1-Board Room",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "87332be0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Board Room_Lights-Z1-Board Room-LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8532a0f0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Board Room_Lights-Z1-Board Room-CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "39687760-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Board Room_Lights-Z1-Board Room",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "22a199c0-139b-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Board Room_Lights-Z1-Board Room Wall LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "83d13c30-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Board Room_HVAC-Z1-Board Room",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "9e917de0-18f3-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Board Room_Air Quality-Z1-Board Room Sensor",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "83dd7130-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Robert Mcdonnell",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "892ab620-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Robert Mcdonnell_Presence-Z1-Robert Mcdonnell",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "8737e6d0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Robert Mcdonnell_Lights-Z1-Robert Mcdonnell-LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8566a941-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Robert Mcdonnell_Lights-Z1-Robert Mcdonnell-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "852a8aa0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Robert Mcdonnell_Lights-Z1-Robert Mcdonnell-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3950f7c0-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Robert Mcdonnell_Lights-Z1-Robert Mcdonnell",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "83c9c220-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Robert Mcdonnell_HVAC-Z1-Robert Mcdonnell",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "83d533d0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Paul Yates",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "88e6f660-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Paul Yates_Presence-Z1-Paul Yates",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "881eeb70-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Paul Yates_Lights-Z1-Paul Yates-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "871ae8f0-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Paul Yates_Lights-Z1-Paul Yates-LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "8513a740-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Paul Yates_Lights-Z1-Paul Yates-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "390548c0-1467-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Paul Yates_Lights-Z1-Paul Yates",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "83bace00-0547-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Paul Yates_HVAC-Z1-Paul Yates",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "74f4fd40-77ea-11ef-8f9b-033ad0625bc8",
+    "Name": "LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)",
+    "Floor": "DIC/Labour Welfare Area/First Floor",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "6e746390-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Printer and Pantry Area",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "6e72b5e0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Printer and Pantry Area_Presence-Printer and Pantry Area",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "70910200-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Printer and Pantry Area_Lights-Printer and Pantry Area CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "ff2861e0-0b93-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Printer and Pantry Area_HVAC-Printer and Pantry Area",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "680274c0-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Male Toilet",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "6f095090-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Male Toilet_Presence-Male Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "6800c710-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Male Toilet_HVAC-Male Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "67e21b80-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Dressing Area",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "6ef10da0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Dressing Area_Presence-Dressing Area",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "6c588870-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Dressing Area_Lights-Dressing Area CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "67e06dd0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Dressing Area_HVAC-Dressing Area",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "66531710-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Meeting Room",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "6eb404a0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Meeting Room_Presence-Meeting Room",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "6bed4380-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Meeting Room_Lights-Meeting Room TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "6bd0bad0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Meeting Room_Lights-Meeting Room CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "66516960-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Meeting Room_HVAC-Meeting Room",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "6637edf0-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_ABS Office",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "6e587720-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_ABS Office_Presence-ABS Office",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "6bb088a0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_ABS Office_Lights-ABS Office TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "6b93b1d0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_ABS Office_Lights-ABS Office CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "66364040-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_ABS Office_HVAC-ABS Office",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "66012680-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Work Shop",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "6de59110-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Work Shop_Presence-Work Shop",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "b7dcd150-0bba-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Work Shop_Lights-Work Shop CL 2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "b78143d0-0bba-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Work Shop_Lights-Work Shop CL 1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "65ff2ab0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Work Shop_HVAC-Work Shop",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "658566d0-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Gym&Gaming Area",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "6d6d2cc0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Gym&Gaming Area_Presence-Gym&Gaming Area",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "6da0e6f0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Gym&Gaming Area_Lights-Gym&Gaming Area",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "6d137400-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Gym&Gaming Area_Lights-Gym&Gaming Area LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "6adc21a0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Gym&Gaming Area_Lights-Gym&Gaming Area CL-2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "658343f0-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Gym&Gaming Area_Lights-Gym&Gaming Area CL-1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "66f91b10-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Gym&Gaming Area_HVAC-Gym&Gaming Area",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "656534a0-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Clinic",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "6d823b60-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Clinic_Presence-Clinic",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "6afaa620-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Clinic_Lights-Clinic CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "65618b20-0b86-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Clinic_HVAC-Clinic",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "64897f80-77ea-11ef-8f9b-033ad0625bc8",
+    "Name": "LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)",
+    "Floor": "DIC/Labour Welfare Area/GroundFloor",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "63460600-0563-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Bjorn Viedge",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "6942ebe0-0563-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Bjorn Viedge_Presence-Z1-Bjorn Viedge",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "67216b70-0563-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Bjorn Viedge_Lights-Z1-Bjorn Viedge-LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "66d435d0-0563-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Bjorn Viedge_Lights-Z1-Bjorn Viedge-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "64c998c0-0563-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Bjorn Viedge_Lights-Z1-Bjorn Viedge-SL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "63443140-0563-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z1-Bjorn Viedge_HVAC-Z1-Bjorn Viedge",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "467c3a30-5e4b-11f0-a54f-c718692b063f",
+    "Name": "Block 3 PMV Block_Pantry",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "748a7200-6091-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Pantry_Lights-Pantry",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "5024c9b0-65f0-11f0-a54f-c718692b063f",
+        "Sensor Name": "Block 3 PMV Block_Pantry_HVAC-Pantry",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "3f893fa0-0bb9-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Female Toilet",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "54bfb2f0-0bb9-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Female Toilet_Presence-Female Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "42c57ee0-0bb9-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Female Toilet_Lights-Female Toilet CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3f871cc0-0bb9-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Female Toilet_HVAC-Female Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "3c67e400-c43f-11ef-94c5-01236d0e69c4",
+    "Name": "White Space_Mezzanine Office Space 2",
+    "Floor": "DIC/Whitespace/First Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "3f5bcfa0-c43f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Office Space 2_Presence-Mezzanine Office Space 2",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "3d8b2e50-c43f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Office Space 2_Lights-Mezzanine Office Space 2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3c5fa6a0-c43f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Office Space 2_HVAC-Mezzanine Office Space 2",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "3c51eb00-c43f-11ef-94c5-01236d0e69c4",
+    "Name": "White Space_Mezzanine Office Space 3",
+    "Floor": "DIC/Whitespace/First Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "3fa66d30-c43f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Office Space 3_Presence-Mezzanine Office Space 3",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "3c4a70f0-c43f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Office Space 3_HVAC-Mezzanine Office Space 3",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "3c3932e0-c43f-11ef-94c5-01236d0e69c4",
+    "Name": "White Space_Mezzanine Office Space 1",
+    "Floor": "DIC/Whitespace/First Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "3f9248f0-c43f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Office Space 1_Presence-Mezzanine Office Space 1",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "3d2874e0-c43f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Office Space 1_Lights-Mezzanine Office Space 1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3c32a330-c43f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Office Space 1_HVAC-Mezzanine Office Space 1",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "3d4c77a0-c43f-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Mezzanine Office Space 1_Air Quality-Mezzanine Office Space 1",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "3a689750-cbef-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Pantry",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "7949dcf0-cbf3-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Pantry_Presence-Pantry",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "5cb3e350-cbef-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Pantry_Lights-Z5-Pantry LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "5cad53a0-cbef-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Pantry_Lights-Z5-Pantry CL2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "5ca9f840-cbef-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Pantry_Lights-Z5-Pantry CL1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "5c4988c0-cbef-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Pantry_HVAC-Z5-Pantry",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "38f10040-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Office 5",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "38eedd60-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 5_Presence-Z2-Office 5",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "032bb220-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 5_Lights-Z2-Office 5 L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0319d7d0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 5_Lights-Z2-Office 5 L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0096af60-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 5_HVAC-Z2-Office 5",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "37323940-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Mothers Room",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "37306480-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Mothers Room_Presence-Z2-Mothers Room",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "0201b110-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Mothers Room_Lights-Z2-Mothers Room",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "00764ca0-df08-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Mothers Room_HVAC-Z2-Mothers Room",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "370bec90-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Female Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "370a17d0-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Female Toilet_Presence-Z2-Female Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "01ddae50-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Female Toilet_Lights-Z2-Female Toilet",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0eb11130-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Female Toilet_HVAC-Z2-Female Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "329e5940-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Printer Area",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "32970640-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Printer Area_Presence-Z1-Printer Area",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "ffcc0c60-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Printer Area_Lights-Z1-Printer Area",
+        "Sensor Type": "Lights"
+      }
+    ]
+  },
+  {
+    "Entity ID": "3281f7a0-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Pantry",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "328022e0-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Pantry_Presence-Z1-Pantry",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "ffb83640-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Pantry_Lights-Z1-Pantry L3",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "ffa12bd0-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Pantry_Lights-Z1-Pantry L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "ff8a2160-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Pantry_Lights-Z1-Pantry L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "fe5990a0-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Pantry_HVAC-Z1-Pantry",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "3268f160-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Office 4",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "3266f590-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 4_Presence-Z1-Office 4",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "ff790a60-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 4_Lights-Z1-Office 4 L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "ff65d080-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 4_Lights-Z1-Office 4 L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "fe0e08b0-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Office 4_HVAC-Z1-Office 4",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "32520e00-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Commercial ALT",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "32503940-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Commercial ALT_Presence-Z1-Commercial ALT",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "005bf050-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Commercial ALT_Lights-Z1-Commercial ALT",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "fd9a8660-daf5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z1-Commercial ALT_HVAC-Z1-Commercial ALT",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "303f7ba0-cbe9-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 2",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "3286d390-cbe9-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 2_Presence-Z5-Procurement Office 2",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "309c41a0-cbe9-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 2_Lights-Z5-Procurement Office 2 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "30990d50-cbe9-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 2_Lights-Z5-Procurement Office 2 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "303d31b0-cbe9-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 2_HVAC-Z5-Procurement Office 2",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "3036f020-cbe9-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 1",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "326bf890-cbe9-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 1_Presence-Z5-Procurement Office 1",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "3082ed40-cbe9-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 1_Lights-Z5-Procurement Office 1 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3079c580-cbe9-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 1_Lights-Z5-Procurement Office 1 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "3034cd40-cbe9-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 1_HVAC-Z5-Procurement Office 1",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "2e68c5e0-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-John Clark",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "378c6730-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-John Clark_Presence-Z2-John Clark",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "12112c20-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-John Clark_Lights-Z2-John Clark L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "029abcc0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-John Clark_Lights-Z2-John Clark L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2e66ca10-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-John Clark_HVAC-Z2-John Clark",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "2de69d90-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-FMD ALEC Lite",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "38a7e950-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-FMD ALEC Lite_Presence-Z2-FMD ALEC Lite",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "02c30540-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-FMD ALEC Lite_Lights-Z2-FMD ALEC Lite L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "02adf6a0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-FMD ALEC Lite_Lights-Z2-FMD ALEC Lite L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2de4c8d0-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-FMD ALEC Lite_HVAC-Z2-FMD ALEC Lite",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "2dd27950-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Office 7",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "38bd6d20-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 7_Presence-Z2-Office 7",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "02e58160-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 7_Lights-Z2-Office 7 L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "02d49170-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 7_Lights-Z2-Office 7 L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2dd05670-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Office 7_HVAC-Z2-Office 7",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "2db9c130-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "374af160-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Corridor_Presence-Z2-Corridor",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "0227fdc0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Corridor_Lights-Z2-Corridor L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "021475c0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Corridor_Lights-Z2-Corridor L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2db7c560-d989-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Corridor_HVAC-Z2-Corridor",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "0d2b0d70-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Corridor_Air Quality-Z2-Corridor",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "2a61d080-0563-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Conference Room",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "304cb500-0563-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Conference Room_Presence-Z2-Conference Room",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "dc60ed10-1b62-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Conference Room_Lights-Z2-Conference Room Wall LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "a9d36460-139a-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Conference Room_Lights-Z2-Conference Room-CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2f4caa20-0563-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Conference Room_Lights-Z2-Conference Room-TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2e476f20-0563-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Conference Room_Lights-Z2-Conference Room-LED",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2be03320-0563-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Conference Room_Lights-Z2-Conference Room",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2a57be60-0563-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Conference Room_HVAC-Z2-Conference Room",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "3edf8180-18f3-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block1_Z2-Conference Room_Air Quality-Z2-Conference Room Sensor",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "265af820-cbe5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Meeting Room 2",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "297382c0-cbe5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Meeting Room 2_Presence-Z6-Meeting Room 2",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "2648a8a0-cbe5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Meeting Room 2_Lights-Z6-Meeting Room 2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "272748d0-cbe5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Meeting Room 2_HVAC-Z6-Meeting Room 2",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "2658d540-cbe5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Meeting Room 1",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "295af1b0-cbe5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Meeting Room 1_Presence-Z6-Meeting Room 1",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "2641f1e0-cbe5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Meeting Room 1_Lights-Z6-Meeting Room 1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "2722b4f0-cbe5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Meeting Room 1_HVAC-Z6-Meeting Room 1",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "1e8de8b0-0bb8-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Corridor",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "227ab340-0bb8-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Yard Block 5-GF_Corridor_Presence-Corridor",
+        "Sensor Type": "Presence"
+      }
+    ]
+  },
+  {
+    "Entity ID": "18efe820-cbf0-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "74d64110-cbf1-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Corridor_Presence-Corridor",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "1da33430-c9c5-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Corridor_Lights-Z6-Corridor CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0965a2a0-cbf0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Corridor_Lights-Z6-Corridor L",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "09a28490-cbf0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Corridor_HVAC-Z6-Corridor",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "0debd340-d491-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Corridor_Air Quality-Z6-Corridor",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "142f4b70-cbf3-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Printing Station",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "165845f0-cbf3-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Printing Station_Presence-Z6-Printing Station",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "142a1b50-cbf3-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 4&5_Z6-Printing Station_Lights-Z6-Printing Station",
+        "Sensor Type": "Lights"
+      }
+    ]
+  },
+  {
+    "Entity ID": "1035bbf0-acc0-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_Melvin's Office",
+    "Floor": "DIC/Whitespace/First Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "e51b88c0-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Melvin's Office_Presence-Melvin's Office",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "76d658c0-fd73-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Melvin's Office_Lights-Melvin's Office",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "e3c21340-c1d0-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "White Space_Melvin's Office_HVAC-Melvin's Office",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "0ab29360-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Female Prayer Room",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1aed8b40-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Female Prayer Room_Presence-Z4-Female Prayer Room",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "0ab0bea0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Female Prayer Room_Lights-Z4-Female Prayer Room",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0dea17b0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Female Prayer Room_HVAC-Z4-Female Prayer Room",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "0a9dabd0-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Female Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1ad680d0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Female Toilet_Presence-Z4-Female Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "0a9b3ad0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Female Toilet_Lights-Z4-Female Toilet",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0ddbbfd0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Female Toilet_HVAC-Z4-Female Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "0a86c870-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Male Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1ac3e330-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Male Toilet_Presence-Z4-Male Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "0a84cca0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Male Toilet_Lights-Z4-Male Toilet",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0dbced30-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Male Toilet_HVAC-Z4-Male Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "0a027d40-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1a93d280-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Corridor_Presence-Z4-Corridor",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "0a22fd90-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Corridor_Lights-Z4-Corridor CL3",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0a11bf80-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Corridor_Lights-Z4-Corridor CL2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0a00a880-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Corridor_Lights-Z4-Corridor CL1",
+        "Sensor Type": "Lights"
+      }
+    ]
+  },
+  {
+    "Entity ID": "09278690-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1a07bf20-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Corridor_Presence-Z3-Corridor",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "093a7250-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Corridor_Lights-Z3-Corridor CL2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "092563b0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Corridor_Lights-Z3-Corridor CL1",
+        "Sensor Type": "Lights"
+      }
+    ]
+  },
+  {
+    "Entity ID": "0904e360-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Open Work Station",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "19f34cc0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Open Work Station_Presence-Z3-Open Work Station",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "0913fe90-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Open Work Station_Lights-Z3-Open Work Station TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "09007690-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Open Work Station_Lights-Z3-Open Work Station CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0daa76a0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Open Work Station_HVAC-Z3-Open Work Station",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "0662e850-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-BIM Manager 01",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1a933640-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-BIM Manager 01_Presence-Z4-BIM Manager 01",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "0a4ad0e0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-BIM Manager 01_Lights-Z4-BIM Manager 01 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0a379700-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-BIM Manager 01_Lights-Z4-BIM Manager 01 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0660ec80-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-BIM Manager 01_HVAC-Z4-BIM Manager 01",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "06404520-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-BIM Manager 02",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1aa90830-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-BIM Manager 02_Presence-Z4-BIM Manager 02",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "0a716bb0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-BIM Manager 02_Lights-Z4-BIM Manager 02 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0a5de3b0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-BIM Manager 02_Lights-Z4-BIM Manager 02 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "063e7060-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-BIM Manager 02_HVAC-Z4-BIM Manager 02",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "06173950-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 01",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1a44c820-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 01_Presence-Z4-Eng Work Station 01",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "09c489e0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 01_Lights-Z4-Eng Work Station 01 CL3",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "09ae90e0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 01_Lights-Z4-Eng Work Station 01 CL2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "099def10-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 01_Lights-Z4-Eng Work Station 01 CL1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "06153d80-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 01_HVAC-Z4-Eng Work Station 01",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "0d44d700-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 01_Air Quality-Z4-Eng Work Station 01",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "06129030-ae19-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Female Washroom",
+    "Floor": "DIC/Main/Ground Floor",
+    "Sensors": []
+  },
+  {
+    "Entity ID": "05c5e500-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 02",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1a606670-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 02_Presence-Z4-Eng Work Station 02",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "09ede3d0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 02_Lights-Z4-Eng Work Station 02 CL2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "09db6d40-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 02_Lights-Z4-Eng Work Station 02 CL1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "05efb420-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 02_HVAC-Z4-Eng Work Station 02 2",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "05c41040-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 02_HVAC-Z4-Eng Work Station 02 1",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "0d5bba60-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 02_Air Quality-Z4-Eng Work Station 02",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "0597f730-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Breakout Space",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1a2ea810-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Breakout Space_Presence-Z4-Breakout Space",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "14463490-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Breakout Space_Lights-Z4-Breakout Space CL1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "098ab530-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Breakout Space_Lights-Z4-Breakout Space CL3",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "09792900-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Breakout Space_Lights-Z4-Breakout Space CL2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0595fb60-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z4-Breakout Space_HVAC-Z4-Breakout Space",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "0549fe40-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Eng Work Station 03",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "19bc8550-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Work Station 03_Presence-Z3-Eng Work Station 03",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "08c47f00-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Work Station 03_Lights-Z3-Eng Work Station 03 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "08b1e160-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Work Station 03_Lights-Z3-Eng Work Station 03 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0571aa80-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Work Station 03_HVAC-Z3-Eng Work Station 03 2",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "05482980-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Work Station 03_HVAC-Z3-Eng Work Station 03 1",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "0d2abf50-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Work Station 03_Air Quality-Z3-Eng Work Station 03",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "0525ad60-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Office 8",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "35d18bf0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Office 8_Presence-Z3-Office 8",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "137f3b10-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Office 8_Lights-Z3-Office 8 CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "089e5960-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Office 8_Lights-Z3-Office 8 TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0523b190-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Office 8_HVAC-Z3-Office 8",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "04f882e0-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Kirubakaran",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "19961190-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Kirubakaran_Presence-Z3-Kirubakaran",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "08754d90-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Kirubakaran_Lights-Z3-Kirubakaran TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "086261d0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Kirubakaran_Lights-Z3-Kirubakaran CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "04f638f2-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Kirubakaran_HVAC-Z3-Kirubakaran",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "04d28450-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Eng Desks",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1a194b50-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Desks_Presence-Z3-Eng Desks",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "73bf45b0-25ec-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks TL-4",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "73828ad0-25ec-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks TL-2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "45dd3580-25ec-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks TL-1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0952b540-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "07db5690-25ec-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks TL-5",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "07466990-25ec-11f0-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Desks_Lights-Z3-Eng Desks TL-3",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "04d08880-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Eng Desks_HVAC-Z3-Eng Desks",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "04a5a7f0-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Govind",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "19e25cd0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Govind_Presence-Z3-Govind",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "08ed3cb0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Govind_Lights-Z3-Govind TL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "08dac620-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Govind_Lights-Z3-Govind CL",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "04a3d330-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z3-Govind_HVAC-Z3-Govind",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "01f0c120-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Male Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1b0ea7d0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Male Toilet_Presence-Z2-Male Toilet",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "01eeec60-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Male Toilet_Lights-Z2-Male Toilet",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0d87ac60-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Male Toilet_HVAC-Z2-Male Toilet",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "018afa70-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Eng.Work Station",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1c5ef590-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Eng.Work Station_Presence-Z2-Eng.Work Station",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "035225e0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Eng.Work Station_Lights-Z2-Eng.Work Station L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "033dda90-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Eng.Work Station_Lights-Z2-Eng.Work Station L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "0188fea0-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Eng.Work Station_HVAC-Z2-Eng.Work Station",
+        "Sensor Type": "HVAC"
+      },
+      {
+        "Sensor ID": "0d042480-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Eng.Work Station_Air Quality-Z2-Eng.Work Station",
+        "Sensor Type": "Air Quality"
+      }
+    ]
+  },
+  {
+    "Entity ID": "00bf4600-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-ALEC Lite Commercial",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1b2d7a70-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-ALEC Lite Commercial_Presence-Z2-ALEC Lite Commercial",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "02501f30-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-ALEC Lite Commercial_Lights-Z2-ALEC Lite Commercial L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "023ce550-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-ALEC Lite Commercial_Lights-Z2-ALEC Lite Commercial L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "00bd7140-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-ALEC Lite Commercial_HVAC-Z2-ALEC Lite Commercial",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  },
+  {
+    "Entity ID": "00abe510-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Sivaramakrishnan",
+    "Floor": "DIC/Main/Mezzanine Floor",
+    "Sensors": [
+      {
+        "Sensor ID": "1b3bd250-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Sivaramakrishnan_Presence-Z2-Sivaramakrishnan",
+        "Sensor Type": "Presence"
+      },
+      {
+        "Sensor ID": "02884630-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Sivaramakrishnan_Lights-Z2-Sivaramakrishnan L2",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "02644370-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Sivaramakrishnan_Lights-Z2-Sivaramakrishnan L1",
+        "Sensor Type": "Lights"
+      },
+      {
+        "Sensor ID": "00aa1050-daf6-11ef-94c5-01236d0e69c4",
+        "Sensor Name": "DIC Mezzanine Block 2_Z2-Sivaramakrishnan_HVAC-Z2-Sivaramakrishnan",
+        "Sensor Type": "HVAC"
+      }
+    ]
+  }
+]

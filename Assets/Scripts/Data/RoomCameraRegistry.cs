@@ -118,16 +118,16 @@ public class RoomCameraRegistry : MonoBehaviour
     }
 
     /// <summary>
-    /// Load room data from JSON file
-    /// Manual parsing to handle "Entity ID" field with space
+    /// Load room data from JSON file with sensors
+    /// Manual parsing to handle "Entity ID", "Sensor ID" fields with spaces
     /// </summary>
     private void LoadRoomDataFromJSON()
     {
-        string jsonPath = System.IO.Path.Combine(Application.dataPath, "Sensor Excels", "RoomData.json");
+        string jsonPath = System.IO.Path.Combine(Application.dataPath, "Sensor Excels", "roomdata+sensor.json");
 
         if (!System.IO.File.Exists(jsonPath))
         {
-            Debug.LogError($"[RoomCameraRegistry] RoomData.json not found at: {jsonPath}");
+            Debug.LogError($"[RoomCameraRegistry] roomdata+sensor.json not found at: {jsonPath}");
             return;
         }
 
@@ -135,8 +135,7 @@ public class RoomCameraRegistry : MonoBehaviour
         {
             string jsonContent = System.IO.File.ReadAllText(jsonPath);
 
-            // Manual JSON parsing using SimpleJSON or manual parsing
-            // Parse array of room objects
+            // Manual JSON parsing using MiniJSON
             var jsonArray = MiniJSON.Json.Deserialize(jsonContent) as List<object>;
 
             if (jsonArray != null)
@@ -150,15 +149,41 @@ public class RoomCameraRegistry : MonoBehaviour
                         string name = roomDict.ContainsKey("Name") ? roomDict["Name"] as string : "";
                         string floor = roomDict.ContainsKey("Floor") ? roomDict["Floor"] as string : "";
 
+                        // Parse sensors array
+                        List<SensorData> sensors = new List<SensorData>();
+                        if (roomDict.ContainsKey("Sensors"))
+                        {
+                            var sensorsArray = roomDict["Sensors"] as List<object>;
+                            if (sensorsArray != null)
+                            {
+                                foreach (var sensorItem in sensorsArray)
+                                {
+                                    var sensorDict = sensorItem as Dictionary<string, object>;
+                                    if (sensorDict != null)
+                                    {
+                                        string sensorID = sensorDict.ContainsKey("Sensor ID") ? sensorDict["Sensor ID"] as string : "";
+                                        string sensorName = sensorDict.ContainsKey("Sensor Name") ? sensorDict["Sensor Name"] as string : "";
+                                        string sensorType = sensorDict.ContainsKey("Sensor Type") ? sensorDict["Sensor Type"] as string : "";
+
+                                        if (!string.IsNullOrEmpty(sensorID))
+                                        {
+                                            sensors.Add(new SensorData(sensorID, sensorName, sensorType));
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
                         if (!string.IsNullOrEmpty(floor))
                         {
-                            RoomData roomData = new RoomData(entityID, name, floor);
+                            RoomData roomData = new RoomData(entityID, name, floor, sensors);
                             allRoomData.Add(roomData);
                         }
                     }
                 }
 
-                Debug.Log($"[RoomCameraRegistry] Loaded {allRoomData.Count} rooms from JSON");
+                int totalSensors = allRoomData.Sum(r => r.Sensors.Count);
+                Debug.Log($"[RoomCameraRegistry] Loaded {allRoomData.Count} rooms with {totalSensors} sensors from JSON");
             }
         }
         catch (System.Exception e)
@@ -336,6 +361,14 @@ public class RoomCameraRegistry : MonoBehaviour
     public bool HasRoomCamera(string entityID)
     {
         return roomCameraLookup.ContainsKey(entityID);
+    }
+
+    /// <summary>
+    /// Get all room data (for sensor auto-find)
+    /// </summary>
+    public List<RoomData> AllRoomData
+    {
+        get { return allRoomData; }
     }
 
     /// <summary>

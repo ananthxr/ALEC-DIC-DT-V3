@@ -26,7 +26,7 @@ public class RoomScrollViewController : MonoBehaviour
     [SerializeField] private GameObject roomItemPrefab; // RoomDataPrefab
 
     [Header("JSON Data")]
-    [SerializeField] private string jsonFileName = "RoomData.json";
+    [SerializeField] private string jsonFileName = "roomdata+sensor.json";
     [SerializeField] private string jsonFolderPath = "Assets/Sensor Excels";
 
     [Header("Performance Settings")]
@@ -101,10 +101,35 @@ public class RoomScrollViewController : MonoBehaviour
                         string name = roomDict.ContainsKey("Name") ? roomDict["Name"] as string : "";
                         string floor = roomDict.ContainsKey("Floor") ? roomDict["Floor"] as string : "";
 
+                        // Parse sensors array
+                        List<SensorData> sensors = new List<SensorData>();
+                        if (roomDict.ContainsKey("Sensors"))
+                        {
+                            var sensorsArray = roomDict["Sensors"] as List<object>;
+                            if (sensorsArray != null)
+                            {
+                                foreach (var sensorItem in sensorsArray)
+                                {
+                                    var sensorDict = sensorItem as Dictionary<string, object>;
+                                    if (sensorDict != null)
+                                    {
+                                        string sensorID = sensorDict.ContainsKey("Sensor ID") ? sensorDict["Sensor ID"] as string : "";
+                                        string sensorName = sensorDict.ContainsKey("Sensor Name") ? sensorDict["Sensor Name"] as string : "";
+                                        string sensorType = sensorDict.ContainsKey("Sensor Type") ? sensorDict["Sensor Type"] as string : "";
+
+                                        if (!string.IsNullOrEmpty(sensorID))
+                                        {
+                                            sensors.Add(new SensorData(sensorID, sensorName, sensorType));
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
                         // Only add rooms with valid Floor data
                         if (!string.IsNullOrEmpty(floor))
                         {
-                            RoomData roomData = new RoomData(entityID, name, floor);
+                            RoomData roomData = new RoomData(entityID, name, floor, sensors);
                             allRoomData.Add(roomData);
                         }
                     }

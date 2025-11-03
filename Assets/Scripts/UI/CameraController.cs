@@ -136,6 +136,9 @@ public class CameraController : MonoBehaviour
             ExitRoomInspectionMode();
         }
 
+        // Hide all sensor detail panels
+        HideAllSensorPanels();
+
         // Notify FloorTransitionManager to reset floors (if exists)
         FloorTransitionManager floorTransitionManager = FindObjectOfType<FloorTransitionManager>();
         if (floorTransitionManager != null)
@@ -147,6 +150,21 @@ public class CameraController : MonoBehaviour
             // If no floor transition manager, just reset camera
             ResetToDefault();
         }
+    }
+
+    /// <summary>
+    /// Hide all sensor detail panels
+    /// </summary>
+    private void HideAllSensorPanels()
+    {
+        // Hide HVAC panel if exists
+        HVACDetailPanel hvacPanel = FindObjectOfType<HVACDetailPanel>();
+        if (hvacPanel != null && hvacPanel.IsVisible())
+        {
+            hvacPanel.HidePanel();
+        }
+
+        // TODO: Add other sensor panels here when implemented (Lights, Presence, Air Quality)
     }
 
     private void ForceResetCameraStates()
@@ -537,6 +555,67 @@ public class CameraController : MonoBehaviour
     public bool IsInRoomInspectionMode()
     {
         return isInRoomInspectionMode;
+    }
+
+    /// <summary>
+    /// Move camera to sensor and enable room inspection mode (for HVAC, Lights, etc.)
+    /// Similar to MoveToRoomInspectionMode but for sensors
+    /// </summary>
+    public void MoveToSensorInspectionMode(Transform sensorCameraPlaceholder, float duration, System.Action onComplete)
+    {
+        if (sensorCameraPlaceholder == null)
+        {
+            Debug.LogWarning("[CameraController] Sensor camera placeholder is null!");
+            return;
+        }
+
+        StartCoroutine(MoveToSensorCoroutine(sensorCameraPlaceholder, duration, onComplete));
+    }
+
+    private System.Collections.IEnumerator MoveToSensorCoroutine(Transform sensorCameraPlaceholder, float duration, System.Action onComplete)
+    {
+        isTransitioning = true;
+
+        Vector3 startPosition = controlledCamera.transform.position;
+        Quaternion startRotation = controlledCamera.transform.rotation;
+        Vector3 endPosition = sensorCameraPlaceholder.position;
+        Quaternion endRotation = sensorCameraPlaceholder.rotation;
+
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / duration);
+
+            // Smooth interpolation
+            float smoothT = Mathf.SmoothStep(0f, 1f, t);
+
+            // Update camera position and rotation
+            controlledCamera.transform.position = Vector3.Lerp(startPosition, endPosition, smoothT);
+            controlledCamera.transform.rotation = Quaternion.Slerp(startRotation, endRotation, smoothT);
+
+            // Update target values to prevent Update() from interfering
+            targetPosition = controlledCamera.transform.position;
+            targetRotation = controlledCamera.transform.rotation;
+
+            yield return null;
+        }
+
+        // Ensure we reach exact target
+        controlledCamera.transform.position = endPosition;
+        controlledCamera.transform.rotation = endRotation;
+        targetPosition = endPosition;
+        targetRotation = endRotation;
+
+        isTransitioning = false;
+
+        // Enable room inspection mode AFTER transition completes (sensor detail view uses same mode)
+        EnterRoomInspectionMode();
+
+        Debug.Log("[CameraController] Sensor inspection mode ENABLED - Camera at sensor, right-click to look around");
+
+        onComplete?.Invoke();
     }
 
     private System.Collections.IEnumerator MoveToPositionCoroutine(Transform targetTransform, float duration, System.Action onComplete)

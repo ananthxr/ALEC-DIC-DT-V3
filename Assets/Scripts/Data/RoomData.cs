@@ -2,6 +2,54 @@ using System;
 using System.Collections.Generic;
 
 /// <summary>
+/// Data class representing a sensor from roomdata+sensor.json
+/// </summary>
+[System.Serializable]
+public class SensorData
+{
+    [UnityEngine.SerializeField]
+    private string SensorID_FIELD;
+
+    [UnityEngine.SerializeField]
+    private string SensorName_FIELD;
+
+    [UnityEngine.SerializeField]
+    private string SensorType_FIELD;
+
+    // Properties to handle "Sensor ID", "Sensor Name", "Sensor Type" fields with spaces
+    public string SensorID
+    {
+        get { return SensorID_FIELD; }
+        set { SensorID_FIELD = value; }
+    }
+
+    public string SensorName
+    {
+        get { return SensorName_FIELD; }
+        set { SensorName_FIELD = value; }
+    }
+
+    public string SensorType
+    {
+        get { return SensorType_FIELD; }
+        set { SensorType_FIELD = value; }
+    }
+
+    // Constructor
+    public SensorData(string sensorID, string sensorName, string sensorType)
+    {
+        SensorID = sensorID;
+        SensorName = sensorName;
+        SensorType = sensorType;
+    }
+
+    public override string ToString()
+    {
+        return $"Sensor: {SensorName} | Type: {SensorType} | ID: {SensorID}";
+    }
+}
+
+/// <summary>
 /// Data class representing a room from RoomData.json
 /// Matches the JSON structure exactly
 /// Note: Field name MUST match JSON exactly including spaces
@@ -15,6 +63,7 @@ public class RoomData
 
     public string Name;
     public string Floor;
+    public List<SensorData> Sensors; // List of sensors in this room
 
     // Expose as property
     public string EntityID
@@ -29,6 +78,16 @@ public class RoomData
         EntityID = entityID;
         Name = name;
         Floor = floor;
+        Sensors = new List<SensorData>();
+    }
+
+    // Constructor with sensors
+    public RoomData(string entityID, string name, string floor, List<SensorData> sensors)
+    {
+        EntityID = entityID;
+        Name = name;
+        Floor = floor;
+        Sensors = sensors ?? new List<SensorData>();
     }
 
     // Helper method to get a clean room name (removes prefix if needed)
