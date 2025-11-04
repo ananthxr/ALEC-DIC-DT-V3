@@ -267,6 +267,8 @@ public class MasterAlarm : MonoBehaviour
         public string assetType;
         public List<string> telemetryKeys;
         public System.Action<Dictionary<string, string>> callback;
+        public string equipmentEntityID; // Store equipment ID for matching update messages
+        public bool isSubscribed; // Track if we've sent subscription message
     }
 
     // ============ Public Singleton Instance ============
@@ -811,6 +813,66 @@ public class MasterAlarm : MonoBehaviour
     }
 
 
+    /// <summary>
+    /// Send subscription message for real-time sensor updates
+    /// Called after initial discovery response
+    /// </summary>
+    private async void SendSensorSubscription(int cmdId)
+    {
+        try
+        {
+            if (!sensorDiscoveryRequests.TryGetValue(cmdId, out SensorRequestInfo requestInfo))
+            {
+                Debug.LogError($"[MasterAlarm] No request info found for subscription (cmdId: {cmdId})");
+                return;
+            }
+
+            if (requestInfo.isSubscribed)
+            {
+                Debug.LogWarning($"[MasterAlarm] Already subscribed to cmdId: {cmdId}");
+                return;
+            }
+
+            // Build latestCmd keys JSON array from telemetry keys
+            StringBuilder latestKeysJson = new StringBuilder();
+            latestKeysJson.Append("[");
+            for (int i = 0; i < requestInfo.telemetryKeys.Count; i++)
+            {
+                latestKeysJson.Append(@"{""type"": ""TIME_SERIES"", ""key"": """);
+                latestKeysJson.Append(requestInfo.telemetryKeys[i]);
+                latestKeysJson.Append(@"""}");
+                if (i < requestInfo.telemetryKeys.Count - 1)
+                {
+                    latestKeysJson.Append(", ");
+                }
+            }
+            latestKeysJson.Append("]");
+
+            // Build subscription message (matches working example structure)
+            string subscriptionCommand = @"{
+                ""cmds"": [{
+                    ""type"": ""ENTITY_DATA"",
+                    ""cmdId"": " + cmdId + @",
+                    ""latestCmd"": {
+                        ""keys"": " + latestKeysJson.ToString() + @"
+                    }
+                }]
+            }";
+
+            if (webSocket != null && webSocket.State == WebSocketState.Open)
+            {
+                Debug.Log($"[MasterAlarm] 📤 SENSOR SUBSCRIPTION BEING SENT:\n{subscriptionCommand}");
+                await webSocket.SendText(subscriptionCommand);
+                requestInfo.isSubscribed = true;
+                Debug.Log($"[MasterAlarm] ✓ Sensor subscription sent for {requestInfo.assetType} (cmdId: {cmdId})");
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"[MasterAlarm] Failed to send sensor subscription: {e.Message}");
+        }
+    }
+
     private IEnumerator ResubscribeWithNewFilters()
     {
         // Step 1: Unsubscribe from current alarm subscription
@@ -897,8 +959,18 @@ public class MasterAlarm : MonoBehaviour
                 // Check if this is a sensor data response (cmdId >= 100)
                 if (sensorDiscoveryRequests.ContainsKey(cmdId))
                 {
-                    HandleSensorDiscoveryResponse(jsonMessage, cmdId);
-                    return;
+                    // Check if this is an "update" message (real-time subscription data)
+                    if (messageDict.ContainsKey("update") && messageDict["update"] != null)
+                    {
+                        HandleSensorUpdateMessage(jsonMessage, cmdId);
+                        return;
+                    }
+                    // Otherwise it's the initial discovery response
+                    else if (messageDict.ContainsKey("data") && messageDict["data"] != null)
+                    {
+                        HandleSensorDiscoveryResponse(jsonMessage, cmdId);
+                        return;
+                    }
                 }
             }
 
@@ -1019,12 +1091,22 @@ public class MasterAlarm : MonoBehaviour
                 }
             }
 
-            // Get request info and invoke callback
+            // Get request info and invoke callback with initial data
             if (sensorDiscoveryRequests.TryGetValue(cmdId, out SensorRequestInfo requestInfo))
             {
+                // Store equipment entity ID for matching future updates
+                requestInfo.equipmentEntityID = equipmentEntityID;
+
+                // Invoke callback with initial snapshot data
                 requestInfo.callback?.Invoke(telemetryData);
-                sensorDiscoveryRequests.Remove(cmdId);
-                Debug.Log($"[MasterAlarm] ✓✓✓ Sensor data callback invoked with {telemetryData.Count} values");
+                Debug.Log($"[MasterAlarm] ✓✓✓ Initial sensor data callback invoked with {telemetryData.Count} values");
+
+                // Send subscription for real-time updates
+                Debug.Log($"[MasterAlarm] 🔔 Now sending subscription for real-time updates...");
+                SendSensorSubscription(cmdId);
+
+                // Keep requestInfo in dictionary to handle ongoing updates (don't remove)
+                Debug.Log($"[MasterAlarm] Keeping cmdId {cmdId} active for real-time updates");
             }
         }
         catch (Exception e)
@@ -1032,6 +1114,111 @@ public class MasterAlarm : MonoBehaviour
             Debug.LogError($"[MasterAlarm] Error handling sensor data response: {e.Message}");
             InvokeDiscoveryCallbackWithNull(cmdId);
         }
+    }
+
+    /// <summary>
+    /// Handle real-time sensor update messages from subscription
+    /// These have "update" field instead of "data" field
+    /// </summary>
+    private void HandleSensorUpdateMessage(string jsonMessage, int cmdId)
+    {
+        try
+        {
+            Debug.Log($"[MasterAlarm] 🔄 Real-time sensor update received (cmdId: {cmdId})");
+
+            // Parse response using MiniJSON
+            var responseDict = MiniJSON.Json.Deserialize(jsonMessage) as Dictionary<string, object>;
+            if (responseDict == null || !responseDict.ContainsKey("update"))
+            {
+                Debug.LogWarning("[MasterAlarm] Update message has no update field");
+                return;
+            }
+
+            var updateArray = responseDict["update"] as List<object>;
+            if (updateArray == null || updateArray.Count == 0)
+            {
+                Debug.LogWarning("[MasterAlarm] Update array is empty");
+                return;
+            }
+
+            // Extract first update entry
+            var updateDict = updateArray[0] as Dictionary<string, object>;
+            if (updateDict == null)
+            {
+                Debug.LogWarning("[MasterAlarm] Update entry is null");
+                return;
+            }
+
+            // Extract latest TIME_SERIES data
+            if (!updateDict.ContainsKey("latest"))
+            {
+                Debug.LogWarning("[MasterAlarm] Update has no latest field");
+                return;
+            }
+
+            var latestDict = updateDict["latest"] as Dictionary<string, object>;
+            if (latestDict == null || !latestDict.ContainsKey("TIME_SERIES"))
+            {
+                Debug.LogWarning("[MasterAlarm] Update latest has no TIME_SERIES field");
+                return;
+            }
+
+            var timeSeriesDict = latestDict["TIME_SERIES"] as Dictionary<string, object>;
+            if (timeSeriesDict == null)
+            {
+                Debug.LogWarning("[MasterAlarm] TIME_SERIES is null");
+                return;
+            }
+
+            // Extract telemetry values into dictionary
+            Dictionary<string, string> telemetryData = new Dictionary<string, string>();
+            foreach (var kvp in timeSeriesDict)
+            {
+                var valueDict = kvp.Value as Dictionary<string, object>;
+                if (valueDict != null && valueDict.ContainsKey("value"))
+                {
+                    string value = valueDict["value"] as string;
+                    telemetryData[kvp.Key] = value;
+                    Debug.Log($"[MasterAlarm] 🔄 UPDATE: {kvp.Key}: {value}");
+                }
+            }
+
+            // Get request info and invoke callback with updated data
+            if (sensorDiscoveryRequests.TryGetValue(cmdId, out SensorRequestInfo requestInfo))
+            {
+                requestInfo.callback?.Invoke(telemetryData);
+                Debug.Log($"[MasterAlarm] ✓✓✓ Real-time update callback invoked with {telemetryData.Count} values");
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"[MasterAlarm] Error handling sensor update message: {e.Message}");
+        }
+    }
+
+    /// <summary>
+    /// Unsubscribe from sensor updates for a specific asset type
+    /// Call this when closing the sensor panel to stop receiving updates
+    /// </summary>
+    public void UnsubscribeSensorData(string assetType)
+    {
+        // Find and remove all subscriptions for this asset type
+        var keysToRemove = new List<int>();
+        foreach (var kvp in sensorDiscoveryRequests)
+        {
+            if (kvp.Value.assetType == assetType)
+            {
+                keysToRemove.Add(kvp.Key);
+                Debug.Log($"[MasterAlarm] 🔕 Unsubscribing from {assetType} updates (cmdId: {kvp.Key})");
+            }
+        }
+
+        foreach (int cmdId in keysToRemove)
+        {
+            sensorDiscoveryRequests.Remove(cmdId);
+        }
+
+        Debug.Log($"[MasterAlarm] ✓ Unsubscribed from {keysToRemove.Count} {assetType} subscription(s)");
     }
 
     private void InvokeDiscoveryCallbackWithNull(int cmdId)

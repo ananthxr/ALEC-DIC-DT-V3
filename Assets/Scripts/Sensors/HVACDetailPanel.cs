@@ -179,7 +179,7 @@ public class HVACDetailPanel : MonoBehaviour
         List<string> telemetryKeys = new List<string>
         {
             "Ambient Temperature",
-            "Set Temperature"
+            "Target Temperature"
         };
 
         // Request data from MasterAlarm
@@ -216,6 +216,14 @@ public class HVACDetailPanel : MonoBehaviour
 
         Debug.Log($"[HVACDetailPanel] ✓ HVAC data received with {telemetryData.Count} values");
 
+        // DEBUG: Print ALL keys that came back
+        Debug.Log("[HVACDetailPanel] === ALL KEYS RECEIVED ===");
+        foreach (var kvp in telemetryData)
+        {
+            Debug.Log($"[HVACDetailPanel] Key: '{kvp.Key}' = '{kvp.Value}'");
+        }
+        Debug.Log("[HVACDetailPanel] ========================");
+
         // Update ambient temperature (key has space: "Ambient Temperature")
         if (telemetryData.TryGetValue("Ambient Temperature", out string ambientTemp))
         {
@@ -242,8 +250,8 @@ public class HVACDetailPanel : MonoBehaviour
             Debug.LogWarning("[HVACDetailPanel] 'Ambient Temperature' not found in telemetry data");
         }
 
-        // Update set temperature (key has space: "Set Temperature")
-        if (telemetryData.TryGetValue("Set Temperature", out string setTemp))
+        // Update target temperature (key: "Target Temperature")
+        if (telemetryData.TryGetValue("Target Temperature", out string setTemp))
         {
             if (setTemperatureText != null)
             {
@@ -251,7 +259,7 @@ public class HVACDetailPanel : MonoBehaviour
                 if (float.TryParse(setTemp, out float temp))
                 {
                     setTemperatureText.text = $"Set Temp: {temp:F1}°C";
-                    Debug.Log($"[HVACDetailPanel] ✓ Set Temperature: {temp:F1}°C");
+                    Debug.Log($"[HVACDetailPanel] ✓ Target Temperature: {temp:F1}°C");
                 }
                 else
                 {
@@ -265,7 +273,7 @@ public class HVACDetailPanel : MonoBehaviour
             {
                 setTemperatureText.text = "Set Temp: N/A";
             }
-            Debug.LogWarning("[HVACDetailPanel] 'Set Temperature' not found in telemetry data");
+            Debug.LogWarning("[HVACDetailPanel] 'Target Temperature' not found in telemetry data");
         }
 
         // Update status
@@ -283,15 +291,51 @@ public class HVACDetailPanel : MonoBehaviour
     }
 
     /// <summary>
-    /// Hide the panel
+    /// Hide the panel and move camera back to room level
     /// </summary>
     public void HidePanel()
     {
+        Debug.Log($"[HVACDetailPanel] HidePanel called for room: {currentRoomEntityID}");
+
+        // Unsubscribe from HVAC real-time updates
+        if (MasterAlarm.Instance != null)
+        {
+            MasterAlarm.Instance.UnsubscribeSensorData("HVAC");
+            Debug.Log("[HVACDetailPanel] Unsubscribed from HVAC updates");
+        }
+
+        // Hide the panel
         if (panelRoot != null)
         {
             panelRoot.SetActive(false);
         }
 
+        // Move camera back to room's Camera_Placeholder
+        if (!string.IsNullOrEmpty(currentRoomEntityID))
+        {
+            // Get the room's Camera_Placeholder from registry
+            Transform roomCamera = RoomCameraRegistry.Instance?.GetRoomCamera(currentRoomEntityID);
+
+            if (roomCamera != null)
+            {
+                Debug.Log($"[HVACDetailPanel] Moving camera back to room camera: {roomCamera.name}");
+
+                // Move camera back to room level (0.5s transition)
+                CameraController.Instance?.MoveToRoomInspectionMode(
+                    roomCamera,
+                    0.5f,
+                    () => {
+                        Debug.Log("[HVACDetailPanel] ✓ Camera returned to room level");
+                    }
+                );
+            }
+            else
+            {
+                Debug.LogWarning($"[HVACDetailPanel] Could not find Camera_Placeholder for room: {currentRoomEntityID}");
+            }
+        }
+
+        // Clear current sensor info
         currentRoomEntityID = null;
         currentSensorName = null;
         Debug.Log("[HVACDetailPanel] Panel hidden");
