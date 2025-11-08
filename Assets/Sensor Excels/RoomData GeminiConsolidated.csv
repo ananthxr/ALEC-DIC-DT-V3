@@ -1,0 +1,128 @@
+Entity ID,Name,Type,Building,Floor,Room
+fff89aa0-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Corridor,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 1
+ffdf1f30-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Seating Area,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 1
+fe34a380-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 2,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 1
+fe27d240-daf5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 3,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 1
+fc05c760-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Male Washroom,room,DIC/Main,DIC/Main/Ground Floor,
+e7c680f0-dece-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Melvin Office,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 1
+dd3682c0-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 6,room,DIC/Main,DIC/Main/Ground Floor,
+d55859c0-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 5,room,DIC/Main,DIC/Main/Ground Floor,
+d121b090-dece-11ef-94c5-01236d0e69c4,White Space_White_Space-Corridor,room,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space
+cbe8d500-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-IDF Room,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+cbe15af0-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Store Room,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 6
+ca080470-c732-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Male Toilet,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 7
+c18bd6b0-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 4,room,DIC/Main,DIC/Main/Ground Floor,
+c0f57cc0-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z7-Meeting Room,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 7
+c04e4040-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Reception,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 6
+c0342890-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Male Toilet,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 6
+c027cc80-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Female Toilet,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 6
+c0096f10-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Work Shop,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+bfb4e670-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Younes,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 5
+bf8e99c0-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Muayyad,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+bf6d5620-c1e5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Greg,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+b8545f40-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 3,room,DIC/Main,DIC/Main/Ground Floor,
+b739dff0-ac96-11ef-b3dd-63d74b5efe4e,White Space_Electrical Room,room,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space
+b7368490-ac96-11ef-b3dd-63d74b5efe4e,White Space_Office 02,room,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space
+b7323ed0-ac96-11ef-b3dd-63d74b5efe4e,White Space_White Space 03,room,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space
+b731f0b0-ac96-11ef-b3dd-63d74b5efe4e,White Space_Office 01,room,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space
+b7234ab0-ac96-11ef-b3dd-63d74b5efe4e,White Space_White Space 02,room,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space
+b7201660-ac96-11ef-b3dd-63d74b5efe4e,White Space_White Space 01,room,DIC/Whitespace,DIC/Whitespace/GroundFloor,White Space
+b59749a0-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 6,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+b514a400-7f52-11f0-8bcd-bbf4998d3d0d,Block1 GF-DIC Server Room,room,,,
+b51129b0-dec1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 1,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 1
+b3909390-0bb8-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Office-2,room,DIC/Main,DIC/Main/Ground Floor,Not Assigned
+ae4f94a0-c6a1-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Niall Clark,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 5
+a54f8840-df08-11ef-94c5-01236d0e69c4,White Space_Mezzanine Pantry,room,DIC/Whitespace,DIC/Whitespace/First Floor,White Space
+9d4d4630-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 2,room,DIC/Main,DIC/Main/Ground Floor,
+987f2c00-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Pantry Area,room,,,Zone-1
+960aa990-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Men's Toilet,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+95e06540-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Women's Toilet,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8f3712c0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Reception,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8f188e40-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Work Station,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8efa57e0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Corridor,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8ee1c6d0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Design & Control room,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8eba1a90-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 6,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8e9e2e20-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 5,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8e8a2140-ae18-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Area 1,room,DIC/Main,DIC/Main/Ground Floor,
+8e7fa9a0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 4,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8e614c30-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 3,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8e42a0a0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 2,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8e28fe20-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Office 1,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+8e0808a0-1073-11f0-94c5-01236d0e69c4,Block 3 PMV Block_Conference Room,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+85bc4350-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Male Toilet,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+85adeb70-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Female Toilet,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+859b9bf0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Store-1,room,DIC/Main,DIC/Main/Mezzanine Floor,Exec.Wing
+8598b5c0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Executive Toilet,room,DIC/Main,DIC/Main/Mezzanine Floor,Exec.Wing
+859692e0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Store-2,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+85902a40-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Coffee Point,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+8430e860-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Corridor,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+84304c20-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Muthu Kumar,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+842db410-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Neil,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+842a0a90-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Reception,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+84134e40-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Breakout Area,room,DIC/Main,DIC/Main/Mezzanine Floor,Exec.Wing
+8410dd40-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Gerrie,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+840fa4c0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Rejil Kumar,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+83f9abc0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Nathan Hanns,room,DIC/Main,DIC/Main/Mezzanine Floor,Exec.Wing
+83f7d700-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Steve Mckenzie,room,DIC/Main,DIC/Main/Mezzanine Floor,Exec.Wing
+83f517e0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Ian Mcleod,room,DIC/Main,DIC/Main/Mezzanine Floor,Exec.Wing
+83ddbf50-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Board Room,room,DIC/Main,DIC/Main/Mezzanine Floor,Exec.Wing
+83dd7130-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Robert Mcdonnell,room,DIC/Main,DIC/Main/Mezzanine Floor,Exec.Wing
+83d533d0-0547-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Paul Yates,room,DIC/Main,DIC/Main/Mezzanine Floor,Exec.Wing
+74f4fd40-77ea-11ef-8f9b-033ad0625bc8,LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD),room,DIC/Labour Welfare Area,DIC/Labour Welfare Area/First Floor,First Floor
+6e746390-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Printer and Pantry Area,room,DIC/Main,DIC/Main/Ground Floor,Not Assigned
+680274c0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Male Toilet,room,DIC/Main,DIC/Main/Ground Floor,Block5-GF
+67e21b80-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Dressing Area,room,DIC/Main,DIC/Main/Ground Floor,Block5-GF
+66531710-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Meeting Room,room,DIC/Main,DIC/Main/Ground Floor,Block5-GF
+6637edf0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_ABS Office,room,DIC/Main,DIC/Main/Ground Floor,Block5-GF
+66012680-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Work Shop,room,DIC/Main,DIC/Main/Ground Floor,Block5-GF
+658566d0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Gym&Gaming Area,room,DIC/Main,DIC/Main/Ground Floor,Block5-GF
+656534a0-0b86-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Clinic,room,DIC/Main,DIC/Main/Ground Floor,Block5-GF
+64897f80-77ea-11ef-8f9b-033ad0625bc8,LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD),room,DIC/Labour Welfare Area,DIC/Labour Welfare Area/GroundFloor,Ground Floor
+63460600-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z1-Bjorn Viedge,room,DIC/Main,DIC/Main/Mezzanine Floor,Exec.Wing
+467c3a30-5e4b-11f0-a54f-c718692b063f,Block 3 PMV Block_Pantry,room,DIC/Main,DIC/Main/Ground Floor,Zone-1
+3f893fa0-0bb9-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Female Toilet,room,DIC/Main,DIC/Main/Ground Floor,Block5-GF
+3c67e400-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 2,room,DIC/Whitespace,DIC/Whitespace/First Floor,Mezzanine
+3c51eb00-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 3,room,DIC/Whitespace,DIC/Whitespace/First Floor,White Space
+3c3932e0-c43f-11ef-94c5-01236d0e69c4,White Space_Mezzanine Office Space 1,room,DIC/Whitespace,DIC/Whitespace/First Floor,White Space
+3a689750-cbef-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Pantry,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+38f10040-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 5,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+37323940-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Mothers Room,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 2
+370bec90-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Female Toilet,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 2
+329e5940-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Printer Area,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 1
+3281f7a0-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Pantry,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 1
+3268f160-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Office 4,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 1
+32520e00-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z1-Commercial ALT,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+303f7ba0-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 2,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 5
+3036f020-cbe9-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z5-Procurement Office 1,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+2e68c5e0-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-John Clark,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+2de69d90-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-FMD ALEC Lite,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+2dd27950-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Office 7,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+2db9c130-d989-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Corridor,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+2a61d080-0563-11f0-94c5-01236d0e69c4,DIC Mezzanine Block1_Z2-Conference Room,room,DIC/Main,DIC/Main/Mezzanine Floor,West wing
+265af820-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Meeting Room 2,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+2658d540-cbe5-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Meeting Room 1,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 6
+1e8de8b0-0bb8-11f0-94c5-01236d0e69c4,DIC Yard Block 5-GF_Corridor,room,DIC/Main,DIC/Main/Ground Floor,Block5-GF
+18efe820-cbf0-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Corridor,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 5
+142f4b70-cbf3-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 4&5_Z6-Printing Station,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 5
+1035bbf0-acc0-11ef-b3dd-63d74b5efe4e,White Space_Melvin's Office,room,DIC/Whitespace,DIC/Whitespace/First Floor,White Space
+0ab29360-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Female Prayer Room,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 4
+0a9dabd0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Female Toilet,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 4
+0a86c870-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Male Toilet,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 4
+0a027d40-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Corridor,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 4
+09278690-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Corridor,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 3
+0904e360-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Open Work Station,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 3
+0662e850-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 01,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 4
+06404520-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-BIM Manager 02,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 4
+06173950-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 01,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 4
+06129030-ae19-11ef-b3dd-63d74b5efe4e,GROUND FLOOR (ALEC DIC YARD) - Female Washroom,room,DIC/Main,DIC/Main/Ground Floor,
+05c5e500-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Eng Work Station 02,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 4
+0597f730-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z4-Breakout Space,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+0549fe40-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Work Station 03,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+0525ad60-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Office 8,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+04f882e0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Kirubakaran,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+04d28450-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Eng Desks,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 3
+04a5a7f0-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z3-Govind,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 3
+01f0c120-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Male Toilet,room,DIC/Main,DIC/Main/Mezzanine Floor,Zone 2
+018afa70-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Eng.Work Station,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+00bf4600-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-ALEC Lite Commercial,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned
+00abe510-daf6-11ef-94c5-01236d0e69c4,DIC Mezzanine Block 2_Z2-Sivaramakrishnan,room,DIC/Main,DIC/Main/Mezzanine Floor,Not Assigned

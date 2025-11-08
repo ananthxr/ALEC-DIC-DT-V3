@@ -1,0 +1,637 @@
+[
+  {
+    "Entity ID": "fff89aa0-daf5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "ffdf1f30-daf5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Seating Area",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "fe34a380-daf5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Office 2",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "fe27d240-daf5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Office 3",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "fc05c760-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Male Washroom",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "e7c680f0-dece-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Melvin Office",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "dd3682c0-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 6",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "d55859c0-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 5",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "d121b090-dece-11ef-94c5-01236d0e69c4",
+    "Name": "White Space_White_Space-Corridor",
+    "Floor": "DIC/Whitespace/GroundFloor"
+  },
+  {
+    "Entity ID": "cbe8d500-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-IDF Room",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "cbe15af0-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Store Room",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "ca080470-c732-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z7-Male Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "c18bd6b0-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 4",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "c0f57cc0-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z7-Meeting Room",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "c04e4040-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Reception",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "c0342890-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Male Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "c027cc80-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Female Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "c0096f10-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Work Shop",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "bfb4e670-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Younes",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "bf8e99c0-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Muayyad",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "bf6d5620-c1e5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Greg",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "b8545f40-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 3",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "b739dff0-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_Electrical Room",
+    "Floor": "DIC/Whitespace/GroundFloor"
+  },
+  {
+    "Entity ID": "b7368490-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_Office 02",
+    "Floor": "DIC/Whitespace/GroundFloor"
+  },
+  {
+    "Entity ID": "b7323ed0-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_White Space 03",
+    "Floor": "DIC/Whitespace/GroundFloor"
+  },
+  {
+    "Entity ID": "b731f0b0-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_Office 01",
+    "Floor": "DIC/Whitespace/GroundFloor"
+  },
+  {
+    "Entity ID": "b7234ab0-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_White Space 02",
+    "Floor": "DIC/Whitespace/GroundFloor"
+  },
+  {
+    "Entity ID": "b7201660-ac96-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_White Space 01",
+    "Floor": "DIC/Whitespace/GroundFloor"
+  },
+  {
+    "Entity ID": "b59749a0-dec1-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Office 6",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "b514a400-7f52-11f0-8bcd-bbf4998d3d0d",
+    "Name": "Block1 GF-DIC Server Room",
+    "Floor": null
+  },
+  {
+    "Entity ID": "b51129b0-dec1-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Office 1",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "b3909390-0bb8-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Office-2",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "ae4f94a0-c6a1-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Niall Clark",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "a54f8840-df08-11ef-94c5-01236d0e69c4",
+    "Name": "White Space_Mezzanine Pantry",
+    "Floor": "DIC/Whitespace/First Floor"
+  },
+  {
+    "Entity ID": "9d4d4630-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 2",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "987f2c00-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Pantry Area",
+    "Floor": null
+  },
+  {
+    "Entity ID": "960aa990-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Men's Toilet",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "95e06540-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Women's Toilet",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8f3712c0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Reception",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8f188e40-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Work Station",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8efa57e0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Corridor",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8ee1c6d0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Design & Control room",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8eba1a90-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 6",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8e9e2e20-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 5",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8e8a2140-ae18-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Area 1",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8e7fa9a0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 4",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8e614c30-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 3",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8e42a0a0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 2",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8e28fe20-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Office 1",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "8e0808a0-1073-11f0-94c5-01236d0e69c4",
+    "Name": "Block 3 PMV Block_Conference Room",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "85bc4350-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Male Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "85adeb70-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Female Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "859b9bf0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Store-1",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "8598b5c0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Executive Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "859692e0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Store-2",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "85902a40-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Coffee Point",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "8430e860-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "84304c20-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Muthu Kumar",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "842db410-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Neil",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "842a0a90-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Reception",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "84134e40-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Breakout Area",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "8410dd40-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Gerrie",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "840fa4c0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Rejil Kumar",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "83f9abc0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Nathan Hanns",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "83f7d700-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Steve Mckenzie",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "83f517e0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Ian Mcleod",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "83ddbf50-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Board Room",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "83dd7130-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Robert Mcdonnell",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "83d533d0-0547-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Paul Yates",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "74f4fd40-77ea-11ef-8f9b-033ad0625bc8",
+    "Name": "LABOUR WELFARE AREA - FIRST FLOOR (ALEC DIC YARD)",
+    "Floor": "DIC/Labour Welfare Area/First Floor"
+  },
+  {
+    "Entity ID": "6e746390-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Printer and Pantry Area",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "680274c0-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Male Toilet",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "67e21b80-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Dressing Area",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "66531710-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Meeting Room",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "6637edf0-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_ABS Office",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "66012680-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Work Shop",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "658566d0-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Gym&Gaming Area",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "656534a0-0b86-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Clinic",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "64897f80-77ea-11ef-8f9b-033ad0625bc8",
+    "Name": "LABOUR WELFARE AREA - GROUND FLOOR (ALEC DIC YARD)",
+    "Floor": "DIC/Labour Welfare Area/GroundFloor"
+  },
+  {
+    "Entity ID": "63460600-0563-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z1-Bjorn Viedge",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "467c3a30-5e4b-11f0-a54f-c718692b063f",
+    "Name": "Block 3 PMV Block_Pantry",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "3f893fa0-0bb9-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Female Toilet",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "3c67e400-c43f-11ef-94c5-01236d0e69c4",
+    "Name": "White Space_Mezzanine Office Space 2",
+    "Floor": "DIC/Whitespace/First Floor"
+  },
+  {
+    "Entity ID": "3c51eb00-c43f-11ef-94c5-01236d0e69c4",
+    "Name": "White Space_Mezzanine Office Space 3",
+    "Floor": "DIC/Whitespace/First Floor"
+  },
+  {
+    "Entity ID": "3c3932e0-c43f-11ef-94c5-01236d0e69c4",
+    "Name": "White Space_Mezzanine Office Space 1",
+    "Floor": "DIC/Whitespace/First Floor"
+  },
+  {
+    "Entity ID": "3a689750-cbef-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Pantry",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "38f10040-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Office 5",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "37323940-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Mothers Room",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "370bec90-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Female Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "329e5940-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Printer Area",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "3281f7a0-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Pantry",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "3268f160-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Office 4",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "32520e00-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z1-Commercial ALT",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "303f7ba0-cbe9-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 2",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "3036f020-cbe9-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z5-Procurement Office 1",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "2e68c5e0-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-John Clark",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "2de69d90-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-FMD ALEC Lite",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "2dd27950-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Office 7",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "2db9c130-d989-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "2a61d080-0563-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block1_Z2-Conference Room",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "265af820-cbe5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Meeting Room 2",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "2658d540-cbe5-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Meeting Room 1",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "1e8de8b0-0bb8-11f0-94c5-01236d0e69c4",
+    "Name": "DIC Yard Block 5-GF_Corridor",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "18efe820-cbf0-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "142f4b70-cbf3-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 4&5_Z6-Printing Station",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "1035bbf0-acc0-11ef-b3dd-63d74b5efe4e",
+    "Name": "White Space_Melvin's Office",
+    "Floor": "DIC/Whitespace/First Floor"
+  },
+  {
+    "Entity ID": "0ab29360-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Female Prayer Room",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "0a9dabd0-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Female Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "0a86c870-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Male Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "0a027d40-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "09278690-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Corridor",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "0904e360-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Open Work Station",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "0662e850-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-BIM Manager 01",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "06404520-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-BIM Manager 02",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "06173950-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 01",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "06129030-ae19-11ef-b3dd-63d74b5efe4e",
+    "Name": "GROUND FLOOR (ALEC DIC YARD) - Female Washroom",
+    "Floor": "DIC/Main/Ground Floor"
+  },
+  {
+    "Entity ID": "05c5e500-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Eng Work Station 02",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "0597f730-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z4-Breakout Space",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "0549fe40-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Eng Work Station 03",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "0525ad60-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Office 8",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "04f882e0-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Kirubakaran",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "04d28450-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Eng Desks",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "04a5a7f0-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z3-Govind",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "01f0c120-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Male Toilet",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "018afa70-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Eng.Work Station",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "00bf4600-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-ALEC Lite Commercial",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  },
+  {
+    "Entity ID": "00abe510-daf6-11ef-94c5-01236d0e69c4",
+    "Name": "DIC Mezzanine Block 2_Z2-Sivaramakrishnan",
+    "Floor": "DIC/Main/Mezzanine Floor"
+  }
+]

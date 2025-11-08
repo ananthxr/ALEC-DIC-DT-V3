@@ -254,6 +254,37 @@ public class MasterAlarm : MonoBehaviour
     // Callback to send alarm data to AlarmsManager
     public System.Action<List<AlarmData>> OnAlarmsReceived;
 
+    // ============ SENSOR DATA FETCHING (Generic for HVAC, Lights, Presence, Air Quality) ============
+
+    // Track sensor data requests: cmdId → (assetType, telemetryKeys, callback)
+    private Dictionary<int, SensorRequestInfo> sensorDiscoveryRequests = new Dictionary<int, SensorRequestInfo>();
+
+    private int nextSensorCmdId = 100; // Start sensor commands at 100 to avoid collision with alarm cmdId (2)
+
+    // Helper class to track sensor request info
+    private class SensorRequestInfo
+    {
+        public string assetType;
+        public List<string> telemetryKeys;
+        public System.Action<Dictionary<string, string>> callback;
+        public string equipmentEntityID; // Store equipment ID for matching update messages
+        public bool isSubscribed; // Track if we've sent subscription message
+    }
+
+    // ============ Public Singleton Instance ============
+    public static MasterAlarm Instance { get; private set; }
+
+    private void Awake()
+    {
+        // Singleton pattern
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+    }
+
     private void Update()
     {
         // Dispatch WebSocket messages on main thread
@@ -629,6 +660,219 @@ public class MasterAlarm : MonoBehaviour
         UpdateFiltersWithPagination(statusList, severityList, 0, lastRequestedPageSize);
     }
 
+    // ============ SENSOR DATA FETCHING (HVAC, Lights, Presence, Air Quality) ============
+
+    /// <summary>
+    /// Generic method to request sensor data from a room
+    /// Flow: 1) Discover equipment in room → 2) Request telemetry data → 3) Callback with data
+    /// </summary>
+    /// <param name="roomEntityID">The room's Entity ID</param>
+    /// <param name="assetType">Asset type: "HVAC", "Lights", "Presence", "Air Quality"</param>
+    /// <param name="telemetryKeys">List of telemetry keys to fetch (e.g., ["AmbientTemperature", "SetTemperature"])</param>
+    /// <param name="onDataReceived">Callback with dictionary of key→value (e.g., "AmbientTemperature"→"22.5")</param>
+    public void RequestSensorData(string roomEntityID, string assetType, List<string> telemetryKeys, System.Action<Dictionary<string, string>> onDataReceived)
+    {
+        if (!isWebSocketConnected || webSocket == null)
+        {
+            Debug.LogError("[MasterAlarm] Cannot request sensor data - WebSocket not connected");
+            onDataReceived?.Invoke(null); // Return null to indicate failure
+            return;
+        }
+
+        if (string.IsNullOrEmpty(roomEntityID))
+        {
+            Debug.LogError("[MasterAlarm] Room Entity ID is null or empty");
+            onDataReceived?.Invoke(null);
+            return;
+        }
+
+        Debug.Log($"[MasterAlarm] 🔍 Requesting {assetType} data for room: {roomEntityID}");
+        Debug.Log($"[MasterAlarm] Telemetry keys: [{string.Join(", ", telemetryKeys)}]");
+
+        // Step 1: Send equipment discovery request
+        int discoveryCmdId = nextSensorCmdId++;
+
+        // Store request info for when discovery response comes back
+        sensorDiscoveryRequests[discoveryCmdId] = new SensorRequestInfo
+        {
+            assetType = assetType,
+            telemetryKeys = telemetryKeys,
+            callback = onDataReceived
+        };
+
+        SendEquipmentDiscovery(roomEntityID, assetType, discoveryCmdId);
+    }
+
+    private async void SendEquipmentDiscovery(string roomEntityID, string assetType, int cmdId)
+    {
+        try
+        {
+            // Get telemetry keys for this request
+            if (!sensorDiscoveryRequests.TryGetValue(cmdId, out SensorRequestInfo requestInfo))
+            {
+                Debug.LogError($"[MasterAlarm] No request info found for cmdId: {cmdId}");
+                return;
+            }
+
+            // Build latestValues JSON array from telemetry keys
+            StringBuilder latestValuesJson = new StringBuilder();
+            latestValuesJson.Append("[");
+            for (int i = 0; i < requestInfo.telemetryKeys.Count; i++)
+            {
+                latestValuesJson.Append(@"{""type"": ""TIME_SERIES"", ""key"": """);
+                latestValuesJson.Append(requestInfo.telemetryKeys[i]);
+                latestValuesJson.Append(@"""}");
+                if (i < requestInfo.telemetryKeys.Count - 1)
+                {
+                    latestValuesJson.Append(", ");
+                }
+            }
+            latestValuesJson.Append("]");
+
+            // Build keyFilters for first telemetry key (ensures we get equipment with data)
+            string firstTelemetryKey = requestInfo.telemetryKeys.Count > 0 ? requestInfo.telemetryKeys[0] : "Ambient Temperature";
+
+            // Build request matching working example structure
+            string jsonCommand = @"{
+                ""cmds"": [{
+                    ""type"": ""ENTITY_DATA"",
+                    ""query"": {
+                        ""entityFilter"": {
+                            ""type"": ""assetSearchQuery"",
+                            ""resolveMultiple"": true,
+                            ""rootStateEntity"": true,
+                            ""stateEntityParamName"": ""selectedEntity"",
+                            ""defaultStateEntity"": {
+                                ""entityType"": ""ASSET"",
+                                ""id"": ""0cc4e030-67a1-11f0-a54f-c718692b063f""
+                            },
+                            ""rootEntity"": {
+                                ""entityType"": ""ASSET"",
+                                ""id"": """ + roomEntityID + @"""
+                            },
+                            ""direction"": ""FROM"",
+                            ""maxLevel"": 5,
+                            ""fetchLastLevelOnly"": false,
+                            ""relationType"": ""has"",
+                            ""assetTypes"": [""" + assetType + @"""]
+                        },
+                        ""pageLink"": {
+                            ""pageSize"": 1,
+                            ""page"": 0,
+                            ""sortOrder"": {
+                                ""key"": {
+                                    ""type"": ""ENTITY_FIELD"",
+                                    ""key"": ""createdTime""
+                                },
+                                ""direction"": ""DESC""
+                            }
+                        },
+                        ""keyFilters"": [{
+                            ""key"": {
+                                ""type"": ""TIME_SERIES"",
+                                ""key"": """ + firstTelemetryKey + @"""
+                            },
+                            ""valueType"": ""NUMERIC"",
+                            ""predicate"": {
+                                ""operation"": ""NOT_EQUAL"",
+                                ""value"": {
+                                    ""defaultValue"": 0
+                                },
+                                ""type"": ""NUMERIC""
+                            }
+                        }],
+                        ""entityFields"": [
+                            {""type"": ""ENTITY_FIELD"", ""key"": ""name""},
+                            {""type"": ""ENTITY_FIELD"", ""key"": ""label""},
+                            {""type"": ""ENTITY_FIELD"", ""key"": ""additionalInfo""}
+                        ],
+                        ""latestValues"": " + latestValuesJson.ToString() + @"
+                    },
+                    ""cmdId"": " + cmdId + @"
+                }]
+            }";
+
+            if (webSocket != null && webSocket.State == WebSocketState.Open)
+            {
+                Debug.Log($"[MasterAlarm] 📤 SENSOR DATA REQUEST BEING SENT:\n{jsonCommand}");
+                await webSocket.SendText(jsonCommand);
+                Debug.Log($"[MasterAlarm] ✓ Sensor data request sent for {assetType} (cmdId: {cmdId})");
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"[MasterAlarm] Failed to send sensor data request: {e.Message}");
+
+            // Invoke callback with null to indicate failure
+            if (sensorDiscoveryRequests.TryGetValue(cmdId, out SensorRequestInfo requestInfo))
+            {
+                requestInfo.callback?.Invoke(null);
+                sensorDiscoveryRequests.Remove(cmdId);
+            }
+        }
+    }
+
+
+    /// <summary>
+    /// Send subscription message for real-time sensor updates
+    /// Called after initial discovery response
+    /// </summary>
+    private async void SendSensorSubscription(int cmdId)
+    {
+        try
+        {
+            if (!sensorDiscoveryRequests.TryGetValue(cmdId, out SensorRequestInfo requestInfo))
+            {
+                Debug.LogError($"[MasterAlarm] No request info found for subscription (cmdId: {cmdId})");
+                return;
+            }
+
+            if (requestInfo.isSubscribed)
+            {
+                Debug.LogWarning($"[MasterAlarm] Already subscribed to cmdId: {cmdId}");
+                return;
+            }
+
+            // Build latestCmd keys JSON array from telemetry keys
+            StringBuilder latestKeysJson = new StringBuilder();
+            latestKeysJson.Append("[");
+            for (int i = 0; i < requestInfo.telemetryKeys.Count; i++)
+            {
+                latestKeysJson.Append(@"{""type"": ""TIME_SERIES"", ""key"": """);
+                latestKeysJson.Append(requestInfo.telemetryKeys[i]);
+                latestKeysJson.Append(@"""}");
+                if (i < requestInfo.telemetryKeys.Count - 1)
+                {
+                    latestKeysJson.Append(", ");
+                }
+            }
+            latestKeysJson.Append("]");
+
+            // Build subscription message (matches working example structure)
+            string subscriptionCommand = @"{
+                ""cmds"": [{
+                    ""type"": ""ENTITY_DATA"",
+                    ""cmdId"": " + cmdId + @",
+                    ""latestCmd"": {
+                        ""keys"": " + latestKeysJson.ToString() + @"
+                    }
+                }]
+            }";
+
+            if (webSocket != null && webSocket.State == WebSocketState.Open)
+            {
+                Debug.Log($"[MasterAlarm] 📤 SENSOR SUBSCRIPTION BEING SENT:\n{subscriptionCommand}");
+                await webSocket.SendText(subscriptionCommand);
+                requestInfo.isSubscribed = true;
+                Debug.Log($"[MasterAlarm] ✓ Sensor subscription sent for {requestInfo.assetType} (cmdId: {cmdId})");
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"[MasterAlarm] Failed to send sensor subscription: {e.Message}");
+        }
+    }
+
     private IEnumerator ResubscribeWithNewFilters()
     {
         // Step 1: Unsubscribe from current alarm subscription
@@ -706,7 +950,31 @@ public class MasterAlarm : MonoBehaviour
                 Debug.Log($"[MasterAlarm] WS Message: {jsonMessage}");
             }
 
-            // Parse WebSocket response
+            // First, try to extract cmdId to determine message type
+            var messageDict = MiniJSON.Json.Deserialize(jsonMessage) as Dictionary<string, object>;
+            if (messageDict != null && messageDict.ContainsKey("cmdId"))
+            {
+                int cmdId = Convert.ToInt32(messageDict["cmdId"]);
+
+                // Check if this is a sensor data response (cmdId >= 100)
+                if (sensorDiscoveryRequests.ContainsKey(cmdId))
+                {
+                    // Check if this is an "update" message (real-time subscription data)
+                    if (messageDict.ContainsKey("update") && messageDict["update"] != null)
+                    {
+                        HandleSensorUpdateMessage(jsonMessage, cmdId);
+                        return;
+                    }
+                    // Otherwise it's the initial discovery response
+                    else if (messageDict.ContainsKey("data") && messageDict["data"] != null)
+                    {
+                        HandleSensorDiscoveryResponse(jsonMessage, cmdId);
+                        return;
+                    }
+                }
+            }
+
+            // Otherwise, parse as alarm data response
             WebSocketResponse wsResponse = JsonUtility.FromJson<WebSocketResponse>(jsonMessage);
 
             if (wsResponse != null && wsResponse.data != null && wsResponse.data.data != null)
@@ -731,6 +999,234 @@ public class MasterAlarm : MonoBehaviour
         catch (Exception e)
         {
             Debug.LogError($"[MasterAlarm] Failed to parse WebSocket message: {e.Message}");
+        }
+    }
+
+    private void HandleSensorDiscoveryResponse(string jsonMessage, int cmdId)
+    {
+        try
+        {
+            Debug.Log($"[MasterAlarm] 📥 Sensor data response received (cmdId: {cmdId})");
+
+            // Parse response using MiniJSON (matches working example structure)
+            var responseDict = MiniJSON.Json.Deserialize(jsonMessage) as Dictionary<string, object>;
+            if (responseDict == null || !responseDict.ContainsKey("data"))
+            {
+                Debug.LogWarning("[MasterAlarm] Response has no data field");
+                InvokeDiscoveryCallbackWithNull(cmdId);
+                return;
+            }
+
+            var dataDict = responseDict["data"] as Dictionary<string, object>;
+            if (dataDict == null || !dataDict.ContainsKey("data"))
+            {
+                Debug.LogWarning("[MasterAlarm] Response data.data is null");
+                InvokeDiscoveryCallbackWithNull(cmdId);
+                return;
+            }
+
+            var dataArray = dataDict["data"] as List<object>;
+            if (dataArray == null || dataArray.Count == 0)
+            {
+                Debug.LogWarning($"[MasterAlarm] No equipment found in room");
+                InvokeDiscoveryCallbackWithNull(cmdId);
+                return;
+            }
+
+            // Extract first equipment data
+            var equipmentDict = dataArray[0] as Dictionary<string, object>;
+            if (equipmentDict == null)
+            {
+                Debug.LogWarning("[MasterAlarm] Equipment data is null");
+                InvokeDiscoveryCallbackWithNull(cmdId);
+                return;
+            }
+
+            // Extract entityId (for logging)
+            string equipmentEntityID = "unknown";
+            if (equipmentDict.ContainsKey("entityId"))
+            {
+                var entityIdDict = equipmentDict["entityId"] as Dictionary<string, object>;
+                if (entityIdDict != null && entityIdDict.ContainsKey("id"))
+                {
+                    equipmentEntityID = entityIdDict["id"] as string;
+                }
+            }
+            Debug.Log($"[MasterAlarm] ✓ Equipment found: {equipmentEntityID}");
+
+            // Extract latest TIME_SERIES data (this contains the temperature values!)
+            if (!equipmentDict.ContainsKey("latest"))
+            {
+                Debug.LogWarning("[MasterAlarm] Equipment has no latest field");
+                InvokeDiscoveryCallbackWithNull(cmdId);
+                return;
+            }
+
+            var latestDict = equipmentDict["latest"] as Dictionary<string, object>;
+            if (latestDict == null || !latestDict.ContainsKey("TIME_SERIES"))
+            {
+                Debug.LogWarning("[MasterAlarm] Equipment latest has no TIME_SERIES field");
+                InvokeDiscoveryCallbackWithNull(cmdId);
+                return;
+            }
+
+            var timeSeriesDict = latestDict["TIME_SERIES"] as Dictionary<string, object>;
+            if (timeSeriesDict == null)
+            {
+                Debug.LogWarning("[MasterAlarm] TIME_SERIES is null");
+                InvokeDiscoveryCallbackWithNull(cmdId);
+                return;
+            }
+
+            // Extract telemetry values into dictionary
+            Dictionary<string, string> telemetryData = new Dictionary<string, string>();
+            foreach (var kvp in timeSeriesDict)
+            {
+                var valueDict = kvp.Value as Dictionary<string, object>;
+                if (valueDict != null && valueDict.ContainsKey("value"))
+                {
+                    string value = valueDict["value"] as string;
+                    telemetryData[kvp.Key] = value;
+                    Debug.Log($"[MasterAlarm] ✓ {kvp.Key}: {value}");
+                }
+            }
+
+            // Get request info and invoke callback with initial data
+            if (sensorDiscoveryRequests.TryGetValue(cmdId, out SensorRequestInfo requestInfo))
+            {
+                // Store equipment entity ID for matching future updates
+                requestInfo.equipmentEntityID = equipmentEntityID;
+
+                // Invoke callback with initial snapshot data
+                requestInfo.callback?.Invoke(telemetryData);
+                Debug.Log($"[MasterAlarm] ✓✓✓ Initial sensor data callback invoked with {telemetryData.Count} values");
+
+                // Send subscription for real-time updates
+                Debug.Log($"[MasterAlarm] 🔔 Now sending subscription for real-time updates...");
+                SendSensorSubscription(cmdId);
+
+                // Keep requestInfo in dictionary to handle ongoing updates (don't remove)
+                Debug.Log($"[MasterAlarm] Keeping cmdId {cmdId} active for real-time updates");
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"[MasterAlarm] Error handling sensor data response: {e.Message}");
+            InvokeDiscoveryCallbackWithNull(cmdId);
+        }
+    }
+
+    /// <summary>
+    /// Handle real-time sensor update messages from subscription
+    /// These have "update" field instead of "data" field
+    /// </summary>
+    private void HandleSensorUpdateMessage(string jsonMessage, int cmdId)
+    {
+        try
+        {
+            Debug.Log($"[MasterAlarm] 🔄 Real-time sensor update received (cmdId: {cmdId})");
+
+            // Parse response using MiniJSON
+            var responseDict = MiniJSON.Json.Deserialize(jsonMessage) as Dictionary<string, object>;
+            if (responseDict == null || !responseDict.ContainsKey("update"))
+            {
+                Debug.LogWarning("[MasterAlarm] Update message has no update field");
+                return;
+            }
+
+            var updateArray = responseDict["update"] as List<object>;
+            if (updateArray == null || updateArray.Count == 0)
+            {
+                Debug.LogWarning("[MasterAlarm] Update array is empty");
+                return;
+            }
+
+            // Extract first update entry
+            var updateDict = updateArray[0] as Dictionary<string, object>;
+            if (updateDict == null)
+            {
+                Debug.LogWarning("[MasterAlarm] Update entry is null");
+                return;
+            }
+
+            // Extract latest TIME_SERIES data
+            if (!updateDict.ContainsKey("latest"))
+            {
+                Debug.LogWarning("[MasterAlarm] Update has no latest field");
+                return;
+            }
+
+            var latestDict = updateDict["latest"] as Dictionary<string, object>;
+            if (latestDict == null || !latestDict.ContainsKey("TIME_SERIES"))
+            {
+                Debug.LogWarning("[MasterAlarm] Update latest has no TIME_SERIES field");
+                return;
+            }
+
+            var timeSeriesDict = latestDict["TIME_SERIES"] as Dictionary<string, object>;
+            if (timeSeriesDict == null)
+            {
+                Debug.LogWarning("[MasterAlarm] TIME_SERIES is null");
+                return;
+            }
+
+            // Extract telemetry values into dictionary
+            Dictionary<string, string> telemetryData = new Dictionary<string, string>();
+            foreach (var kvp in timeSeriesDict)
+            {
+                var valueDict = kvp.Value as Dictionary<string, object>;
+                if (valueDict != null && valueDict.ContainsKey("value"))
+                {
+                    string value = valueDict["value"] as string;
+                    telemetryData[kvp.Key] = value;
+                    Debug.Log($"[MasterAlarm] 🔄 UPDATE: {kvp.Key}: {value}");
+                }
+            }
+
+            // Get request info and invoke callback with updated data
+            if (sensorDiscoveryRequests.TryGetValue(cmdId, out SensorRequestInfo requestInfo))
+            {
+                requestInfo.callback?.Invoke(telemetryData);
+                Debug.Log($"[MasterAlarm] ✓✓✓ Real-time update callback invoked with {telemetryData.Count} values");
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"[MasterAlarm] Error handling sensor update message: {e.Message}");
+        }
+    }
+
+    /// <summary>
+    /// Unsubscribe from sensor updates for a specific asset type
+    /// Call this when closing the sensor panel to stop receiving updates
+    /// </summary>
+    public void UnsubscribeSensorData(string assetType)
+    {
+        // Find and remove all subscriptions for this asset type
+        var keysToRemove = new List<int>();
+        foreach (var kvp in sensorDiscoveryRequests)
+        {
+            if (kvp.Value.assetType == assetType)
+            {
+                keysToRemove.Add(kvp.Key);
+                Debug.Log($"[MasterAlarm] 🔕 Unsubscribing from {assetType} updates (cmdId: {kvp.Key})");
+            }
+        }
+
+        foreach (int cmdId in keysToRemove)
+        {
+            sensorDiscoveryRequests.Remove(cmdId);
+        }
+
+        Debug.Log($"[MasterAlarm] ✓ Unsubscribed from {keysToRemove.Count} {assetType} subscription(s)");
+    }
+
+    private void InvokeDiscoveryCallbackWithNull(int cmdId)
+    {
+        if (sensorDiscoveryRequests.TryGetValue(cmdId, out SensorRequestInfo requestInfo))
+        {
+            requestInfo.callback?.Invoke(null);
+            sensorDiscoveryRequests.Remove(cmdId);
         }
     }
 

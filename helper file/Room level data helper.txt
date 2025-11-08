@@ -1,0 +1,107 @@
+1. Discover Room Equipment
+
+// SEND: Find all equipment in room
+{
+  "cmds": [{
+    "type": "ENTITY_DATA",
+    "query": {
+      "entityFilter": {
+        "type": "assetSearchQuery",
+        "rootEntity": {"id": "room-123", "entityType": "ASSET"},
+        "assetTypes": ["Lights", "HVAC", "Presence"],
+        "relationType": "has"
+      }
+    },
+    "cmdId": 1
+  }]
+}
+
+// RECEIVE: Equipment found
+{
+  "cmdId": 1,
+  "data": {
+    "data": [{
+      "entityId": {"id": "light-456", "entityType": "ASSET"},
+      "latest": {
+        "ENTITY_FIELD": {
+          "name": {"value": "Office01_Lights"}
+        }
+      }
+    }]
+  }
+}
+
+2. Request Lighting Data (Using extracted entityId)
+
+// SEND: Get comprehensive lighting data
+{
+  "cmds": [{
+    "type": "ENTITY_DATA",
+    "cmdId": 2,
+    "historyCmd": {
+      "keys": ["Brightness"],
+      "startTs": 1761768000000,
+      "endTs": 1761827051447,
+      "interval": 18000000,
+      "agg": "AVG"
+    },
+    "latestCmd": {
+      "keys": [{"type": "TIME_SERIES", "key": "Brightness"}]
+    }
+  }]
+}
+
+3. Receive Phased Lighting Data (Same cmdId: 2)
+
+// RECEIVE 1: Historical data for charts
+{
+  "cmdId": 2,
+  "update": [{
+    "entityId": {"id": "light-456"},
+    "timeseries": {
+      "Brightness": [
+        {"ts": 1761768900000, "value": "102.74"},
+        {"ts": 1761770700000, "value": "104.92"}
+      ]
+    }
+  }]
+}
+
+// RECEIVE 2: Real-time current value
+{
+  "cmdId": 2,
+  "update": [{
+    "entityId": {"id": "light-456"},
+    "latest": {
+      "TIME_SERIES": {
+        "Brightness": {"ts": 1761826986860, "value": "104.77"}
+      }
+    }
+  }]
+}
+
+4. Real-time Auto Updates (No new request needed!)
+
+
+// RECEIVE: Automatic push when brightness changes
+{
+  "cmdId": 2,
+  "update": [{
+    "entityId": {"id": "light-456"},
+    "timeseries": {
+      "Brightness": [
+        {"ts": 1761828102131, "value": "105.20"}  // New reading!
+      ]
+    }
+  }]
+}
+
+
+ Implementation Tips:
+Reuse cmdId for same equipment conversation
+
+Extract entityId from discovery responses
+
+Handle multiple updates for same cmdId
+
+Auto-updates continue without new requests
